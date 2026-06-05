@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520">
+  <defs>
+    <linearGradient id="cgH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5D0"/>
+      <stop offset="100%" stop-color="#f5c451"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#14212c"/>
+      <stop offset="100%" stop-color="#0c1015"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#1b2a36"/>
+      <stop offset="100%" stop-color="#10171f"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="520" fill="url(#glow)"/>
+
+  <!-- Título -->
+  <text x="500" y="38" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="22" font-weight="800" fill="url(#cgH)" letter-spacing="1">ARQUITECTURA &#183; 11 SUB-AGENTES</text>
+
+  <!-- Conectores (detrás) -->
+  <g stroke="#00E5D0" stroke-width="1.6" opacity="0.45">
+    <!-- arriba -->
+    <line x1="360" y1="92" x2="470" y2="232"/>
+    <line x1="640" y1="92" x2="530" y2="232"/>
+    <!-- centro a satélites -->
+    <line x1="500" y1="262" x2="200" y2="200"/>
+    <line x1="500" y1="262" x2="800" y2="200"/>
+    <line x1="500" y1="262" x2="170" y2="300"/>
+    <line x1="500" y1="262" x2="830" y2="300"/>
+    <line x1="500" y1="262" x2="240" y2="392"/>
+    <line x1="500" y1="262" x2="760" y2="392"/>
+    <!-- abajo -->
+    <line x1="470" y1="290" x2="360" y2="448"/>
+    <line x1="530" y1="290" x2="640" y2="448"/>
+  </g>
+
+  <!-- NÚCLEO: orquestador -->
+  <g transform="translate(390,222)">
+    <rect width="220" height="80" rx="18" fill="url(#core)" stroke="#f5c451" stroke-width="3"/>
+    <text x="110" y="32" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#f5c451">ORQUESTA</text>
+    <text x="110" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#eaf2f2">anuncios-architect</text>
+  </g>
+
+  <!-- ARRIBA: intake -->
+  <g transform="translate(270,52)">
+    <rect width="180" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
+    <text x="90" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#eaf2f2">intake-brief</text>
+  </g>
+  <g transform="translate(560,52)">
+    <rect width="180" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
+    <text x="90" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#eaf2f2">angulos-importer</text>
+  </g>
+
+  <!-- SATÉLITES izquierda -->
+  <g transform="translate(40,178)">
+    <rect width="170" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
+    <text x="85" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#eaf2f2">hook-master</text>
+  </g>
+  <g transform="translate(28,278)">
+    <rect width="186" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
+    <text x="93" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#eaf2f2">headline-3-tipos</text>
+  </g>
+  <g transform="translate(56,370)">
+    <rect width="190" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
+    <text x="95" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#eaf2f2">consciencia-master</text>
+  </g>
+
+  <!-- SATÉLITES derecha -->
+  <g transform="translate(786,178)">
+    <rect width="186" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
+    <text x="93" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#eaf2f2">formato-master-ads</text>
+  </g>
+  <g transform="translate(792,278)">
+    <rect width="184" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
+    <text x="92" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#eaf2f2">asuntos-virales</text>
+  </g>
+  <g transform="translate(752,370)">
+    <rect width="186" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
+    <text x="93" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#eaf2f2">objeciones-master</text>
+  </g>
+
+  <!-- ABAJO -->
+  <g transform="translate(270,448)">
+    <rect width="180" height="44" rx="12" fill="#10171f" stroke="#f5c451" stroke-width="2"/>
+    <text x="90" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#eaf2f2">ad-html-builder</text>
+  </g>
+  <g transform="translate(560,448)">
+    <rect width="180" height="44" rx="12" fill="#10171f" stroke="#f5c451" stroke-width="2"/>
+    <text x="90" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#eaf2f2">output-architect-ads</text>
+  </g>
+
+  <!-- LEYENDA -->
+  <g transform="translate(40,490)" font-family="system-ui, sans-serif" font-size="12" fill="#9fb3b3">
+    <rect x="0" y="0" width="14" height="14" rx="4" fill="none" stroke="#f5c451" stroke-width="2"/>
+    <text x="22" y="11" fill="#eaf2f2">Orquesta / entrada-salida</text>
+    <rect x="230" y="0" width="14" height="14" rx="4" fill="none" stroke="#00E5D0" stroke-width="2"/>
+    <text x="252" y="11" fill="#eaf2f2">Sub-agentes especialistas</text>
+  </g>
+</svg>

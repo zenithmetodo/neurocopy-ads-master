@@ -21,10 +21,14 @@ Por cada **ÁNGULO** crea **5 anuncios** (ejecuciones distintas), cada uno con *
 ## Entrega por carpetas (en orden)
 ```
 proyecto-{cliente}-ads/
-├── 00-avatar-resumen/         avatar-resumen.html (editable+PDF) + .md
-├── 01-angulos/                angulos.html (def. exacta Crea Ofertas) + .md + .json
-└── 02-anuncios-por-angulo/
-    ├── angulo-1-[nombre]/      ANUNCIO-1..5.html (doc-guion editable+PDF) + .md + GUIONES_ANGULO_1.docx
+├── 00-avatar-resumen/                 avatar-resumen.html (editable+PDF) + .md
+└── 01-angulos/                        ← carpeta ÁNGULOS
+    ├── _indice-angulos.html · angulos.json
+    ├── angulo-1-[nombre]/             ← subcarpeta por ángulo
+    │   ├── ANGULO.html                explicación del ángulo (def. exacta Crea Ofertas · editable+PDF)
+    │   ├── ANUNCIO-1..5.html          doc-guion con EL DIBUJO del formato (editable+PDF) · 2 BAJO + 2 MEDIO + 1 ALTO
+    │   ├── ANUNCIO-1..5.md
+    │   └── GUIONES_ANGULO_1.docx
     ├── angulo-2-[nombre]/ …
     └── …
 ```

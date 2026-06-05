@@ -1,0 +1,135 @@
+<!--
+═══════════════════════════════════════════════════════════════════════════════
+  NEUROCOPY ADS MASTER · TEMPLATE · EXPLICACIÓN DE UN ÁNGULO (estilo Zenith Crea Ofertas)
+  Lo rellena/clona el agente `angulos-importer`. UN SOLO ángulo (no varios).
+  Se guarda en 01-angulos/angulo-N-[nombre]/ANGULO.html
+  Editable al clic + autoguardado localStorage + imprime a PDF.
+  Campos: Nombre descriptivo · A qué apela · Quién es · Qué cree · CÓMO LO ROMPEMOS ·
+  Reconocimiento · Hook del ángulo · sub-ángulos · nota de los 5 anuncios.
+  Paleta: cian #00E5D0 · gold #f5c451 · dark #0c1015.
+═══════════════════════════════════════════════════════════════════════════════
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Ángulo {{N}} · {{ANGULO_NOMBRE}} · NeuroCopy Ads</title>
+<style>
+  :root{--bg:#0c1015;--panel:#141b24;--panel2:#1b2530;--cian:#00E5D0;--cian-soft:#0bb6a6;
+        --gold:#f5c451;--txt:#eaf2f2;--muted:#93a3a8;--line:#243240}
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  @page{size:A4;margin:12mm}
+  body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:840px;margin:0 auto;padding:34px 26px}
+  /* Barra editor (no imprime) */
+  #barra{position:fixed;top:14px;right:14px;z-index:99999;display:flex;gap:8px;align-items:center;background:rgba(12,16,21,.94);border:1px solid var(--cian-soft);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:9px 12px;border-radius:14px;box-shadow:0 8px 30px rgba(0,0,0,.5)}
+  #barra #estado{font-size:12px;color:var(--cian);min-width:92px}
+  #barra button{font-family:inherit;font-size:13px;font-weight:600;color:var(--txt);background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:9px;padding:8px 12px;cursor:pointer}
+  #barra button:hover{background:rgba(0,229,208,.15);border-color:var(--cian)}
+  #barra button.primary{background:linear-gradient(135deg,var(--cian),var(--gold));color:#06231f;border:none}
+  /* Cabecera */
+  .tag{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;color:var(--cian);text-transform:uppercase}
+  h1{font-size:30px;font-weight:800;margin:6px 0 14px;line-height:1.15}
+  .sub{color:var(--muted);font-size:15px;margin-bottom:8px}
+  /* secciones */
+  h2{font-size:18px;color:var(--cian);margin:26px 0 8px;padding-bottom:6px;border-bottom:1px dashed var(--line)}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:10px 0}
+  /* CÓMO LO ROMPEMOS · destacado en gold */
+  .rompe{background:linear-gradient(135deg,rgba(245,196,81,.10),rgba(0,229,208,.06));border:1px solid rgba(245,196,81,.4);border-left:4px solid var(--gold);border-radius:12px;padding:16px 18px;margin:12px 0}
+  .rompe .lbl{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+  /* hook · reconocimiento */
+  .hook{background:var(--panel2);border:1px dashed var(--cian-soft);border-radius:12px;padding:16px 18px;margin:10px 0;font-size:16px;font-weight:600;color:var(--cian)}
+  .recon{font-style:italic;color:var(--txt)}
+  ul{margin:6px 0 6px 20px} li{margin:5px 0;color:var(--txt)}
+  /* nota de los 5 anuncios */
+  .nota{background:rgba(0,229,208,.08);border:1px solid var(--cian-soft);border-radius:12px;padding:14px 18px;margin:22px 0 0;font-size:14px;color:var(--muted)}
+  .nota strong{color:var(--cian)}
+  .foot{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+  #contenido[contenteditable="true"]:focus{outline:none}
+  @media print{*{print-color-adjust:exact!important;-webkit-print-color-adjust:exact!important}
+    #barra{display:none!important}.wrap{max-width:100%;padding:0}
+    .card,.rompe,.hook,.nota{break-inside:avoid;page-break-inside:avoid}}
+</style>
+</head>
+<body>
+
+<div id="barra">
+  <span id="estado">Listo para editar</span>
+  <button class="primary" onclick="window.print()">📄 Guardar PDF</button>
+  <button onclick="descargar()">⬇️ Descargar copia</button>
+  <button onclick="restablecer()">↺ Restablecer</button>
+</div>
+
+<div class="wrap" id="contenido" contenteditable="true" spellcheck="false">
+
+  <!-- CABECERA -->
+  <div class="tag">ÁNGULO {{N}} · NEUROCOPY</div>
+  <h1>{{ANGULO_NOMBRE}}</h1>
+  <div class="sub">Nombre descriptivo del ángulo · una razón distinta de por qué te comprarían</div>
+
+  <!-- A QUÉ APELA -->
+  <h2>A qué apela</h2>
+  <div class="card">{{A_QUE_APELA}}</div>
+
+  <!-- QUIÉN ES -->
+  <h2>Quién es (tipo concreto de persona)</h2>
+  <div class="card">{{QUIEN_ES}}</div>
+
+  <!-- QUÉ CREE -->
+  <h2>Qué cree (la creencia específica de HOY)</h2>
+  <div class="card">{{QUE_CREE}}</div>
+
+  <!-- ⭐ CÓMO LO ROMPEMOS -->
+  <div class="rompe">
+    <div class="lbl">⭐ Cómo lo rompemos</div>
+    {{COMO_LO_ROMPEMOS}}
+  </div>
+
+  <!-- RECONOCIMIENTO -->
+  <h2>Reconocimiento ("esto va por mí")</h2>
+  <div class="card recon">"{{RECONOCIMIENTO}}"</div>
+
+  <!-- HOOK DEL ÁNGULO -->
+  <h2>Hook del ángulo</h2>
+  <div class="hook">{{HOOK_DEL_ANGULO}}</div>
+
+  <!-- SUB-ÁNGULOS -->
+  <h2>Sub-ángulos (variaciones)</h2>
+  <div class="card">
+    <ul>
+      <li>{{SUB_ANGULO_1}}</li>
+      <li>{{SUB_ANGULO_2}}</li>
+      <li>{{SUB_ANGULO_3}}</li>
+      <!-- … hasta 5 sub-ángulos … -->
+    </ul>
+  </div>
+
+  <!-- NOTA · 5 ANUNCIOS DE ESTE ÁNGULO -->
+  <div class="nota">
+    <strong>5 anuncios de este ángulo:</strong> 2 de NIVEL BAJO + 2 de NIVEL MEDIO + 1 de NIVEL ALTO.
+    Cada anuncio hereda el tipo de persona, la creencia y el "cómo lo rompemos" de este ángulo,
+    y vive en esta misma carpeta como <code>ANUNCIO-1..5.html</code>.
+  </div>
+
+  <!-- FOOT -->
+  <div class="foot">
+    NeuroCopy Ads Master · Joseph Moreno · {{FECHA}}<br>
+    Definición de ángulo según Zenith Crea Ofertas
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var cont=document.getElementById('contenido'),estado=document.getElementById('estado');
+  var KEY='neurocopy_angulo_'+location.pathname, ORIGINAL=cont.innerHTML;
+  try{if(localStorage.getItem(KEY)){cont.innerHTML=localStorage.getItem(KEY);estado.textContent='Cambios guardados ✓';}}catch(e){}
+  var t;cont.addEventListener('input',function(){estado.textContent='Guardando…';clearTimeout(t);
+    t=setTimeout(function(){try{localStorage.setItem(KEY,cont.innerHTML);estado.textContent='Guardado ✓';}catch(e){estado.textContent='Ábrelo en el navegador para guardar';}},500);});
+  window.restablecer=function(){if(!confirm('¿Volver al original?'))return;try{localStorage.removeItem(KEY);}catch(e){}cont.innerHTML=ORIGINAL;estado.textContent='Restablecido';};
+  window.descargar=function(){var h='<!DOCTYPE html>\n'+document.documentElement.outerHTML;var b=new Blob([h],{type:'text/html'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=(document.title||'angulo-neurocopy')+'.html';a.click();};
+})();
+</script>
+</body>
+</html>

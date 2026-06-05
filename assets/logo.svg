@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="cg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5D0"/>
+      <stop offset="100%" stop-color="#f5c451"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#16202b"/>
+      <stop offset="100%" stop-color="#0c1015"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Fondo dark redondeado -->
+  <rect x="0" y="0" width="256" height="256" rx="52" fill="url(#bgGlow)"/>
+  <rect x="3" y="3" width="250" height="250" rx="49" fill="none" stroke="url(#cg)" stroke-width="2" opacity="0.55"/>
+
+  <!-- Diana / target -->
+  <g transform="translate(128,128)" fill="none" stroke="url(#cg)" stroke-width="6">
+    <circle r="78" opacity="0.30"/>
+    <circle r="58" opacity="0.55"/>
+    <circle r="38" opacity="0.85"/>
+  </g>
+  <!-- Marcas de mira -->
+  <g stroke="url(#cg)" stroke-width="5" stroke-linecap="round" opacity="0.8">
+    <line x1="128" y1="34" x2="128" y2="54"/>
+    <line x1="128" y1="202" x2="128" y2="222"/>
+    <line x1="34" y1="128" x2="54" y2="128"/>
+    <line x1="202" y1="128" x2="222" y2="128"/>
+  </g>
+
+  <!-- Play central (los anuncios) -->
+  <g filter="url(#soft)">
+    <path d="M112 100 L160 128 L112 156 Z" fill="url(#cg)"/>
+  </g>
+
+  <!-- Rayo sutil sobre el play -->
+  <path d="M150 88 L132 122 L146 122 L130 156 L168 116 L152 116 Z"
+        fill="#0c1015" opacity="0.85" stroke="url(#cg)" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

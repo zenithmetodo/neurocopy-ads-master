@@ -9,30 +9,29 @@
 ```
 proyecto-{cliente}-ads/
 ├── 00-avatar-resumen/
-│   ├── avatar-resumen.html     (editable + PDF · quién es, día a día, dolores, deseos, objeciones, lenguaje real, creencias)
+│   ├── avatar-resumen.html         (editable + PDF · quién es, día a día, dolores, deseos, objeciones, lenguaje real)
 │   └── avatar-resumen.md
 │
-├── 01-angulos/
-│   ├── angulos.html            (EXACTAMENTE como Zenith Crea Ofertas: definición del ángulo + cards con
-│   │                            Nombre descriptivo · A qué apela · Quién es · Qué cree · CÓMO LO ROMPEMOS · Reconocimiento · Hook · sub-ángulos)
-│   ├── angulos.md
-│   ├── angulos.json            (datos que consume el anuncios-architect para crear los anuncios por ángulo)
-│   └── research/               (SOLO si hubo que investigar para intuir los ángulos · research.md + research.html)
-│
-└── 02-anuncios-por-angulo/
-    ├── angulo-1-[nombre-descriptivo]/
-    │   ├── ANUNCIO-1.html       (doc-guion estilo Zenith · editable + PDF · ver estructura abajo)
-    │   ├── ANUNCIO-1.md         (GUION.md legible)
-    │   ├── ANUNCIO-2.html / .md
-    │   ├── ANUNCIO-3.html / .md
-    │   ├── ANUNCIO-4.html / .md
-    │   ├── ANUNCIO-5.html / .md
-    │   └── GUIONES_ANGULO_1.docx  (compilado para cliente · generate_docx.py)
+└── 01-angulos/                      ← CARPETA ÁNGULOS
+    ├── _indice-angulos.html         (vista general · lista de todos los ángulos · editable + PDF)
+    ├── angulos.json                 (datos que consume el anuncios-architect)
+    ├── research/                    (SOLO si hubo que investigar · research.md + research.html)
+    │
+    ├── angulo-1-[nombre-descriptivo]/        ← SUBCARPETA por cada ángulo
+    │   ├── ANGULO.html              (EXPLICACIÓN de ESTE ángulo · estilo Crea Ofertas: Nombre descriptivo ·
+    │   │                             A qué apela · Quién es · Qué cree · CÓMO LO ROMPEMOS · Reconocimiento · Hook · sub-ángulos · editable+PDF)
+    │   ├── ANUNCIO-1.html           (doc-guion · con EL DIBUJO del formato · editable + PDF · BAJO dominante)
+    │   ├── ANUNCIO-2.html           (BAJO dominante)
+    │   ├── ANUNCIO-3.html           (MEDIO dominante fuerte)
+    │   ├── ANUNCIO-4.html           (MEDIO dominante fuerte)
+    │   ├── ANUNCIO-5.html           (ALTO)
+    │   ├── ANUNCIO-1.md … ANUNCIO-5.md   (GUION.md legible de cada uno)
+    │   └── GUIONES_ANGULO_1.docx    (los 5 guiones compilados para cliente · generate_docx.py)
     ├── angulo-2-[nombre]/  …
     └── angulo-N-[nombre]/  …
 ```
 
-**Regla:** 3-4 ángulos por defecto (hasta 10), **5 anuncios por ángulo**, **4 ganchos por anuncio**. Imágenes NO van aquí → las hace `neurocopy-image-ads-master` en su propio flujo.
+**Regla:** 3-4 ángulos por defecto (hasta 10) · **5 anuncios por ángulo con reparto 2 BAJO + 2 MEDIO fuerte + 1 ALTO** · **4 ganchos por anuncio** · cada anuncio con FORMATO distinto (puede haber algún talking-head/selfie, no los 5). **Dentro de cada subcarpeta de ángulo:** el `ANGULO.html` (explicación), los `ANUNCIO-N.html` (con el dibujo del formato) y el `.docx` con los guiones. Imágenes NO van aquí → `neurocopy-image-ads-master`.
 
 ---
 
@@ -64,9 +63,10 @@ Cada anuncio es un documento-guion HTML autocontenido (paleta oscura: cian #00E5
 
 ## Verificación final (output-architect-ads, Bash)
 
-- Existen `00-avatar-resumen/`, `01-angulos/`, `02-anuncios-por-angulo/angulo-N/`.
-- Cada `ANUNCIO-N.html`: 1 sola `</html>`, badge de nivel presente, sección CUERPO palabra por palabra presente, `id="contenido"` (editable), `print-color-adjust`, 0 "quiz"/"captions".
-- `angulos.html` con los campos de Crea Ofertas (A qué apela / Qué cree / Cómo lo rompemos).
+- Existen `00-avatar-resumen/`, `01-angulos/`, y una subcarpeta `01-angulos/angulo-N-[nombre]/` por cada ángulo.
+- Cada subcarpeta de ángulo tiene su `ANGULO.html` (explicación) + 5 `ANUNCIO-N.html` (2 BAJO + 2 MEDIO + 1 ALTO) + `GUIONES_ANGULO_N.docx`.
+- Cada `ANUNCIO-N.html`: 1 sola `</html>`, badge de nivel presente, EL DIBUJO del formato presente, sección CUERPO palabra por palabra (con puente) presente, `id="contenido"` (editable), `print-color-adjust`, 0 "quiz"/"captions".
+- `ANGULO.html` con los campos de Crea Ofertas (A qué apela / Qué cree / Cómo lo rompemos / hook).
 
 ---
 

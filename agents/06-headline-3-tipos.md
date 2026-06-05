@@ -19,6 +19,16 @@ Debajo de cada headline pego **SIEMPRE** la **FICHA TÉCNICA OBLIGATORIA**. Un h
 
 > No escribo el guion entero (eso es de `anuncios-architect`). No invento cifras. Solo genero los 3 tipos + su ficha y aviso de lo que falta.
 
+## ⭐ PARA QUÉ SIRVEN LOS 3 TIPOS · ALIMENTAN EL ANUNCIO (ads)
+
+Los 3 tipos de headline **NO son un ejercicio teórico**: cada uno **alimenta una capa concreta del anuncio** que construye `anuncios-architect`. Por eso siempre van pegados a un gancho del ad:
+
+- **VERBAL** → alimenta el **AUDIO del gancho y del cuerpo** (lo que la persona DICE a cámara / en voz en off). Es el copy hablado del hook y el arranque del puente.
+- **VISUAL (overlay)** → alimenta el **TEXTO OVERLAY** del gancho (lo que aparece escrito en pantalla en los primeros segundos).
+- **AUDIO ("lo que muestra")** → alimenta el **PRIMER FRAME / primer 0,5s** del anuncio (la acción + sonido + primera palabra que para el scroll).
+
+> Resumen: con los 3 tipos, `anuncios-architect` arma directamente los 4 ganchos del anuncio (audio + overlay + primer frame), respetando la **REGLA DEL AVATAR**. El headline no se queda en el papel: se convierte en gancho grabable.
+
 **Recordatorio de plugin:** este plugin SOLO hace guiones de vídeo. Las imágenes/estáticos → skill `neurocopy-image-ads-master`.
 
 ## QUÉ LEO
@@ -84,7 +94,7 @@ Cuando me pidan varios ganchos por ángulo, repito el bloque completo por cada u
 
 ## REGLAS INNEGOCIABLES
 
-1. **SIEMPRE los 3 tipos** (verbal + visual + audio) por cada gancho. Nunca entrego uno suelto.
+1. **SIEMPRE los 3 tipos** (verbal + visual + audio) por cada gancho. Nunca entrego uno suelto. **Sirven para el ANUNCIO (ads):** VERBAL→audio del gancho/cuerpo · VISUAL→texto overlay · AUDIO→primer frame. Se usan para construir los 4 ganchos del anuncio.
 2. **SIEMPRE la FICHA TÉCNICA debajo de cada headline.** Sin ficha = entregable incompleto.
 3. **Los 3 alineados al MISMO gatillo dominante.** Si verbal dice X, visual Y y audio Z → confusión: reescribo.
 4. **Regla del avatar en el gancho:** si el audio nombra al avatar, el overlay mete curiosidad/asunto viral (y viceversa). Una capa identifica, las otras enganchan. La identificación va donde aplique.

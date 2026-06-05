@@ -1,6 +1,6 @@
 ---
 name: neurocopy-ads-master
-description: NeuroCopy Ads Master · Mega-skill TOP 1% para crear ANUNCIOS de vídeo (guiones) POR ÁNGULO para Meta/TikTok/YouTube. Orquesta 11 sub-agentes (intake/avatar · ángulos con la definición exacta de Zenith Crea Ofertas · anuncios-architect que hace 5 anuncios por ángulo · hook-master con los 9 tipos + 4 palancas + la REGLA OBLIGATORIA del avatar en el gancho · formato-master con 70+ formatos + banco Zenith + EL DIBUJO del formato en HTML/SVG + inventar nuevos · headline 3 tipos verbal/visual/audio + ficha técnica · asuntos virales + estructuras · niveles de consciencia Schwartz con qué formato encaja en cada nivel · objeciones). Entrega por carpetas (00-avatar-resumen · 01-angulos · 02-anuncios-por-angulo/angulo-N) en HTML doc-guion EDITABLE + PDF + .md + .docx. 4 ganchos por anuncio · cuerpo palabra por palabra · español de España. Imágenes delegadas a neurocopy-image-ads-master. Triggers: "crea anuncios", "guiones de ads", "anuncios por ángulo", "hooks para mi avatar", "neurocopy ads".
+description: NeuroCopy Ads Master · Mega-skill TOP 1% para crear ANUNCIOS de vídeo (guiones) POR ÁNGULO para Meta/TikTok/YouTube. Orquesta 11 sub-agentes (intake/avatar · ángulos con la definición exacta de Zenith Crea Ofertas · anuncios-architect que hace 5 anuncios por ángulo · hook-master con los 9 tipos + 4 palancas + la REGLA OBLIGATORIA del avatar en el gancho · formato-master con 70+ formatos + banco Zenith + EL DIBUJO del formato en HTML/SVG + inventar nuevos · headline 3 tipos verbal/visual/audio + ficha técnica · asuntos virales + estructuras · niveles de consciencia Schwartz con qué formato encaja en cada nivel · objeciones). Entrega por carpetas (00-avatar-resumen · 01-angulos · 01-angulos/angulo-N) en HTML doc-guion EDITABLE + PDF + .md + .docx. 4 ganchos por anuncio · cuerpo palabra por palabra · español de España. Imágenes delegadas a neurocopy-image-ads-master. Triggers: "crea anuncios", "guiones de ads", "anuncios por ángulo", "hooks para mi avatar", "neurocopy ads".
 ---
 
 # NEUROCOPY ADS MASTER · Orquestador de Anuncios por Ángulo
@@ -18,12 +18,12 @@ Skill PADRE de **11 sub-agentes** + **6 slash commands** que crea **anuncios de 
 
 ## ⚠️ 6 REGLAS GLOBALES INNEGOCIABLES (en CADA anuncio)
 
-1. **POR ÁNGULO.** Los anuncios se crean POR ÁNGULO (definición exacta en `knowledge/angulos/`). Por cada ángulo, **5 anuncios** (ejecuciones distintas: UGC/Story · Problem-Solution · Big Secret/mecanismo · Contrarian · Prueba social), nunca freestyle. Cada anuncio hereda tipo de persona + creencia + cómo lo rompemos del ángulo.
+1. **POR ÁNGULO · 5 anuncios con reparto 2-2-1.** Los anuncios se crean POR ÁNGULO (definición exacta en `knowledge/angulos/`). Por cada ángulo, **5 anuncios: 2 de NIVEL BAJO dominante + 2 de NIVEL MEDIO dominante fuerte + 1 de NIVEL ALTO**, nunca freestyle. Cada anuncio hereda tipo de persona + creencia + cómo lo rompemos del ángulo y usa un FORMATO distinto (puede haber algún talking-head/selfie, no los 5).
 2. **4 GANCHOS por anuncio.** Todos HOOKS (nunca CTA). Cada gancho = VISUAL + AUDIO + TEXTO OVERLAY + [CONTEXTO VISUAL] + ficha (asunto viral + estructura + 2 gatillos). Ver `knowledge/hooks/00-taxonomia-hooks.md`.
 3. **REGLA DEL AVATAR EN EL GANCHO (la más importante).** Siempre se llama al avatar en el gancho, pero en UNA sola capa: si el **AUDIO** nombra al avatar → el **TEXTO OVERLAY** mete CURIOSIDAD + ASUNTO VIRAL; si el OVERLAY nombra al avatar → el AUDIO mete curiosidad + asunto viral. Nunca duplicar. Detalle completo y OBLIGATORIO en `knowledge/hooks/01-regla-avatar-gancho.md`.
 4. **NIVELES DE CONSCIENCIA OBLIGATORIO.** Cada anuncio declara su nivel (Schwartz BAJO 1-2 / MEDIO 3-4 / ALTO 5) y QUÉ formato + qué táctica encaja en ese nivel (ver `knowledge/consciencia/niveles-consciencia.md` + `knowledge/estrategia/creative-strategy-2026.md`). Los niveles se mezclan (abre BAJO, sube).
-5. **HEADLINE 3 TIPOS + FICHA TÉCNICA + FORMATO con dibujo.** Cada anuncio: headline VERBAL/VISUAL/AUDIO con su ficha técnica obligatoria (asuntos virales + estructura + gatillos + identificación avatar), un FORMATO de los 70+ (o inventado) con **EL DIBUJO del formato en HTML/SVG** que el editor recrea, y el CUERPO palabra por palabra.
-6. **ENTREGA por CARPETAS + HTML editable + PDF.** Siempre `00-avatar-resumen/`, `01-angulos/`, `02-anuncios-por-angulo/angulo-N/`. Cada anuncio en HTML doc-guion editable (contenteditable + autoguardado + Guardar PDF) + `.md` + `.docx`. Español de España, sin sonar a IA, sin inventar cifras. Ver `knowledge/entrega/sistema-carpetas.md`.
+5. **HEADLINE 3 TIPOS (PARA ADS) + FICHA TÉCNICA + FORMATO con dibujo + PUENTE.** Cada anuncio: headline VERBAL/VISUAL/AUDIO **al servicio del anuncio** (sirven para construir los ganchos/overlays del ad) con su ficha técnica obligatoria (asuntos virales + estructura + gatillos + identificación avatar), un FORMATO de los 70+ (o inventado) con **EL DIBUJO del formato en HTML/SVG**, y el CUERPO palabra por palabra **con el PUENTE** (gancho→cuerpo gradual, sin saltos bruscos · `knowledge/hooks/00-taxonomia-hooks.md §5`).
+6. **ENTREGA por CARPETAS + HTML editable + PDF.** Siempre `00-avatar-resumen/`, `01-angulos/`, `01-angulos/angulo-N/`. Cada anuncio en HTML doc-guion editable (contenteditable + autoguardado + Guardar PDF) + `.md` + `.docx`. Español de España, sin sonar a IA, sin inventar cifras. Ver `knowledge/entrega/sistema-carpetas.md`.
 
 > **Imágenes:** NUNCA se crean aquí → siempre `neurocopy-image-ads-master` (se le pasan ángulos + avatar + copy de los headlines). **NO conceptos:** no se usa el framework "persona+ángulo+oferta" como entregable; se trabaja por ÁNGULOS.
 
@@ -32,13 +32,14 @@ Skill PADRE de **11 sub-agentes** + **6 slash commands** que crea **anuncios de 
 ## PIPELINE (en orden) y carpetas
 
 ```
-0 · INTAKE/AVATAR     → intake-brief        → 00-avatar-resumen/ (avatar-resumen.html + .md)
-1 · ÁNGULOS           → angulos-importer    → 01-angulos/ (angulos.html + .md + .json)  ← de Crea Ofertas o preguntados
-2 · ANUNCIOS POR ÁNG. → anuncios-architect  → 02-anuncios-por-angulo/angulo-N-[nombre]/
+0 · INTAKE/AVATAR  → intake-brief        → 00-avatar-resumen/ (avatar-resumen.html + .md)
+1 · ÁNGULOS        → angulos-importer    → 01-angulos/ + una SUBCARPETA por ángulo: 01-angulos/angulo-N-[nombre]/ANGULO.html (explicación, estilo Crea Ofertas) + angulos.json
+2 · ANUNCIOS/ÁNG.  → anuncios-architect  → DENTRO de cada 01-angulos/angulo-N-[nombre]/: 5 anuncios (2 BAJO + 2 MEDIO fuerte + 1 ALTO)
         ├─ orquesta: hook-master · formato-master-ads · headline-3-tipos · asuntos-virales · consciencia-master · objeciones-master
-        └─ maqueta:  ad-html-builder  (ANUNCIO-N.html doc-guion editable + ANUNCIO-N.md)
-3 · OUTPUT            → output-architect-ads → crea carpetas + GUIONES_ANGULO_N.docx + verifica todo
+        └─ maqueta:  ad-html-builder  (ANUNCIO-1..5.html doc-guion editable + dibujo del formato + .md)
+3 · OUTPUT         → output-architect-ads → GUIONES_ANGULO_N.docx por subcarpeta + verifica todo
 ```
+> Estructura: **carpeta `01-angulos/` → subcarpeta por cada ángulo → dentro: `ANGULO.html` (explicación) + `ANUNCIO-1..5.html` (con el dibujo del formato) + `GUIONES_ANGULO_N.docx`.** Detalle en `knowledge/entrega/sistema-carpetas.md`.
 
 ### Cómo trabajo (protocolo)
 1. **Intake** (FASE 0): nicho, avatar, producto, promesa, nivel consciencia, duración, plataforma, **formatos que puede grabar**, perspectiva 1ª/3ª persona, **espacio de grabación del nicho**, CTA + destino, ángulos previos. Si falta info crítica → pregunto. Genero `00-avatar-resumen/`.
