@@ -13,7 +13,7 @@
 [![Status](https://img.shields.io/badge/Status-v1.0.0-00E5D0.svg)](https://github.com/zenithmetodo/neurocopy-ads-master)
 [![Solo Vídeo](https://img.shields.io/badge/Imágenes-→%20neurocopy--image--ads--master-f5c451.svg)](#fuera-de-alcance)
 
-**[INSTALAR](#instalación) · [PIPELINE](#pipeline-de-uso) · [LA REGLA ESTRELLA](#-la-regla-estrella-el-avatar-en-el-gancho) · [LOS 11 AGENTES](#los-11-agentes) · [ENTREGA POR CARPETAS](#entrega-por-carpetas)**
+**[INSTALAR](#instalación) · [EMPEZAR PASO A PASO](GETTING_STARTED.md) · [PIPELINE](#pipeline-de-uso) · [LA REGLA ESTRELLA](#-la-regla-estrella-el-avatar-en-el-gancho) · [LOS 11 AGENTES](#los-11-agentes) · [ENTREGA POR CARPETAS](#entrega-por-carpetas)**
 
 </div>
 
@@ -277,6 +277,8 @@ bash ~/.claude/skills/neurocopy-ads-master/install.sh
 Luego en Claude Code: `/neurocopy-ads-master:ads-master`
 
 > Tras instalar comandos nuevos, **reinicia Claude Code** para que aparezcan en la lista de slash commands.
+
+📖 **¿Primera vez? Sigue la guía paso a paso:** [GETTING_STARTED.md](GETTING_STARTED.md)
 
 ---
 
