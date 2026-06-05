@@ -1,102 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 860" width="1280" height="860">
   <defs>
-    <linearGradient id="cgH" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b0f"/>
+      <stop offset="100%" stop-color="#0c1015"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#00E5D0"/>
       <stop offset="100%" stop-color="#f5c451"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="75%">
-      <stop offset="0%" stop-color="#14212c"/>
-      <stop offset="100%" stop-color="#0c1015"/>
-    </radialGradient>
-    <radialGradient id="core" cx="50%" cy="40%" r="70%">
-      <stop offset="0%" stop-color="#1b2a36"/>
-      <stop offset="100%" stop-color="#10171f"/>
-    </radialGradient>
+    <style>
+      .h{font-family:Georgia,serif;font-weight:700}
+      .t{font-family:Inter,Arial,sans-serif}
+      .blk{fill:#11181f;stroke:#1d2730;stroke-width:1.5;rx:14}
+      .ag{fill:#0e141a;stroke:#28333d;stroke-width:1}
+      .lbl{font-family:Inter,Arial,sans-serif;fill:#8089a0;font-size:11px;letter-spacing:1.5px}
+      .nm{font-family:Inter,Arial,sans-serif;fill:#eaf2f2;font-size:13px;font-weight:600}
+      .ds{font-family:Inter,Arial,sans-serif;fill:#7e8a98;font-size:11px}
+    </style>
   </defs>
 
-  <rect width="1000" height="520" fill="url(#glow)"/>
+  <rect width="1280" height="860" fill="url(#bg)"/>
 
-  <!-- Título -->
-  <text x="500" y="38" text-anchor="middle" font-family="system-ui, sans-serif"
-        font-size="22" font-weight="800" fill="url(#cgH)" letter-spacing="1">ARQUITECTURA &#183; 11 SUB-AGENTES</text>
+  <text x="640" y="56" class="h" font-size="34" fill="url(#brand)" text-anchor="middle">Arquitectura · 11 agentes en 5 fases</text>
+  <text x="640" y="84" class="t" font-size="14" fill="#8089a0" text-anchor="middle">Cada agente es crack de UNA cosa · todos orquestados por el anuncios-architect</text>
 
-  <!-- Conectores (detrás) -->
-  <g stroke="#00E5D0" stroke-width="1.6" opacity="0.45">
-    <!-- arriba -->
-    <line x1="360" y1="92" x2="470" y2="232"/>
-    <line x1="640" y1="92" x2="530" y2="232"/>
-    <!-- centro a satélites -->
-    <line x1="500" y1="262" x2="200" y2="200"/>
-    <line x1="500" y1="262" x2="800" y2="200"/>
-    <line x1="500" y1="262" x2="170" y2="300"/>
-    <line x1="500" y1="262" x2="830" y2="300"/>
-    <line x1="500" y1="262" x2="240" y2="392"/>
-    <line x1="500" y1="262" x2="760" y2="392"/>
-    <!-- abajo -->
-    <line x1="470" y1="290" x2="360" y2="448"/>
-    <line x1="530" y1="290" x2="640" y2="448"/>
+  <!-- FASE 0 -->
+  <g transform="translate(60,120)">
+    <rect class="blk" width="1160" height="96" rx="14"/>
+    <text x="20" y="30" class="lbl">FASE 0 · INTAKE / AVATAR</text>
+    <rect class="ag" x="20" y="42" width="360" height="40" rx="10"/>
+    <text x="36" y="60" class="nm">01 · intake-brief</text>
+    <text x="36" y="76" class="ds">FASE 0 · brief + avatar-resumen.html editable</text>
+    <text x="1000" y="68" class="t" font-size="13" fill="#00E5D0" text-anchor="end">→ 00-avatar-resumen/</text>
   </g>
 
-  <!-- NÚCLEO: orquestador -->
-  <g transform="translate(390,222)">
-    <rect width="220" height="80" rx="18" fill="url(#core)" stroke="#f5c451" stroke-width="3"/>
-    <text x="110" y="32" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#f5c451">ORQUESTA</text>
-    <text x="110" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#eaf2f2">anuncios-architect</text>
+  <!-- FASE 1 -->
+  <g transform="translate(60,236)">
+    <rect class="blk" width="1160" height="96" rx="14"/>
+    <text x="20" y="30" class="lbl">FASE 1 · ÁNGULOS (definición exacta Zenith Crea Ofertas)</text>
+    <rect class="ag" x="20" y="42" width="360" height="40" rx="10"/>
+    <text x="36" y="60" class="nm">02 · angulos-importer</text>
+    <text x="36" y="76" class="ds">A qué apela · Qué cree · CÓMO LO ROMPEMOS · hook</text>
+    <text x="1140" y="68" class="t" font-size="13" fill="#00E5D0" text-anchor="end">→ 01-angulos/ + subcarpeta angulo-N/ANGULO.html</text>
   </g>
 
-  <!-- ARRIBA: intake -->
-  <g transform="translate(270,52)">
-    <rect width="180" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
-    <text x="90" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#eaf2f2">intake-brief</text>
-  </g>
-  <g transform="translate(560,52)">
-    <rect width="180" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
-    <text x="90" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#eaf2f2">angulos-importer</text>
+  <!-- FASE 2 -->
+  <g transform="translate(60,352)">
+    <rect class="blk" width="1160" height="288" rx="14"/>
+    <text x="20" y="30" class="lbl">FASE 2 · ANUNCIOS POR ÁNGULO · 5 anuncios (2 BAJO + 2 MEDIO fuerte + 1 ALTO)</text>
+
+    <!-- orquestador -->
+    <rect x="20" y="44" width="1120" height="46" rx="10" fill="#13202a" stroke="#00E5D0" stroke-width="1.5"/>
+    <text x="36" y="64" class="nm" fill="#00E5D0">03 · anuncios-architect ⭐ (Opus)</text>
+    <text x="36" y="80" class="ds">orquesta los 6 especialistas · aplica reparto 2-2-1 + el puente en cada guion</text>
+
+    <!-- 6 especialistas -->
+    <g font-family="Inter,Arial,sans-serif">
+      <rect class="ag" x="20"  y="104" width="270" height="58" rx="10"/>
+      <text x="34" y="126" class="nm">04 · hook-master ⭐</text>
+      <text x="34" y="144" class="ds">4 ganchos · 9 tipos · REGLA AVATAR</text>
+
+      <rect class="ag" x="302" y="104" width="270" height="58" rx="10"/>
+      <text x="316" y="126" class="nm">05 · formato-master-ads</text>
+      <text x="316" y="144" class="ds">70+ formatos + EL DIBUJO (SVG)</text>
+
+      <rect class="ag" x="584" y="104" width="270" height="58" rx="10"/>
+      <text x="598" y="126" class="nm">06 · headline-3-tipos</text>
+      <text x="598" y="144" class="ds">verbal/visual/audio + ficha técnica</text>
+
+      <rect class="ag" x="866" y="104" width="274" height="58" rx="10"/>
+      <text x="880" y="126" class="nm">07 · asuntos-virales</text>
+      <text x="880" y="144" class="ds">6 cat · 3 tipos · 5 criterios</text>
+
+      <rect class="ag" x="20"  y="174" width="270" height="58" rx="10"/>
+      <text x="34" y="196" class="nm">08 · consciencia-master</text>
+      <text x="34" y="214" class="ds">Schwartz + qué formato encaja</text>
+
+      <rect class="ag" x="302" y="174" width="270" height="58" rx="10"/>
+      <text x="316" y="196" class="nm">09 · objeciones-master</text>
+      <text x="316" y="214" class="ds">romper objeciones (nivel ALTO)</text>
+
+      <rect x="584" y="174" width="556" height="58" rx="10" fill="#1a1410" stroke="#f5c451" stroke-width="1.5"/>
+      <text x="598" y="196" class="nm" fill="#f5c451">10 · ad-html-builder ⭐</text>
+      <text x="598" y="214" class="ds">maqueta ANUNCIO-N.html doc-guion editable + PDF + dibujo</text>
+    </g>
+
+    <text x="1140" y="264" class="t" font-size="13" fill="#00E5D0" text-anchor="end">→ angulo-N/ANUNCIO-1..5.html + .md</text>
   </g>
 
-  <!-- SATÉLITES izquierda -->
-  <g transform="translate(40,178)">
-    <rect width="170" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
-    <text x="85" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#eaf2f2">hook-master</text>
-  </g>
-  <g transform="translate(28,278)">
-    <rect width="186" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
-    <text x="93" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#eaf2f2">headline-3-tipos</text>
-  </g>
-  <g transform="translate(56,370)">
-    <rect width="190" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
-    <text x="95" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#eaf2f2">consciencia-master</text>
+  <!-- FASE 3 -->
+  <g transform="translate(60,660)">
+    <rect class="blk" width="1160" height="96" rx="14"/>
+    <text x="20" y="30" class="lbl">FASE 3 · OUTPUT</text>
+    <rect class="ag" x="20" y="42" width="360" height="40" rx="10"/>
+    <text x="36" y="60" class="nm">11 · output-architect-ads</text>
+    <text x="36" y="76" class="ds">.docx por subcarpeta + verificación final</text>
+    <text x="1140" y="68" class="t" font-size="13" fill="#00E5D0" text-anchor="end">→ GUIONES_ANGULO_N.docx + QA</text>
   </g>
 
-  <!-- SATÉLITES derecha -->
-  <g transform="translate(786,178)">
-    <rect width="186" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
-    <text x="93" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#eaf2f2">formato-master-ads</text>
-  </g>
-  <g transform="translate(792,278)">
-    <rect width="184" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
-    <text x="92" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#eaf2f2">asuntos-virales</text>
-  </g>
-  <g transform="translate(752,370)">
-    <rect width="186" height="44" rx="12" fill="#10171f" stroke="#00E5D0" stroke-width="2"/>
-    <text x="93" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#eaf2f2">objeciones-master</text>
-  </g>
-
-  <!-- ABAJO -->
-  <g transform="translate(270,448)">
-    <rect width="180" height="44" rx="12" fill="#10171f" stroke="#f5c451" stroke-width="2"/>
-    <text x="90" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#eaf2f2">ad-html-builder</text>
-  </g>
-  <g transform="translate(560,448)">
-    <rect width="180" height="44" rx="12" fill="#10171f" stroke="#f5c451" stroke-width="2"/>
-    <text x="90" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#eaf2f2">output-architect-ads</text>
-  </g>
-
-  <!-- LEYENDA -->
-  <g transform="translate(40,490)" font-family="system-ui, sans-serif" font-size="12" fill="#9fb3b3">
-    <rect x="0" y="0" width="14" height="14" rx="4" fill="none" stroke="#f5c451" stroke-width="2"/>
-    <text x="22" y="11" fill="#eaf2f2">Orquesta / entrada-salida</text>
-    <rect x="230" y="0" width="14" height="14" rx="4" fill="none" stroke="#00E5D0" stroke-width="2"/>
-    <text x="252" y="11" fill="#eaf2f2">Sub-agentes especialistas</text>
+  <!-- delegación imágenes -->
+  <g transform="translate(60,780)">
+    <rect width="1160" height="52" rx="12" fill="#160f12" stroke="#3a2230" stroke-width="1.5"/>
+    <text x="20" y="32" class="t" font-size="13" fill="#cda">🎨 IMÁGENES → siempre delegadas a <tspan fill="#f5c451" font-weight="700">neurocopy-image-ads-master</tspan> · aquí solo se hacen guiones de vídeo</text>
   </g>
 </svg>

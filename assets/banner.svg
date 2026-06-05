@@ -1,79 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
   <defs>
-    <linearGradient id="cg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00E5D0"/>
-      <stop offset="100%" stop-color="#f5c451"/>
-    </linearGradient>
-    <linearGradient id="cgH" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00E5D0"/>
-      <stop offset="100%" stop-color="#f5c451"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="22%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#13202a"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b0f"/>
       <stop offset="100%" stop-color="#0c1015"/>
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5D0"/>
+      <stop offset="100%" stop-color="#f5c451"/>
+    </linearGradient>
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5D0" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0c1015" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0 L0 0 0 40" fill="none" stroke="#1c2a33" stroke-width="1"/>
-    </pattern>
-    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="3.5" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <filter id="glow2"><feGaussianBlur stdDeviation="8"/></filter>
   </defs>
 
-  <!-- Fondo dark + grid + glow -->
-  <rect width="1200" height="360" fill="#0c1015"/>
-  <rect width="1200" height="360" fill="url(#grid)" opacity="0.5"/>
-  <rect width="1200" height="360" fill="url(#glow)"/>
-  <rect x="6" y="6" width="1188" height="348" rx="22" fill="none" stroke="url(#cgH)" stroke-width="1.5" opacity="0.45"/>
+  <rect width="1280" height="640" fill="url(#bgGrad)"/>
+  <ellipse cx="640" cy="320" rx="520" ry="300" fill="url(#glowCenter)"/>
 
-  <!-- LOGO a la izquierda -->
-  <g transform="translate(70,72)">
-    <rect x="0" y="0" width="216" height="216" rx="44" fill="#10171f"/>
-    <rect x="2" y="2" width="212" height="212" rx="42" fill="none" stroke="url(#cg)" stroke-width="2" opacity="0.55"/>
-    <g transform="translate(108,108)" fill="none" stroke="url(#cg)" stroke-width="5">
-      <circle r="66" opacity="0.30"/>
-      <circle r="49" opacity="0.55"/>
-      <circle r="32" opacity="0.85"/>
-    </g>
-    <g stroke="url(#cg)" stroke-width="4" stroke-linecap="round" opacity="0.8">
-      <line x1="108" y1="28" x2="108" y2="44"/>
-      <line x1="108" y1="172" x2="108" y2="188"/>
-      <line x1="28" y1="108" x2="44" y2="108"/>
-      <line x1="172" y1="108" x2="188" y2="108"/>
-    </g>
-    <g filter="url(#soft)">
-      <path d="M95 84 L135 108 L95 132 Z" fill="url(#cg)"/>
-    </g>
+  <g opacity="0.05" stroke="url(#brandGrad)" stroke-width="1">
+    <line x1="0" y1="120" x2="1280" y2="520"/>
+    <line x1="0" y1="220" x2="1280" y2="620"/>
+    <line x1="0" y1="320" x2="1280" y2="720"/>
   </g>
 
-  <!-- Título -->
-  <text x="340" y="158" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
-        font-size="62" font-weight="800" fill="url(#cgH)" letter-spacing="-1">NeuroCopy Ads Master</text>
-
-  <!-- Línea separadora -->
-  <line x1="342" y1="186" x2="1110" y2="186" stroke="url(#cgH)" stroke-width="2" opacity="0.4"/>
-
-  <!-- Subtítulo -->
-  <text x="342" y="226" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
-        font-size="25" font-weight="600" fill="#eaf2f2">Anuncios de v&#237;deo por <tspan fill="#00E5D0" font-weight="800">&#193;NGULO</tspan></text>
-
-  <!-- Chips -->
-  <g font-family="system-ui, sans-serif" font-size="17" font-weight="600">
-    <g transform="translate(342,254)">
-      <rect width="146" height="36" rx="18" fill="#10171f" stroke="#00E5D0" stroke-width="1.5"/>
-      <text x="73" y="24" text-anchor="middle" fill="#eaf2f2">5 por &#225;ngulo</text>
-    </g>
-    <g transform="translate(500,254)">
-      <rect width="128" height="36" rx="18" fill="#10171f" stroke="#f5c451" stroke-width="1.5"/>
-      <text x="64" y="24" text-anchor="middle" fill="#eaf2f2">4 ganchos</text>
-    </g>
-    <g transform="translate(640,254)">
-      <rect width="150" height="36" rx="18" fill="#10171f" stroke="#00E5D0" stroke-width="1.5"/>
-      <text x="75" y="24" text-anchor="middle" fill="#eaf2f2">70+ formatos</text>
-    </g>
+  <g opacity="0.10">
+    <circle cx="110" cy="110" r="60" fill="none" stroke="#00E5D0" stroke-width="2"/>
+    <circle cx="1175" cy="535" r="80" fill="none" stroke="#f5c451" stroke-width="2"/>
+    <circle cx="1100" cy="120" r="40" fill="#00E5D0"/>
+    <circle cx="205" cy="500" r="28" fill="#f5c451"/>
   </g>
+
+  <!-- Logo claqueta -->
+  <g transform="translate(140,196)">
+    <rect x="0" y="0" width="168" height="168" rx="34" fill="url(#brandGrad)" filter="url(#glow2)"/>
+    <rect x="0" y="0" width="168" height="168" rx="34" fill="url(#brandGrad)"/>
+    <rect x="22" y="34" width="124" height="26" rx="5" fill="#0c1015"/>
+    <g fill="#f5c451">
+      <polygon points="30,34 46,34 38,60 22,60"/>
+      <polygon points="60,34 76,34 68,60 52,60"/>
+      <polygon points="90,34 106,34 98,60 82,60"/>
+      <polygon points="120,34 136,34 128,60 112,60"/>
+    </g>
+    <polygon points="68,82 68,140 122,111" fill="#0c1015"/>
+  </g>
+
+  <text x="350" y="262" font-family="Georgia, serif" font-size="66" font-weight="700" fill="url(#brandGrad)">NeuroCopy Ads Master</text>
+  <text x="352" y="306" font-family="Georgia, serif" font-style="italic" font-size="27" fill="#eaf2f2">Guiones de anuncios de vídeo POR ÁNGULO</text>
+  <text x="352" y="342" font-family="Georgia, serif" font-style="italic" font-size="27" fill="#eaf2f2">para Meta · TikTok · YouTube</text>
+
+  <g transform="translate(352,394)" font-family="Inter, sans-serif">
+    <rect x="0" y="0" width="150" height="34" rx="17" fill="rgba(0,229,208,0.14)" stroke="#00E5D0"/>
+    <text x="75" y="22" font-size="12.5" fill="#00E5D0" text-anchor="middle" font-weight="600">POR ÁNGULO</text>
+    <rect x="164" y="0" width="200" height="34" rx="17" fill="rgba(0,229,208,0.14)" stroke="#00E5D0"/>
+    <text x="264" y="22" font-size="12.5" fill="#00E5D0" text-anchor="middle" font-weight="600">REGLA DEL AVATAR</text>
+    <rect x="378" y="0" width="200" height="34" rx="17" fill="rgba(245,196,81,0.14)" stroke="#f5c451"/>
+    <text x="478" y="22" font-size="12.5" fill="#f5c451" text-anchor="middle" font-weight="600">2 BAJO · 2 MEDIO · 1 ALTO</text>
+    <rect x="592" y="0" width="210" height="34" rx="17" fill="rgba(245,196,81,0.14)" stroke="#f5c451"/>
+    <text x="697" y="22" font-size="12.5" fill="#f5c451" text-anchor="middle" font-weight="600">EL DIBUJO DEL FORMATO</text>
+  </g>
+
+  <g transform="translate(352,486)" font-family="Inter, sans-serif">
+    <text x="0" y="0" font-size="40" font-weight="800" fill="url(#brandGrad)">11</text>
+    <text x="0" y="20" font-size="11" fill="#8089a0" letter-spacing="1.5">AGENTES</text>
+    <text x="120" y="0" font-size="40" font-weight="800" fill="url(#brandGrad)">6</text>
+    <text x="120" y="20" font-size="11" fill="#8089a0" letter-spacing="1.5">COMMANDS</text>
+    <text x="240" y="0" font-size="40" font-weight="800" fill="url(#brandGrad)">15</text>
+    <text x="240" y="20" font-size="11" fill="#8089a0" letter-spacing="1.5">KNOWLEDGE</text>
+    <text x="380" y="0" font-size="40" font-weight="800" fill="url(#brandGrad)">5</text>
+    <text x="380" y="20" font-size="11" fill="#8089a0" letter-spacing="1.5">ANUNCIOS/ÁNGULO</text>
+    <text x="600" y="0" font-size="40" font-weight="800" fill="url(#brandGrad)">4</text>
+    <text x="600" y="20" font-size="11" fill="#8089a0" letter-spacing="1.5">GANCHOS/ANUNCIO</text>
+  </g>
+
+  <text x="640" y="608" font-family="Inter, sans-serif" font-size="13" fill="#6b7588" text-anchor="middle">
+    JOSEPH MORENO · ZENITH · NEUROCOPY + MÉTODO AUDIENCE + ZENITH CREA OFERTAS + MASTERCLASS META ADS 2026
+  </text>
 </svg>
