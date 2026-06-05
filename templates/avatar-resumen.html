@@ -1,0 +1,42 @@
+<!-- NEUROCOPY ADS MASTER · TEMPLATE · AVATAR RESUMEN (editable + PDF) · lo rellena intake-brief -->
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Avatar resumen · {{NICHO}} · NeuroCopy Ads</title>
+<style>
+  :root{--bg:#0c1015;--panel:#141b24;--cian:#00E5D0;--cian-soft:#0bb6a6;--gold:#f5c451;--txt:#eaf2f2;--muted:#93a3a8;--line:#243240}
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  @page{size:A4;margin:12mm}
+  body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:820px;margin:0 auto;padding:34px 26px}
+  #barra{position:fixed;top:14px;right:14px;z-index:99999;display:flex;gap:8px;align-items:center;background:rgba(12,16,21,.94);border:1px solid var(--cian-soft);backdrop-filter:blur(10px);padding:9px 12px;border-radius:14px}
+  #barra #estado{font-size:12px;color:var(--cian);min-width:92px}
+  #barra button{font-family:inherit;font-size:13px;font-weight:600;color:var(--txt);background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:9px;padding:8px 12px;cursor:pointer}
+  #barra button.primary{background:linear-gradient(135deg,var(--cian),var(--gold));color:#06231f;border:none}
+  .tag{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;color:var(--cian);text-transform:uppercase}
+  h1{font-size:30px;font-weight:800;margin:6px 0 18px}
+  h2{font-size:18px;color:var(--cian);margin:24px 0 8px;border-bottom:1px dashed var(--line);padding-bottom:6px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:10px 0}
+  ul{margin:6px 0 6px 20px} li{margin:4px 0;color:var(--txt)}
+  .muted{color:var(--muted)}
+  #contenido[contenteditable="true"]:focus{outline:none}
+  @media print{#barra{display:none!important}.wrap{max-width:100%;padding:0}.card{break-inside:avoid}}
+</style></head><body>
+<div id="barra"><span id="estado">Listo para editar</span>
+  <button class="primary" onclick="window.print()">📄 Guardar PDF</button>
+  <button onclick="descargar()">⬇️ Descargar copia</button>
+  <button onclick="restablecer()">↺ Restablecer</button></div>
+<div class="wrap" id="contenido" contenteditable="true" spellcheck="false">
+  <div class="tag">AVATAR RESUMEN · NEUROCOPY</div>
+  <h1>{{AVATAR_ARQUETIPO}}</h1>
+  <div class="card"><strong>Nicho:</strong> {{NICHO}} · <strong>Producto:</strong> {{PRODUCTO}} · <strong>Promesa:</strong> {{PROMESA}} · <strong>CTA/destino:</strong> {{CTA_DESTINO}}</div>
+  <h2>Quién es</h2><div class="card">{{QUIEN_ES}}</div>
+  <h2>Día a día (dónde le duele)</h2><div class="card">{{DIA_A_DIA}}</div>
+  <h2>Dolores principales</h2><div class="card"><ul><li>{{DOLOR_1}}</li><li>{{DOLOR_2}}</li><li>{{DOLOR_3}}</li></ul></div>
+  <h2>Deseos profundos</h2><div class="card"><ul><li>{{DESEO_1}}</li><li>{{DESEO_2}}</li><li>{{DESEO_3}}</li></ul></div>
+  <h2>Objeciones</h2><div class="card"><ul><li>{{OBJ_1}}</li><li>{{OBJ_2}}</li><li>{{OBJ_3}}</li></ul></div>
+  <h2>Creencias a romper</h2><div class="card"><ul><li>{{CREENCIA_1}}</li><li>{{CREENCIA_2}}</li></ul></div>
+  <h2>Lenguaje real del avatar (frases textuales)</h2><div class="card muted">{{LENGUAJE_REAL}}</div>
+  <h2>Espacio de grabación / props del nicho</h2><div class="card">{{ESPACIO_GRABACION}}</div>
+</div>
+<script>(function(){var c=document.getElementById('contenido'),e=document.getElementById('estado'),K='neurocopy_avatar_'+location.pathname,O=c.innerHTML;try{if(localStorage.getItem(K)){c.innerHTML=localStorage.getItem(K);e.textContent='Cambios guardados ✓';}}catch(x){}var t;c.addEventListener('input',function(){e.textContent='Guardando…';clearTimeout(t);t=setTimeout(function(){try{localStorage.setItem(K,c.innerHTML);e.textContent='Guardado ✓';}catch(x){e.textContent='Ábrelo en el navegador';}},500);});window.restablecer=function(){if(!confirm('¿Volver al original?'))return;try{localStorage.removeItem(K);}catch(x){}c.innerHTML=O;e.textContent='Restablecido';};window.descargar=function(){var h='<!DOCTYPE html>\n'+document.documentElement.outerHTML;var b=new Blob([h],{type:'text/html'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=(document.title||'avatar')+'.html';a.click();};})();</script>
+</body></html>

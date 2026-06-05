@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" width="1400" height="1000">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050510;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0a0a18;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="brandG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00E5CF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B845FF;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="cardShadow"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  <rect width="1400" height="1000" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandG)" text-anchor="middle">Arquitectura Modular · Zenith Audience™ v1.8.0</text>
+  <text x="700" y="80" font-family="Inter, sans-serif" font-size="14" fill="#8089a0" text-anchor="middle">32 agentes en 10 bloques · 70+ formatos · 6 ganchos óptimos por reel · coordinados por 21 slash commands</text>
+
+  <!-- Bloque A · Investigación -->
+  <g transform="translate(80,120)">
+    <rect width="280" height="200" rx="14" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
+    <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE A</text>
+    <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🔍 Investigación</text>
+    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">6 agentes</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• spy-competidor (Opus)</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• trend-google · trend-redes</text>
+    <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• trend-foros</text>
+    <text x="20" y="164" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• engenharia-reversa</text>
+    <text x="20" y="182" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" font-weight="700">⭐ ideas-ganadoras-adapter</text>
+  </g>
+
+  <!-- Bloque B · Núcleo Influencia -->
+  <g transform="translate(390,120)">
+    <rect width="280" height="200" rx="14" fill="rgba(184,69,255,0.06)" stroke="#B845FF" stroke-width="2"/>
+    <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE B</text>
+    <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🧬 Núcleo Influencia</text>
+    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">5 agentes · setup ONE-SHOT</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• nucleo-architect</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• enemigo-namer</text>
+    <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• dor-promesa-builder</text>
+    <text x="20" y="164" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• crencas-pruebas</text>
+    <text x="20" y="182" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• bordones-creator</text>
+  </g>
+
+  <!-- Bloque C · Asuntos -->
+  <g transform="translate(700,120)">
+    <rect width="280" height="200" rx="14" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
+    <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE C</text>
+    <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">💡 Asuntos Virales</text>
+    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">3 agentes</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• asunto-detector (5 criterios)</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" font-weight="700">⭐ asuntos-generator (15-20/día)</text>
+    <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• pesquisa-magnetica (mensual)</text>
+    <text x="20" y="168" font-family="Inter, sans-serif" font-size="10" fill="#00E5CF" font-style="italic">Multi-fuente: Apify+IA+trends</text>
+  </g>
+
+  <!-- Bloque D · Gatillos & Headlines -->
+  <g transform="translate(1010,120)">
+    <rect width="280" height="200" rx="14" fill="rgba(184,69,255,0.06)" stroke="#B845FF" stroke-width="2"/>
+    <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE D</text>
+    <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🎣 Gatillos & Headlines</text>
+    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">3 agentes</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• gatillo-master (7 gatillos)</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• headline-3-tipos (carruseles/hilos)</text>
+    <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• plan-headlines-mes (batch)</text>
+    <text x="20" y="168" font-family="Inter, sans-serif" font-size="10" fill="#B845FF" font-style="italic">Para reels usa formato-master</text>
+  </g>
+
+  <!-- Bloque E · 12 Estructuras -->
+  <g transform="translate(80,340)">
+    <rect width="280" height="200" rx="14" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
+    <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE E</text>
+    <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">📐 12 Estructuras</text>
+    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">3 agentes</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• template-selector</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• template-aplicador</text>
+    <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• template-rotation-planner</text>
+    <text x="20" y="178" font-family="Inter, sans-serif" font-size="10" fill="#B845FF" font-style="italic">3 familias · 12 fórmulas</text>
+  </g>
+
+  <!-- Bloque F · Creación + FORMATO MASTER (NEW) -->
+  <g transform="translate(390,340)">
+    <rect width="280" height="200" rx="14" fill="rgba(184,69,255,0.08)" stroke="#B845FF" stroke-width="3"/>
+    <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE F · NUEVO ⭐</text>
+    <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🎬 Creación + Formato</text>
+    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">4 agentes · HTML estético</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" font-weight="700">⭐ formato-master (70+ formatos)</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• reel-architect (6 ganchos)</text>
+    <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• carrusel-architect (8-10 slides)</text>
+    <text x="20" y="164" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• hilo-architect (8-15 tweets)</text>
+    <text x="20" y="184" font-family="Inter, sans-serif" font-size="10" fill="#00E5CF" font-style="italic">+ GENERA formatos nuevos</text>
+  </g>
+
+  <!-- Bloque G · Notable -->
+  <g transform="translate(700,340)">
+    <rect width="280" height="200" rx="14" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
+    <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE G</text>
+    <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🎨 Notable</text>
+    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">2 agentes · 8 elementos + Berger</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• notable-auditor (score 0-100)</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• notable-builder (mejora contenido)</text>
+  </g>
+
+  <!-- Bloque H · Métricas -->
+  <g transform="translate(1010,340)">
+    <rect width="280" height="200" rx="14" fill="rgba(184,69,255,0.06)" stroke="#B845FF" stroke-width="2"/>
+    <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE H</text>
+    <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">📊 Métricas</text>
+    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">2 agentes · Metricool Free</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" font-weight="700">⭐ metrics-analyst (decisión)</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• iteracion-ganador (10 variantes)</text>
+    <text x="20" y="148" font-family="Inter, sans-serif" font-size="10" fill="#00E5CF" font-style="italic">Replicar/Iterar/Descartar auto</text>
+  </g>
+
+  <!-- Bloque I · Planificación -->
+  <g transform="translate(545,560)">
+    <rect width="310" height="120" rx="14" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
+    <text x="155" y="32" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE I</text>
+    <text x="155" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🗓️ Planificación</text>
+    <text x="155" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">2 agentes</text>
+    <text x="20" y="106" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• plan-semana · • batch-content-day</text>
+  </g>
+
+  <!-- Formato master highlight -->
+  <g transform="translate(80,720)">
+    <rect width="1240" height="100" rx="14" fill="rgba(184,69,255,0.08)" stroke="#B845FF" stroke-width="2" stroke-dasharray="6,4"/>
+    <text x="20" y="30" font-family="Georgia, serif" font-size="18" fill="url(#brandG)" font-weight="700">⭐ formato-master · El crack de los formatos (NUEVO v1.2)</text>
+    <text x="20" y="55" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">Conoce 70+ formatos visuales: HAC · Selfie · Green Screen · Split · Miro · Tier list · Bracket · Ranking · Pizarra · POV ·</text>
+    <text x="20" y="73" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">2 personas reales · Loop iterativo · Conversación errores · Mecanismo paso a paso · y muchos más. Y GENERA nuevos formatos cuando ninguno encaja.</text>
+    <text x="20" y="91" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" font-weight="700">+ Para cada reel: 6 GANCHOS óptimos (cada uno con verbal + textual) = 6 versiones A/B testing/E/F listas para testing</text>
+  </g>
+
+  <!-- Integraciones externas -->
+  <g transform="translate(100,840)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="18" fill="url(#brandG)" font-weight="700">⚙️ Integraciones externas (todo GRATIS)</text>
+    <g transform="translate(0,16)" font-family="Inter, sans-serif" font-size="11">
+      <text x="0" y="24" fill="#cfd4e3">• Metricool MCP (Free) · métricas IG · TT · YT · FB · Pinterest · Threads · Bluesky</text>
+      <text x="0" y="44" fill="#cfd4e3">• Apify MCP (Free $5/mes) · scrapers · spy de competidores · trends TT/IG</text>
+      <text x="0" y="64" fill="#cfd4e3">• Scripts Python · pytrends · PRAW (Reddit) · YouTube Data API · youtube-transcript-api</text>
+      <text x="0" y="84" fill="#cfd4e3">• Whisper local · faster-whisper · transcripción ES/PT/EN sin coste</text>
+      <text x="0" y="104" fill="#cfd4e3">• yt-dlp · descarga audio/video de IG · TT · YT para transcribir</text>
+    </g>
+  </g>
+
+  <text x="700" y="980" font-family="Inter, sans-serif" font-size="11" fill="#6b7588" text-anchor="middle">JOSEPH MORENO · ZENITH · BASADO EN EL MÉTODO AUDIENCE DE ELIAS MAMÃ · v1.8.0</text>
+</svg>

@@ -1,0 +1,200 @@
+<!--
+═══════════════════════════════════════════════════════════════════════════════
+  NEUROCOPY ADS MASTER · TEMPLATE · DOC-GUION DE ANUNCIO (estilo Zenith)
+  Lo rellena/clona el agente `ad-html-builder`. Editable al clic + imprime a PDF.
+  Estructura obligatoria: cabecera · badge nivel consciencia · srcbox(ángulo) ·
+  formatbox · EL DIBUJO DEL FORMATO · 4 ganchos (regla avatar) · CUERPO palabra
+  por palabra · overlays · CTA · foot.
+  Paleta: cian #00E5D0 · gold #f5c451 · dark #0c1015.
+═══════════════════════════════════════════════════════════════════════════════
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>{{ANUNCIO_TITULO}} · NeuroCopy Ads</title>
+<style>
+  :root{--bg:#0c1015;--panel:#141b24;--panel2:#1b2530;--cian:#00E5D0;--cian-soft:#0bb6a6;
+        --gold:#f5c451;--txt:#eaf2f2;--muted:#93a3a8;--line:#243240;--red:#e63946;--green:#16c784}
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  @page{size:A4;margin:12mm}
+  body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--txt);line-height:1.55}
+  .wrap{max-width:880px;margin:0 auto;padding:34px 26px}
+  /* Barra editor (no imprime) */
+  #barra{position:fixed;top:14px;right:14px;z-index:99999;display:flex;gap:8px;align-items:center;background:rgba(12,16,21,.94);border:1px solid var(--cian-soft);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:9px 12px;border-radius:14px;box-shadow:0 8px 30px rgba(0,0,0,.5)}
+  #barra #estado{font-size:12px;color:var(--cian);min-width:92px}
+  #barra button{font-family:inherit;font-size:13px;font-weight:600;color:var(--txt);background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:9px;padding:8px 12px;cursor:pointer}
+  #barra button:hover{background:rgba(0,229,208,.15);border-color:var(--cian)}
+  #barra button.primary{background:linear-gradient(135deg,var(--cian),var(--gold));color:#06231f;border:none}
+  /* Cabecera */
+  .tag{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;color:var(--cian);text-transform:uppercase}
+  h1{font-size:30px;font-weight:800;margin:6px 0 14px;line-height:1.15}
+  .fmt{display:inline-block;background:rgba(245,196,81,.14);color:var(--gold);border:1px solid rgba(245,196,81,.35);padding:5px 12px;border-radius:999px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}
+  /* Badge nivel consciencia ⭐ obligatorio */
+  .nivel{display:flex;gap:12px;align-items:center;background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--cian);border-radius:12px;padding:14px 18px;margin:14px 0}
+  .nivel .b{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:14px;color:var(--cian);text-transform:uppercase;white-space:nowrap}
+  .nivel .d{color:var(--muted);font-size:14px}
+  /* boxes */
+  .srcbox,.formatbox{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:12px 0}
+  .srcbox .lbl,.formatbox .lbl{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  /* dibujo del formato ⭐ */
+  .dibujo{background:var(--panel2);border:1px dashed var(--cian-soft);border-radius:16px;padding:26px;margin:20px 0;min-height:140px}
+  .dibujo .lbl{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--cian);margin-bottom:14px}
+  .dibujo .say{color:var(--cian);font-weight:600;font-size:13px}  /* "DI →" embebido */
+  /* secciones */
+  h2{font-size:20px;color:var(--cian);margin:30px 0 12px;padding-bottom:8px;border-bottom:1px dashed var(--line)}
+  /* ganchos */
+  .gancho{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:12px 0}
+  .ghead{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--gold);text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+  .pill{display:block;border-radius:10px;padding:10px 12px;margin:7px 0;font-size:14px}
+  .pa{background:rgba(184,69,255,.10);border:1px solid rgba(184,69,255,.3)} /* audio */
+  .pt{background:rgba(0,229,208,.10);border:1px solid rgba(0,229,208,.3)}  /* texto overlay */
+  .pv{background:rgba(74,163,255,.10);border:1px solid rgba(74,163,255,.3)} /* visual */
+  .pc{background:rgba(245,196,81,.08);border:1px solid rgba(245,196,81,.25)} /* contexto visual SAM */
+  .pfi{color:var(--muted);font-size:12px;font-family:'JetBrains Mono',monospace;margin-top:6px}
+  .pill .k{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;display:block;margin-bottom:3px;opacity:.8}
+  /* cuerpo palabra por palabra */
+  .body .b{background:var(--panel);border-left:3px solid var(--gold);border-radius:0 10px 10px 0;padding:12px 16px;margin:10px 0}
+  .body .ts{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--cian);margin-bottom:5px}
+  .body .vis{color:var(--muted);font-size:13px;font-style:italic;margin-top:5px}
+  /* overlays */
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+  th,td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+  th{background:var(--panel2);color:var(--cian);font-family:'JetBrains Mono',monospace;font-size:11px;text-transform:uppercase}
+  /* cta */
+  .cta{background:linear-gradient(135deg,rgba(0,229,208,.10),rgba(245,196,81,.10));border:1px solid var(--cian-soft);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .cta .lbl{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+  .foot{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+  #contenido[contenteditable="true"]:focus{outline:none}
+  @media print{#barra{display:none!important}.wrap{max-width:100%;padding:0}
+    .nivel,.gancho,.body .b,.dibujo,.srcbox,.formatbox,.cta{break-inside:avoid;page-break-inside:avoid}}
+</style>
+</head>
+<body>
+
+<div id="barra">
+  <span id="estado">Listo para editar</span>
+  <button class="primary" onclick="window.print()">📄 Guardar PDF</button>
+  <button onclick="descargar()">⬇️ Descargar copia</button>
+  <button onclick="restablecer()">↺ Restablecer</button>
+</div>
+
+<div class="wrap" id="contenido" contenteditable="true" spellcheck="false">
+
+  <!-- 1 · CABECERA -->
+  <div class="tag">ANUNCIO {{N}} · NEUROCOPY</div>
+  <span class="fmt">{{FORMATO_BADGE}}</span>
+  <h1>{{ANUNCIO_TITULO}}</h1>
+
+  <!-- 2 · ⭐ BADGE NIVEL DE CONSCIENCIA (obligatorio) -->
+  <div class="nivel">
+    <span class="b">{{NIVEL}} ({{NIVEL_NUM}})</span>
+    <span class="d">{{NIVEL_TACTICA}}</span>
+  </div>
+
+  <!-- 3 · SRCBOX (de qué ÁNGULO sale) -->
+  <div class="srcbox">
+    <div class="lbl">Ángulo</div>
+    <strong>{{ANGULO_NOMBRE}}</strong> · Tipo de persona: {{ANGULO_PERSONA}} · Cree: "{{ANGULO_CREENCIA}}" · Cómo lo rompemos: {{ANGULO_COMO_ROMPE}}
+  </div>
+
+  <!-- 4 · FORMATBOX -->
+  <div class="formatbox">
+    <div class="lbl">Formato · cómo se ve</div>
+    {{FORMATO_DESCRIPCION}}
+  </div>
+
+  <!-- 5 · ⭐ EL DIBUJO DEL FORMATO (HTML/SVG que el editor recrea) -->
+  <div class="dibujo">
+    <div class="lbl">⭐ El dibujo del formato</div>
+    {{DIBUJO_FORMATO_HTML}}
+    <!-- ej. escalera/ticket/etiqueta/monitor ECG/alineación fútbol/organigrama/cajetilla pregunta IG.
+         Si es lista/escalera/ranking, embebe en cada elemento: <span class="say">DI → "…"</span> -->
+  </div>
+
+  <!-- 6 · LOS 4 GANCHOS (regla del avatar: avatar en UNA capa, la otra curiosidad+asunto viral) -->
+  <h2>Los 4 ganchos (HOOKS · 0-3s)</h2>
+
+  <div class="gancho">
+    <div class="ghead">Gancho 1 · {{G1_TIPO}}</div>
+    <span class="pill pv"><span class="k">Visual</span>{{G1_VISUAL}}</span>
+    <span class="pill pa"><span class="k">Audio</span>"{{G1_AUDIO}}"</span>
+    <span class="pill pt"><span class="k">Texto overlay</span>{{G1_OVERLAY}}</span>
+    <span class="pill pc"><span class="k">Contexto visual (SAM)</span>{{G1_CONTEXTO}}</span>
+    <div class="pfi">Asunto viral: {{G1_ASUNTO}} · Estructura: {{G1_ESTRUCTURA}} · Gatillos: {{G1_GATILLOS}}</div>
+  </div>
+
+  <div class="gancho">
+    <div class="ghead">Gancho 2 · {{G2_TIPO}}</div>
+    <span class="pill pv"><span class="k">Visual</span>{{G2_VISUAL}}</span>
+    <span class="pill pa"><span class="k">Audio</span>"{{G2_AUDIO}}"</span>
+    <span class="pill pt"><span class="k">Texto overlay</span>{{G2_OVERLAY}}</span>
+    <span class="pill pc"><span class="k">Contexto visual (SAM)</span>{{G2_CONTEXTO}}</span>
+    <div class="pfi">Asunto viral: {{G2_ASUNTO}} · Estructura: {{G2_ESTRUCTURA}} · Gatillos: {{G2_GATILLOS}}</div>
+  </div>
+
+  <div class="gancho">
+    <div class="ghead">Gancho 3 · {{G3_TIPO}}</div>
+    <span class="pill pv"><span class="k">Visual</span>{{G3_VISUAL}}</span>
+    <span class="pill pa"><span class="k">Audio</span>"{{G3_AUDIO}}"</span>
+    <span class="pill pt"><span class="k">Texto overlay</span>{{G3_OVERLAY}}</span>
+    <span class="pill pc"><span class="k">Contexto visual (SAM)</span>{{G3_CONTEXTO}}</span>
+    <div class="pfi">Asunto viral: {{G3_ASUNTO}} · Estructura: {{G3_ESTRUCTURA}} · Gatillos: {{G3_GATILLOS}}</div>
+  </div>
+
+  <div class="gancho">
+    <div class="ghead">Gancho 4 · {{G4_TIPO}}</div>
+    <span class="pill pv"><span class="k">Visual</span>{{G4_VISUAL}}</span>
+    <span class="pill pa"><span class="k">Audio</span>"{{G4_AUDIO}}"</span>
+    <span class="pill pt"><span class="k">Texto overlay</span>{{G4_OVERLAY}}</span>
+    <span class="pill pc"><span class="k">Contexto visual (SAM)</span>{{G4_CONTEXTO}}</span>
+    <div class="pfi">Asunto viral: {{G4_ASUNTO}} · Estructura: {{G4_ESTRUCTURA}} · Gatillos: {{G4_GATILLOS}}</div>
+  </div>
+
+  <!-- 7 · ⭐ CUERPO palabra por palabra (común a los 4 ganchos) -->
+  <h2>⭐ Cuerpo · lo que dices (palabra por palabra)</h2>
+  <div class="body">
+    <div class="b"><div class="ts">⏱️ {{B1_TS}}</div>"{{B1_AUDIO}}"<div class="vis">Visual: {{B1_VISUAL}}</div></div>
+    <div class="b"><div class="ts">⏱️ {{B2_TS}}</div>"{{B2_AUDIO}}"<div class="vis">Visual: {{B2_VISUAL}}</div></div>
+    <div class="b"><div class="ts">⏱️ {{B3_TS}}</div>"{{B3_AUDIO}}"<div class="vis">Visual: {{B3_VISUAL}}</div></div>
+    <!-- … tantos beats como haga falta, NUNCA resumido … -->
+  </div>
+
+  <!-- 8 · OVERLAYS -->
+  <h2>Overlays</h2>
+  <table>
+    <thead><tr><th>Segundo</th><th>Texto en pantalla</th></tr></thead>
+    <tbody>
+      <tr><td>{{OV1_SEG}}</td><td>{{OV1_TXT}}</td></tr>
+      <tr><td>{{OV2_SEG}}</td><td>{{OV2_TXT}}</td></tr>
+    </tbody>
+  </table>
+
+  <!-- 9 · CTA exacto (solo aquí) -->
+  <div class="cta">
+    <div class="lbl">CTA</div>
+    {{CTA_TEXTO}}
+  </div>
+
+  <!-- 10 · FOOT -->
+  <div class="foot">
+    NeuroCopy Ads Master · Joseph Moreno · {{FECHA}}<br>
+    Imágenes → skill neurocopy-image-ads-master
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var cont=document.getElementById('contenido'),estado=document.getElementById('estado');
+  var KEY='neurocopy_ad_'+location.pathname, ORIGINAL=cont.innerHTML;
+  try{if(localStorage.getItem(KEY)){cont.innerHTML=localStorage.getItem(KEY);estado.textContent='Cambios guardados ✓';}}catch(e){}
+  var t;cont.addEventListener('input',function(){estado.textContent='Guardando…';clearTimeout(t);
+    t=setTimeout(function(){try{localStorage.setItem(KEY,cont.innerHTML);estado.textContent='Guardado ✓';}catch(e){estado.textContent='Ábrelo en el navegador para guardar';}},500);});
+  window.restablecer=function(){if(!confirm('¿Volver al original?'))return;try{localStorage.removeItem(KEY);}catch(e){}cont.innerHTML=ORIGINAL;estado.textContent='Restablecido';};
+  window.descargar=function(){var h='<!DOCTYPE html>\n'+document.documentElement.outerHTML;var b=new Blob([h],{type:'text/html'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=(document.title||'anuncio-neurocopy')+'.html';a.click();};
+})();
+</script>
+</body>
+</html>

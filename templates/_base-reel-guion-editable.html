@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>{{REEL_TITULO}} · Zenith Audience™</title>
+<style>
+  @page { size: A4; margin: 12mm; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  /* ── Barra editor (no se imprime) ── */
+  #barra {
+    position: fixed; top: 14px; right: 14px; z-index: 99999;
+    display: flex; gap: 8px; align-items: center;
+    background: rgba(5,5,16,.92); border: 1px solid rgba(0,229,207,.35);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    padding: 9px 12px; border-radius: 14px; box-shadow: 0 8px 30px rgba(0,0,0,.5);
+    font-family: 'Inter', -apple-system, sans-serif;
+  }
+  #barra #estado { font-size: 12px; color: #00E5CF; margin-right: 4px; min-width: 92px; }
+  #barra button {
+    font-family: inherit; font-size: 13px; font-weight: 600; color: #e6e8ee;
+    background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.14);
+    border-radius: 9px; padding: 8px 12px; cursor: pointer; transition: .15s;
+  }
+  #barra button:hover { background: rgba(0,229,207,.15); border-color: #00E5CF; }
+  #barra button.primary { background: linear-gradient(135deg,#00E5CF,#B845FF); color: #050510; border: none; }
+  #contenido[contenteditable="true"]:focus { outline: none; }
+  #contenido[contenteditable="true"] :hover { outline: 1px dashed rgba(0,229,207,.18); outline-offset: 2px; }
+  html, body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #050510;
+    color: #e6e8ee;
+    line-height: 1.6;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  .page {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 60px 50px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border-bottom: 1px solid rgba(0,229,207,.18);
+    padding-bottom: 28px;
+    margin-bottom: 40px;
+  }
+  .logo {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, #00E5CF 0%, #B845FF 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    color: #050510;
+    font-size: 26px;
+  }
+  .brand-text h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 28px;
+    background: linear-gradient(90deg, #00E5CF, #B845FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+  }
+  .brand-text p {
+    color: #8089a0;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+  h2.section {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 26px;
+    color: #00E5CF;
+    margin: 40px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgba(0,229,207,.25);
+  }
+  h3 {
+    font-size: 18px;
+    color: #B845FF;
+    margin: 22px 0 10px;
+    font-weight: 600;
+  }
+  p { margin-bottom: 14px; color: #cfd4e3; }
+  .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 18px 0 28px;
+  }
+  .meta-item {
+    background: rgba(0,229,207,.06);
+    border: 1px solid rgba(0,229,207,.18);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .meta-item .label {
+    color: #8089a0;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+  .meta-item .value {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .headline-card {
+    background: linear-gradient(135deg, rgba(0,229,207,.08), rgba(184,69,255,.08));
+    border: 1px solid rgba(0,229,207,.25);
+    border-left: 4px solid #00E5CF;
+    border-radius: 14px;
+    padding: 24px;
+    margin: 16px 0;
+  }
+  .headline-card .type {
+    color: #B845FF;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .headline-card .text {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.4;
+  }
+  .script-block {
+    background: rgba(255,255,255,.03);
+    border-left: 3px solid #B845FF;
+    padding: 16px 20px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+  }
+  .script-block .timing {
+    color: #00E5CF;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .script-block .text {
+    font-size: 17px;
+    color: #fff;
+    line-height: 1.5;
+  }
+  .script-block .notes {
+    color: #8089a0;
+    font-size: 13px;
+    margin-top: 8px;
+    font-style: italic;
+  }
+  ul.list, ol.list {
+    padding-left: 22px;
+    margin: 12px 0;
+  }
+  ul.list li, ol.list li {
+    margin-bottom: 8px;
+    color: #cfd4e3;
+  }
+  .checklist {
+    background: rgba(184,69,255,.06);
+    border: 1px solid rgba(184,69,255,.2);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 20px 0;
+  }
+  .checklist li {
+    list-style: none;
+    padding-left: 28px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .checklist li::before {
+    content: "☐";
+    position: absolute;
+    left: 0;
+    color: #00E5CF;
+    font-size: 18px;
+  }
+  .why-box {
+    background: linear-gradient(135deg, rgba(0,229,207,.05), rgba(184,69,255,.05));
+    border: 1px solid rgba(184,69,255,.25);
+    border-radius: 14px;
+    padding: 24px;
+    margin: 28px 0;
+  }
+  .why-box h3 {
+    color: #00E5CF;
+    margin-top: 0;
+  }
+  .footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(0,229,207,.15);
+    color: #6b7588;
+    font-size: 12px;
+    text-align: center;
+  }
+  .badge {
+    display: inline-block;
+    background: rgba(0,229,207,.15);
+    color: #00E5CF;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-right: 6px;
+  }
+  @media print {
+    body { background: white; color: #1a1a2e; }
+    .page { padding: 0; max-width: 100%; }
+    .brand-text h1 { color: #050510; -webkit-text-fill-color: #050510; }
+    h2.section, h3 { color: #1a1a2e; }
+    p, .text { color: #2a2a3e; }
+    #barra { display: none !important; }
+    .headline-card, .script-block, .meta-item, .why-box, .checklist, .brand { break-inside: avoid; page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div id="barra">
+  <span id="estado">Listo para editar</span>
+  <button class="primary" onclick="window.print()">📄 Guardar PDF</button>
+  <button onclick="descargar()">⬇️ Descargar copia</button>
+  <button onclick="restablecer()">↺ Restablecer</button>
+</div>
+
+<div class="page" id="contenido" contenteditable="true" spellcheck="false">
+
+  <div class="brand">
+    <div class="logo">Z</div>
+    <div class="brand-text">
+      <h1>Zenith Audience™</h1>
+      <p>Reel Guion · {{FECHA}}</p>
+    </div>
+  </div>
+
+  <h2 class="section">{{REEL_TITULO}}</h2>
+
+  <div class="meta-grid">
+    <div class="meta-item">
+      <div class="label">Template</div>
+      <div class="value">{{TEMPLATE}}</div>
+    </div>
+    <div class="meta-item">
+      <div class="label">Familia</div>
+      <div class="value">{{FAMILIA}}</div>
+    </div>
+    <div class="meta-item">
+      <div class="label">Gatilhos dominantes</div>
+      <div class="value">{{GATILHOS}}</div>
+    </div>
+    <div class="meta-item">
+      <div class="label">Duración</div>
+      <div class="value">{{DURACION}}s</div>
+    </div>
+  </div>
+
+  <h2 class="section">⭐ Los 4 Ganchos Óptimos</h2>
+  <p style="color:#8089a0; font-size:14px; margin-bottom:20px;">
+    Para este reel · estos son los 4 ganchos mejores · cada uno con su verbal + textual. Graba el cuerpo del reel 1 sola vez y los 4 ganchos por separado.
+  </p>
+
+  <div class="headline-card">
+    <div class="type">🔴 Gancho A · {{GANCHO_A_TIPO}}</div>
+    <div class="text"><strong>VERBAL (audio):</strong> "{{GANCHO_A_VERBAL}}"</div>
+    <div class="text" style="margin-top:8px;"><strong>TEXTUAL (overlay):</strong> {{GANCHO_A_TEXTUAL}}</div>
+    <div class="notes" style="margin-top:8px;">Visual primer frame: {{GANCHO_A_VISUAL}} · Por qué óptimo: {{GANCHO_A_POR_QUE}}</div>
+  </div>
+
+  <div class="headline-card">
+    <div class="type">🟢 Gancho B · {{GANCHO_B_TIPO}}</div>
+    <div class="text"><strong>VERBAL (audio):</strong> "{{GANCHO_B_VERBAL}}"</div>
+    <div class="text" style="margin-top:8px;"><strong>TEXTUAL (overlay):</strong> {{GANCHO_B_TEXTUAL}}</div>
+    <div class="notes" style="margin-top:8px;">Visual primer frame: {{GANCHO_B_VISUAL}} · Por qué óptimo: {{GANCHO_B_POR_QUE}}</div>
+  </div>
+
+  <div class="headline-card">
+    <div class="type">🟡 Gancho C · {{GANCHO_C_TIPO}}</div>
+    <div class="text"><strong>VERBAL (audio):</strong> "{{GANCHO_C_VERBAL}}"</div>
+    <div class="text" style="margin-top:8px;"><strong>TEXTUAL (overlay):</strong> {{GANCHO_C_TEXTUAL}}</div>
+    <div class="notes" style="margin-top:8px;">Visual primer frame: {{GANCHO_C_VISUAL}} · Por qué óptimo: {{GANCHO_C_POR_QUE}}</div>
+  </div>
+
+  <div class="headline-card">
+    <div class="type">🟣 Gancho D · {{GANCHO_D_TIPO}}</div>
+    <div class="text"><strong>VERBAL (audio):</strong> "{{GANCHO_D_VERBAL}}"</div>
+    <div class="text" style="margin-top:8px;"><strong>TEXTUAL (overlay):</strong> {{GANCHO_D_TEXTUAL}}</div>
+    <div class="notes" style="margin-top:8px;">Visual primer frame: {{GANCHO_D_VISUAL}} · Por qué óptimo: {{GANCHO_D_POR_QUE}}</div>
+  </div>
+
+  <div class="why-box" style="margin-top:20px;">
+    <h3>🏆 Orden recomendado para testing A/B/C/D</h3>
+    <p>{{ORDEN_RECOMENDADO}}</p>
+  </div>
+
+  <h2 class="section">Cuerpo del Reel (común a los 4 ganchos)</h2>
+
+  <h3>Hook · 0-3s (intercambiable con los 4 ganchos)</h3>
+  <div class="script-block">
+    <div class="timing">⏱️ 0.0s → 3.0s</div>
+    <div class="text">Cualquiera de los 4 ganchos (ver arriba)</div>
+    <div class="notes">{{HOOK_NOTAS}}</div>
+  </div>
+
+  <h3>Desarrollo · 3-50s</h3>
+  <div class="script-block">
+    <div class="timing">⏱️ 3.0s → 15.0s</div>
+    <div class="text">"{{DESARROLLO_1}}"</div>
+    <div class="notes">{{DESARROLLO_1_NOTAS}}</div>
+  </div>
+  <div class="script-block">
+    <div class="timing">⏱️ 15.0s → 30.0s</div>
+    <div class="text">"{{DESARROLLO_2}}"</div>
+    <div class="notes">{{DESARROLLO_2_NOTAS}}</div>
+  </div>
+  <div class="script-block">
+    <div class="timing">⏱️ 30.0s → 50.0s</div>
+    <div class="text">"{{DESARROLLO_3}}"</div>
+    <div class="notes">{{DESARROLLO_3_NOTAS}}</div>
+  </div>
+
+  <h3>CTA · 50-60s</h3>
+  <div class="script-block">
+    <div class="timing">⏱️ 50.0s → 60.0s</div>
+    <div class="text">"{{CTA_TEXTO}}"</div>
+    <div class="notes">{{CTA_NOTAS}}</div>
+  </div>
+
+  <h2 class="section">Producción</h2>
+  <ul class="list">
+    <li><strong>B-roll:</strong> {{BROLL}}</li>
+    <li><strong>Música/audio:</strong> {{MUSICA}}</li>
+    <li><strong>Iluminación:</strong> {{ILUMINACION}}</li>
+    <li><strong>Vestuario:</strong> {{VESTUARIO}}</li>
+  </ul>
+
+  <h2 class="section">Distribución</h2>
+  <p><strong>Copy del post:</strong></p>
+  <div class="script-block">
+    <div class="text">{{COPY_POST}}</div>
+  </div>
+  <p><strong>Hashtags:</strong> {{HASHTAGS}}</p>
+  <p><strong>Mejor momento:</strong> {{MEJOR_MOMENTO}}</p>
+
+  <div class="why-box">
+    <h3>Por qué funcionará</h3>
+    <p>{{POR_QUE_FUNCIONA}}</p>
+    <p><strong>En qué se basa:</strong> {{BASE_TEORICA}}</p>
+    <p><strong>Métricas esperadas:</strong> {{METRICAS_ESPERADAS}}</p>
+  </div>
+
+  <div class="checklist">
+    <h3 style="margin-top:0;">Checklist antes de grabar</h3>
+    <li>Hook engancha en menos de 3 segundos</li>
+    <li>Los 3 headlines alineados al mismo gatilho</li>
+    <li>Desarrollo tiene stacking · no plano</li>
+    <li>CTA específico · no vago</li>
+    <li>B-roll listado · no improvisar</li>
+    <li>Música elegida y descargada</li>
+    <li>Copy y hashtags preparados</li>
+    <li>Cámara cargada · lente limpia</li>
+  </div>
+
+  <div class="footer">
+    Generado por <strong>Zenith Audience™</strong> · Joseph Moreno<br>
+    Basado en el Método Audience de Elias Mamã · {{FECHA_COMPLETA}}
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var cont = document.getElementById('contenido');
+  var estado = document.getElementById('estado');
+  var KEY = 'zenith_reel_' + location.pathname;     // clave única por archivo
+  var ORIGINAL = cont.innerHTML;                      // copia limpia para "Restablecer"
+  try { if (localStorage.getItem(KEY)) { cont.innerHTML = localStorage.getItem(KEY); estado.textContent = 'Cambios guardados ✓'; } } catch(e){}
+  var t;
+  cont.addEventListener('input', function(){
+    estado.textContent = 'Guardando…'; clearTimeout(t);
+    t = setTimeout(function(){
+      try { localStorage.setItem(KEY, cont.innerHTML); estado.textContent = 'Guardado ✓'; }
+      catch(e){ estado.textContent = 'Ábrelo en el navegador para guardar'; }
+    }, 500);
+  });
+  window.restablecer = function(){ if(!confirm('¿Volver al original?')) return; try{ localStorage.removeItem(KEY); }catch(e){} cont.innerHTML = ORIGINAL; estado.textContent = 'Restablecido'; };
+  window.descargar = function(){ var h = '<!DOCTYPE html>\n' + document.documentElement.outerHTML; var b = new Blob([h], {type:'text/html'}); var a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = (document.title || 'reel-zenith') + '.html'; a.click(); };
+})();
+</script>
+
+</body>
+</html>

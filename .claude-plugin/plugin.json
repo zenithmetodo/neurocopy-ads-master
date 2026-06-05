@@ -1,0 +1,20 @@
+{
+  "name": "neurocopy-ads-master",
+  "version": "1.0.0",
+  "description": "Sistema TOP 1% para crear ANUNCIOS de vídeo (guiones) por ÁNGULO · Meta/TikTok/YouTube. Orquesta 11 sub-agentes: intake/avatar, ángulos (definición exacta Zenith Crea Ofertas), anuncios-architect (5 anuncios por ángulo), hooks (9 tipos + 4 palancas + REGLA OBLIGATORIA del avatar audio↔overlay), formato-master (70+ formatos + banco Zenith + EL DIBUJO del formato en HTML/SVG + inventar), headline 3 tipos (verbal/visual/audio + ficha técnica), asuntos virales + estructuras, niveles de consciencia (Schwartz · qué formato encaja con cada nivel), objeciones. Entrega por carpetas (00-avatar · 01-angulos · 02-anuncios-por-angulo) en HTML doc-guion editable + PDF + .md + .docx. 4 ganchos por anuncio · cuerpo palabra por palabra. Imágenes delegadas a neurocopy-image-ads-master. Joseph Moreno · Zenith.",
+  "author": {
+    "name": "Joseph Moreno",
+    "url": "https://github.com/zenithmetodo",
+    "email": "impactodigitalformacionbrasil@gmail.com"
+  },
+  "homepage": "https://github.com/zenithmetodo/neurocopy-ads-master",
+  "repository": "https://github.com/zenithmetodo/neurocopy-ads-master",
+  "license": "MIT",
+  "keywords": [
+    "neurocopy", "ads", "meta-ads", "tiktok-ads", "creative-strategy", "hooks",
+    "angulos", "niveles-consciencia", "schwartz", "guiones-anuncios", "video-ads",
+    "andromeda", "asuntos-virales", "headlines", "formatos", "zenith", "joseph-moreno"
+  ],
+  "categories": ["marketing", "advertising", "copywriting", "content-creation"],
+  "claude-code": { "minimum-version": "1.0.0" }
+}
