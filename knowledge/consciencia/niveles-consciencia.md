@@ -2,6 +2,10 @@
 
 > ⚠️ REGLA INNEGOCIABLE: `formato-master` SIEMPRE trabaja cada formato con CREATIVIDAD por NIVEL DE CONSCIENCIA. Un mismo formato (ranking, pirámide, tier list…) cambia de hook, de overlay, de cuerpo y de CTA según el nivel de consciencia del avatar. Nunca se entrega un formato "plano" sin decir a qué nivel apunta y cómo se adapta.
 
+> 🔴🔴 **REGLA DE ORO · FORMATOS = MENÚ ABIERTO, NUNCA UNO.** Cada vez que en este archivo (o en cualquier agente) leas "**Formatos que encajan**" / "**Formatos que pegan**", entiéndelo como **EJEMPLOS para inspirarte, JAMÁS como una lista cerrada**. La obligación es **explorar MUCHÍSIMOS formatos distintos** (los 70+ del master + el banco Zenith + **inventar nuevos** fuera de la caja) y **NUNCA ceñirse a uno**. Entre los 5 anuncios de un ángulo → **5 dibujos distintos** (no repetir). Para llenar el banco → lateraliza con `variantes-master` (`/ads-variantes`): mismo ángulo × estructura × formato × nivel = decenas de versiones. Quedarse con un solo formato es un ERROR de proceso.
+
+> 🟢 **ESTRUCTURAS DE GUION (el cuerpo).** Cada nivel tiene **estructuras de guion** desarrolladas beat a beat (incluido el **HARD SELL**) en **`knowledge/consciencia/estructuras-guion-por-nivel.md`**. El cuerpo de cada anuncio se escribe eligiendo una estructura de su nivel y **mejorándola**. Quien lo ejecuta: `guion-body-master` (`/ads-guion`).
+
 ---
 
 ## Por qué es obligatorio
@@ -100,7 +104,7 @@ El nivel de consciencia **NO decide el CTA**. El destino y la fuerza del CTA los
 ### NIVEL ALTO (5) → ROMPER OBJECIONES + PRUEBA + EMPUJÓN
 - **De qué se habla:** **ROMPER OBJECIONES** (precio, tiempo, miedo a equivocarse otra vez), **PRUEBA SOCIAL definitiva**, y **el MECANISMO usado para romper la objeción**.
 - **También con FORMATOS potentes** (no solo demos): ej. un **ranking** de *"las excusas que más se dicen para no [resultado] — y por qué cada una es mentira"*, o un tier de objeciones que vas tumbando, demo del mecanismo, antes/después con casos, monitor ECG, sirve/no-sirve. Se rompe la objeción **de mil maneras** — lo decide el experto en formatos.
-- **Estructuras:** Prueba social definitiva · Desmontador del precio ("no es caro; caro es seguir igual") · Desmontador del tiempo · sesgos cognitivos.
+- **Estructuras (desarrolladas en `estructuras-guion-por-nivel.md` · A1-A5):** **HARD SELL** (cierre directo: promesa→prueba→mecanismo→oferta→romper 3 objeciones→urgencia real→CTA repetido) · Prueba social definitiva (caso real) · Desmontador de objeción ("no es caro; caro es seguir igual" · tiempo · miedo) · Sirve/no-sirve · Oferta+razón+urgencia.
 
 ### 🔑 Dónde vive EL MECANISMO
 El **mecanismo único** es palanca de **MEDIO** (diferenciarte) **y de ALTO** (romper la última objeción demostrando POR QUÉ funciona). En BAJO casi no aparece (se despierta, no se explica). Se vehicula con formatos potentes.

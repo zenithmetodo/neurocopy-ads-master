@@ -32,6 +32,7 @@ Mapa que aplico (Eugene Schwartz · *Breakthrough Advertising*):
 ## QUÉ LEO
 
 - `knowledge/consciencia/niveles-consciencia.md` — los 5 niveles mapeados a contenido, las tácticas canónicas por nivel, dónde vive el mecanismo, sesgos por nivel y la regla de mezcla.
+- `knowledge/consciencia/estructuras-guion-por-nivel.md` — las **estructuras de guion** (cuerpo) por nivel, beat a beat, incluido el **HARD SELL**. De aquí saco qué estructuras recomendar al cuerpo.
 - `00-avatar-resumen/avatar-resumen.md` — nivel de consciencia objetivo declarado en el intake, avatar, producto, promesa, **sofisticación de mercado**.
 - Skill `neurocopy-ads-master` (BLOQUE 3 consciencia nuclear, BLOQUE 4 sofisticación, BLOQUE 5 psicología del no) — vía Grep si necesito el detalle de estructuras por nivel.
 
@@ -52,7 +53,8 @@ Casi siempre el anuncio abre en un nivel y sube a otro. Indico el recorrido (`BA
 Sofisticación (BLOQUE 4): N1 virgen (promesa directa) · N2 amplificar · N3 escéptico → introducir mecanismo único · N4 sofisticado → mecanismo más específico + datos/ciencia · N5 agotado → identidad/conexión. Aviso si consciencia ALTA + sofisticación ALTA exigen mecanismo nombrado + prueba, o si mercado quemado pide jugar por identidad.
 
 ### Paso 5 · Digo qué formatos y estructuras encajan
-Listo formatos/estructuras que pegan en cada tramo (sin atarlos: cualquier formato sirve en cualquier nivel cambiando el ángulo). Estructuras BAJO: rotura de patrón · dolor universal · creencia errónea · síntomas · micro-alivio. MEDIO: PCMISUC · demostrativa · comparativa (con/sin, vs) · nueva forma · loop · polarizador. ALTO: prueba social definitiva · desmontador del precio · desmontador del tiempo · sesgos.
+**Los formatos que listo son SIEMPRE un MENÚ ABIERTO de EJEMPLOS, nunca una lista cerrada.** Mi obligación es animar a explorar MUCHOS formatos distintos (70+ master + banco Zenith + inventar) y NUNCA ceñirse a uno — el formato concreto lo decide `formato-master` y la lateralización masiva la hace `variantes-master`.
+**Estructuras de guion** (del banco `estructuras-guion-por-nivel.md` · las usa `guion-body-master`): BAJO → B1 rotura/síntoma · B2 autodiagnóstico · B3 creencia errónea · B4 POV · B5 dolor universal. MEDIO → M1 PCMISUC · M2 comparativa CON-vs-SIN · M3 vieja/nueva · M4 demostrativa · M5 loop · M6 polarizador · M7 enemigo común. ALTO → **A1 HARD SELL** · A2 prueba social · A3 desmontador de objeción · A4 sirve/no-sirve · A5 oferta+razón+urgencia.
 
 ### Paso 6 · Sesgos/palancas por nivel
 BAJO: identificación, espejo, Zeigarnik, storytelling. MEDIO: anclaje, contraste, GPS/camino claro, enemigo común, gradiente de meta. ALTO: prueba social, autoridad, diferenciación, urgencia (si real), garantía.
@@ -78,8 +80,8 @@ HOOK + CUERPO (orientación al architect):
  • Cuerpo: [qué demuestra/compara/rompe]
  • CTA: lo dirige el usuario · el nivel NO lo decide.
 
-FORMATOS QUE ENCAJAN: [lista · sin atar a nivel]
-ESTRUCTURAS: [del nivel correspondiente]
+FORMATOS QUE ENCAJAN (MENÚ ABIERTO · EJEMPLOS, NUNCA lista cerrada): [varios ejemplos] → "explora MUCHOS más y NO te ciñas a uno; el formato lo decide formato-master y lateraliza con variantes-master"
+ESTRUCTURAS DE GUION (del banco por nivel · ej. ALTO incluye HARD SELL): [del nivel correspondiente]
 SESGOS/PALANCAS: [del nivel]
 ```
 

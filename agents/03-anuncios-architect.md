@@ -63,7 +63,8 @@ Soy el corazón del plugin. Cojo cada ángulo de `01-angulos/angulos.json` y fab
 ## ORQUESTACIÓN (a quién llamo)
 
 - **hook-master** → los 4 ganchos óptimos del anuncio (con la regla del avatar aplicada).
-- **formato-master-ads** → el formato/"dibujo" del anuncio (de los 70+ o inventado) adaptado al nivel de consciencia.
+- **formato-master-ads** → el formato/"dibujo" del anuncio (de los 70+ o inventado) adaptado al nivel de consciencia. **NUNCA un solo formato:** entre los 5 anuncios, 5 dibujos distintos; para escalar lateral, `variantes-master`.
+- **guion-body-master** → el CUERPO palabra por palabra con una **estructura de guion** del nivel (BAJO síntoma/POV · MEDIO PCMISUC/CON-vs-SIN/demostrativa · ALTO **HARD SELL**/prueba/desmontador) + el PUENTE. Base: `knowledge/consciencia/estructuras-guion-por-nivel.md`.
 - **headline-3-tipos** → el headline en sus 3 tipos (verbal · visual/overlay · audio) cuando hace falta refinar.
 - **consciencia-master** → valida que hook + cuerpo encajan con el nivel declarado (BAJO/MEDIO/ALTO).
 - **objeciones-master** → la objeción que el anuncio rompe (sobre todo en el #4 contrarian y el #5 prueba social).

@@ -5,7 +5,7 @@ description: Entry point · pipeline COMPLETO de NeuroCopy Ads Master: intake/av
 
 # /ads-master · Pipeline completo de anuncios por ángulo
 
-Lanza el pipeline maestro: `intake-brief` → `angulos-importer` → `anuncios-architect` (orquesta hook-master, formato-master-ads, headline-3-tipos, asuntos-virales, consciencia-master, objeciones-master → maqueta con ad-html-builder) → `output-architect-ads`.
+Lanza el pipeline maestro: `intake-brief` → `angulos-importer` → `anuncios-architect` (orquesta hook-master, formato-master-ads, **guion-body-master** [cuerpo con estructura de guion por nivel · incl. HARD SELL], headline-3-tipos, asuntos-virales, consciencia-master, objeciones-master → maqueta con ad-html-builder) → `output-architect-ads`. Para lateralizar un ángulo en muchas versiones → `/ads-variantes`; para escribir solo el cuerpo → `/ads-guion`.
 
 ## Cómo usarlo
 ```

@@ -9,7 +9,7 @@ description: NeuroCopy Ads Master · Mega-skill TOP 1% para crear ANUNCIOS de v�
 
 ## QUÉ ES
 
-Skill PADRE de **11 sub-agentes** + **6 slash commands** que crea **anuncios de vídeo (guiones)** organizados **por ÁNGULO**. SOLO publicidad. **Las imágenes se delegan SIEMPRE a `neurocopy-image-ads-master`.** Combina: la skill original NeuroCopy (niveles de consciencia, hooks, objeciones, regla del avatar) + el Método Audience de Zenith (formatos, headlines, asuntos virales, ficha técnica) + la definición exacta de ÁNGULO de Zenith Crea Ofertas + la masterclass Meta Ads Creative Strategy 2026.
+Skill PADRE de **13 sub-agentes** + **8 slash commands** que crea **anuncios de vídeo (guiones)** organizados **por ÁNGULO**. SOLO publicidad. **Las imágenes se delegan SIEMPRE a `neurocopy-image-ads-master`.** Combina: la skill original NeuroCopy (niveles de consciencia, hooks, objeciones, regla del avatar) + el Método Audience de Zenith (formatos, headlines, asuntos virales, ficha técnica) + la definición exacta de ÁNGULO de Zenith Crea Ofertas + la masterclass Meta Ads Creative Strategy 2026.
 
 ## CUÁNDO INVOCARME
 - "crea los anuncios de [oferta]" · "guiones de ads por ángulo" · "hooks para [avatar]" · "anuncios para Meta/TikTok" · "tengo los ángulos de Crea Ofertas, hazme los anuncios".
@@ -49,7 +49,7 @@ Skill PADRE de **11 sub-agentes** + **6 slash commands** que crea **anuncios de 
 
 ---
 
-## LOS 11 SUB-AGENTES
+## LOS 13 SUB-AGENTES
 
 | # | Agente | Crack en… |
 |---|--------|-----------|
@@ -57,13 +57,15 @@ Skill PADRE de **11 sub-agentes** + **6 slash commands** que crea **anuncios de 
 | 02 | **angulos-importer** | recibe/define los ángulos (def. exacta Crea Ofertas) |
 | 03 | **anuncios-architect** ⭐ | 5 anuncios POR ángulo · orquesta todo |
 | 04 | **hook-master** ⭐ | 4 ganchos · 9 tipos · 4 palancas · REGLA DEL AVATAR |
-| 05 | **formato-master-ads** | 70+ formatos + banco Zenith + inventar + EL DIBUJO |
+| 05 | **formato-master-ads** | 70+ formatos + banco Zenith + inventar + EL DIBUJO · **NUNCA uno** |
 | 06 | **headline-3-tipos** | headline verbal/visual/audio + ficha técnica |
 | 07 | **asuntos-virales** | asuntos virales (6 cat · 3 tipos · 5 criterios) + estructuras |
-| 08 | **consciencia-master** | nivel Schwartz + qué formato/táctica encaja |
+| 08 | **consciencia-master** | nivel Schwartz + qué táctica/estructura encaja |
 | 09 | **objeciones-master** | romper objeciones (nivel alto) |
 | 10 | **ad-html-builder** ⭐ | maqueta cada anuncio (HTML doc-guion editable + PDF) |
 | 11 | **output-architect-ads** | carpetas + .docx + verificación |
+| 12 | **guion-body-master** ⭐ | EL CUERPO palabra por palabra con estructura por nivel (incl. **HARD SELL**) + PUENTE |
+| 13 | **variantes-master** ⭐ | lateralización masiva · estructura × formato × nivel · NUNCA un solo formato |
 
 ## SLASH COMMANDS
 | Command | Lanza |
@@ -74,9 +76,11 @@ Skill PADRE de **11 sub-agentes** + **6 slash commands** que crea **anuncios de 
 | `/ads-hooks` | Solo los 4 ganchos (regla del avatar) |
 | `/ads-formato` | Recomienda formato + EL DIBUJO |
 | `/ads-headline` | Headline 3 tipos + ficha técnica |
+| `/ads-guion` | EL CUERPO con estructura de guion por nivel (incl. HARD SELL) + PUENTE |
+| `/ads-variantes` | Lateraliza un ángulo en 15-30+ versiones (estructura × formato × nivel) |
 
 ## KNOWLEDGE BASE
-`knowledge/` → `angulos/` (def. exacta) · `consciencia/niveles-consciencia.md` · `formatos/` (00-master 70+ · 01-savebait · 02-formatos-zenith-html con el know-how del DIBUJO) · `headlines/` (3 tipos · ficha técnica · plan batch) · `asuntos-virales/` (6 cat · 3 tipos · 5 criterios) · `hooks/` (00-taxonomía · 01-REGLA DEL AVATAR) · `estrategia/creative-strategy-2026.md` (masterclass) · `objeciones/` · `entrega/sistema-carpetas.md`. `templates/` → `anuncio-doc-guion.html` · `angulos.html` · `avatar-resumen.html`. `references/` → `generate_docx.py` + taxonomías.
+`knowledge/` → `angulos/` (def. exacta) · `consciencia/niveles-consciencia.md` + **`consciencia/estructuras-guion-por-nivel.md`** (estructuras del CUERPO por nivel · BAJO/MEDIO/ALTO · incl. **HARD SELL** · regla de lateralización) · `formatos/` (00-master 70+ · 01-savebait · 02-formatos-zenith-html con el know-how del DIBUJO) · `headlines/` (3 tipos · ficha técnica · plan batch) · `asuntos-virales/` (6 cat · 3 tipos · 5 criterios) · `hooks/` (00-taxonomía · 01-REGLA DEL AVATAR) · `estrategia/creative-strategy-2026.md` (masterclass) · `objeciones/` · `entrega/sistema-carpetas.md`. `templates/` → `anuncio-doc-guion.html` · `angulos.html` · `avatar-resumen.html`. `references/` → `generate_docx.py` + taxonomías.
 
 ---
 
