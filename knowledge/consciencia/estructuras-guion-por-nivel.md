@@ -53,6 +53,31 @@ Fuente: skill original NeuroCopy + Direct Response clásico (Schwartz, Halbert, 
 - **3-20s:** 3-5 dolores en ráfaga, ritmo rápido, `DI →` corto por dolor. Crescendo.
 - **20-26s:** "y lo peor es que crees que es culpa tuya" → micro-alivio + loop.
 
+### B6 · CONFESIÓN (vulnerabilidad)
+- **0-3s:** "Voy a confesar algo que como [avatar] me dio vergüenza años."
+- **3-18s:** la confesión cruda (un fallo/secreto que el avatar también vive). Baja la guardia.
+- **18-25s:** "y resulta que no era yo, era [pista]" → loop.
+
+### B7 · SEÑALES / "te pasa SIN saberlo"
+- **0-3s:** "3 señales de que tienes [problema] y ni lo sabes."
+- **3-20s:** señales concretas, `DI →` por señal, el avatar se autodiagnostica.
+- **20-26s:** "si te has visto en 2… esto es para ti" → loop.
+
+### B8 · CARTA A TU YO DE ANTES
+- **0-3s:** "Si pudiera hablar con el [avatar] que era hace un año…"
+- **3-20s:** le avisas de lo que va a pasar (el dolor que viene) en 2ª persona, emocional.
+- **20-26s:** "ojalá alguien me hubiera dicho [pista]" → loop.
+
+### B9 · MITO QUE TE HAN VENDIDO
+- **0-3s:** "Te han vendido que [creencia popular]. Y por eso sigues igual."
+- **3-18s:** desmontas el mito a nivel superficial (sin entrar al mecanismo aún).
+- **18-25s:** "lo que de verdad pasa es otra cosa" → loop a MEDIO.
+
+### B10 · DÍA EN LA VIDA (espejo extendido)
+- **0-3s:** "Un día normal siendo [avatar]: 7:00…"
+- **3-22s:** recorres su jornada hora a hora con los micro-dolores reales. Identificación total.
+- **22-28s:** "y así un día tras otro… hasta que entiendes por qué" → loop.
+
 ---
 
 # 🟡 NIVEL MEDIO (3-4) · MECANISMO + COMPARACIONES + DEMOSTRAR
@@ -106,6 +131,36 @@ La columna vertebral del anuncio educativo-persuasivo. 7 beats:
 - **3-20s:** por qué ese enemigo te mantiene atascado (agita, con datos si los hay).
 - **20-30s:** tu mecanismo como la salida del enemigo + puente.
 
+### M8 · LAS 3 RAZONES (numerada)
+- **0-3s:** "3 razones por las que [resultado] no llega aunque lo intentas."
+- **3-26s:** razón 1 → 2 → 3, cada una apunta al mecanismo. `DI →` por razón.
+- **26-32s:** "las tres se arreglan con [mecanismo]" + puente.
+
+### M9 · PASO A PASO DEL MECANISMO
+- **0-3s:** "Así funciona [nombre chicle] en 3 pasos."
+- **3-26s:** paso 1 → 2 → 3 del método, claro y visual. El avatar ve el camino (GPS).
+- **26-32s:** "y por eso funciona donde lo demás falla" + puente.
+
+### M10 · MITO-BUSTER (rompe la creencia de frente)
+- **0-3s:** "‘[Creencia que cree el avatar]’. Mentira. Te explico."
+- **3-24s:** desmontas la creencia con lógica + mecanismo (aquí SÍ se confronta, ya es medio).
+- **24-30s:** la verdad operativa + puente.
+
+### M11 · ANALOGÍA / METÁFORA explicativa
+- **0-3s:** "Tu [problema] es como [analogía cotidiana]."
+- **3-24s:** desarrollas la metáfora para explicar el mecanismo de forma simple y memorable.
+- **24-30s:** "tu negocio/cuerpo/relación igual: [mecanismo]" + puente.
+
+### M12 · CASO DE ESTUDIO COMPRIMIDO
+- **0-3s:** "[Perfil] hizo SOLO esto y cambió en [tiempo]."
+- **3-24s:** el qué hizo paso a paso (el mecanismo en acción), con el dato si es verificable.
+- **24-30s:** "no es magia, es [mecanismo]" + puente.
+
+### M13 · "LO QUE NADIE TE DICE"
+- **0-3s:** "Nadie en [nicho] te cuenta esto sobre [tema]."
+- **3-24s:** revelas el insight/mecanismo oculto que la industria calla.
+- **24-30s:** por qué te lo ocultan + puente.
+
 ---
 
 # 🟢 NIVEL ALTO (5) · ROMPER OBJECIONES + PRUEBA + EMPUJÓN
@@ -149,7 +204,46 @@ La estructura de venta agresiva clásica, comprimida a formato ad. NO es gritar:
 - **16-26s:** la RAZÓN honesta de la oferta/urgencia (por qué ahora, por qué este precio).
 - **26-32s:** CTA con la urgencia real.
 
+### A6 · TESTIMONIO EN BRUTO (UGC real)
+- **0-4s:** el cliente habla a cámara: "yo no me lo creía, pero…"
+- **4-22s:** su historia sin guion (punto de partida → qué hizo → resultado), crudo y creíble.
+- **22-28s:** "si a mí me funcionó…" + CTA.
+
+### A7 · COSTE DE OPORTUNIDAD (desmonta el precio por contraste)
+- **0-4s:** "Crees que [precio] es caro. Vamos a hacer cuentas."
+- **4-22s:** el coste REAL de seguir igual (tiempo, dinero, oportunidad perdida) > precio de la oferta.
+- **22-28s:** "lo caro es no hacerlo" + CTA.
+
+### A8 · GARANTÍA COMO PROTAGONISTA (invierte el riesgo)
+- **0-4s:** "Te lo pongo imposible de perder."
+- **4-20s:** explicas la garantía como héroe: si no pasa X, pasa Y. Quitas todo el riesgo.
+- **20-28s:** "el único riesgo es no probarlo" + CTA.
+
+### A9 · FAQ-OBJECIÓN RÁPIDA (ráfaga)
+- **0-4s:** "Tus 3 excusas para no [resultado]. Las tumbo en 30 segundos."
+- **4-24s:** objeción 1 → respuesta · 2 → respuesta · 3 → respuesta. Ritmo rápido.
+- **24-30s:** "sin excusas" + CTA.
+
+### A10 · RECAP + ÚLTIMA LLAMADA
+- **0-4s:** "Recapitulando por qué esto es para ti."
+- **4-22s:** resumen del mecanismo + prueba + oferta en 3 frases potentes.
+- **22-28s:** última llamada con la urgencia real (si existe) + CTA.
+
 ---
+
+## 🧠 GENERADOR DE ESTRUCTURAS — BANCO ABIERTO (inventa MÁS)
+
+> ⚠️ Las estructuras de arriba son un **banco de ARRANQUE, no un techo.** Igual que con los formatos, la obligación es **crear estructuras nuevas** siempre que el ángulo o el avatar lo pidan. Nunca te limites a las catalogadas.
+
+**Cómo invento una estructura nueva (receta):** combino estos ingredientes y le pongo nombre:
+1. **Apertura** (qué rompe el scroll): pregunta · dato seco · confesión · contraorden · POV · escena · reto.
+2. **Desarrollo** (qué se HABLA según el nivel): BAJO síntoma/identificación · MEDIO mecanismo/comparación/demostración · ALTO objeción/prueba.
+3. **Recurso narrativo**: lista numerada · historia · loop · metáfora · contraste · debate · cronología · diccionario/glosario · "antes vs ahora" · carta · diálogo interno.
+4. **Cierre/puente**: micro-alivio (BAJO) · revelación del mecanismo (MEDIO) · CTA del usuario (ALTO).
+
+> Apertura × Desarrollo × Recurso × Cierre = **decenas de estructuras nuevas** por nivel. Bautízala (3-5 palabras), declara su nivel y escríbela beat a beat. Para 1 ángulo → **mínimo 5 estructuras distintas**; para llenar el banco → combina con `variantes-master` (`/ads-variantes`).
+
+> Las catalogadas (B1-B10 · M1-M13 · A1-A10) son ejemplos canónicos. **Si ninguna encaja perfecto, INVENTA** — es lo esperado, no la excepción.
 
 ## 🔁 REGLA DE LATERALIZACIÓN (sácale millones de variantes)
 

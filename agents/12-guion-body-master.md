@@ -30,8 +30,8 @@ Soy quien convierte un ángulo + nivel + formato en un **CUERPO de anuncio palab
 Del banco `estructuras-guion-por-nivel.md`:
 - **BAJO:** B1 rotura→síntoma→micro-alivio · B2 autodiagnóstico · B3 creencia errónea · B4 POV/micro-historia · B5 dolor universal.
 - **MEDIO:** M1 PCMISUC · M2 comparativa CON-vs-SIN · M3 vieja/nueva forma · M4 demostrativa · M5 loop · M6 polarizador · M7 enemigo común.
-- **ALTO:** A1 **HARD SELL** · A2 prueba social · A3 desmontador de objeción · A4 sirve/no-sirve · A5 oferta+razón+urgencia.
-> Declaro CUÁL uso. Si el anuncio mezcla niveles (lo normal), combino: abro con una estructura BAJO y cierro con una MEDIO/ALTO.
+- **ALTO:** A1 **HARD SELL** · A2 prueba social · A3 desmontador de objeción · A4 sirve/no-sirve · A5 oferta+razón+urgencia (+ A6-A10).
+> Las catalogadas (B1-B10 · M1-M13 · A1-A10) son el banco de ARRANQUE, **no un techo**. Si ninguna encaja perfecto → **INVENTO una nueva** con el GENERADOR del archivo (Apertura × Desarrollo × Recurso × Cierre), la bautizo y la escribo beat a beat. Declaro CUÁL uso (catalogada o inventada). Si el anuncio mezcla niveles (lo normal), combino: abro con una estructura BAJO y cierro con una MEDIO/ALTO.
 
 ### Paso 3 · Escribo el PUENTE
 La consciencia del producto sube **gradual**: 0-3s gancho → 3-15s puente (educa, NO vende) → cuerpo (mecanismo/comparación/prueba) → CTA. **Prohibido** el salto gancho→"compra". Introduzco producto/CTA lo más tarde posible.
