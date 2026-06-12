@@ -106,3 +106,11 @@ Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promes
 - Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
 - Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
 - **Tu pieza aqui:** subir el **nivel de consciencia** hacia la oferta usando las capas del mecanismo.
+
+## 📖 La Biblia del Copy en tu pieza (respaldo de copy · siempre)
+
+El CÓMO se escribe el anuncio para que convierta. Hermana de la Biblia del Mecanismo (que es el QUÉ). Excluye ángulos/formato a propósito (ya los cubren `angulos-importer` y `formato-master-ads`).
+
+- Biblia completa (respaldo): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
+- Como usar el copy en los anuncios: [`knowledge/copy/00-copy-en-los-anuncios.md`](../knowledge/copy/00-copy-en-los-anuncios.md)
+- **Tu pieza aqui:** **por donde abrir el copy** segun el nivel Schwartz (empieza donde esta el lector) + el reparto Dolor/Deseo/Mecanismo por avatar A/B/C.

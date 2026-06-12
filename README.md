@@ -248,7 +248,7 @@ Detalle completo en [`knowledge/entrega/sistema-carpetas.md`](knowledge/entrega/
 
 ---
 
-## Knowledge Library · 17 archivos
+## Knowledge Library · 19 archivos
 
 ```
 knowledge/
@@ -261,10 +261,13 @@ knowledge/
 ├── estrategia/           creative-strategy-2026 (masterclass Meta Ads)
 ├── objeciones/           romper objeciones (Hormozi · Cialdini · sesgos)
 ├── entrega/              sistema-carpetas
-└── mecanismo/            ⭐ Biblia del Mecanismo + mapa pieza → anuncio (intake oferta OPCIONAL)
+├── mecanismo/            ⭐ Biblia del Mecanismo + mapa pieza → anuncio (intake oferta OPCIONAL)
+└── copy/                 ⭐ Biblia del Copy + mapa pieza → anuncio (CÓMO se escribe · respaldo siempre)
 ```
 
 > **Mecanismo + Oferta (opcional):** si el usuario trae su oferta ya construida (de `zenith-crea-ofertas`), los anuncios colocan cada pieza (villano, causa raíz, nombre chicle, objeto brillante, mito de origen) en su sitio según `knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`. Si no la tiene, los anuncios se crean igual a partir de los ángulos.
+
+> **Biblia del Copy (respaldo de copy):** el CÓMO se escribe el anuncio para que convierta (el cuerpo vende el clic, PAS+Prueba, los 5 tipos de prueba, transferencia de credibilidad, Frankenstein, SECAR>EXPANDIR, la trinidad del titular, dimensionalización). Hermana de la Biblia del Mecanismo (el QUÉ). Excluye a propósito ángulos y formato (ya cubiertos). Mapa pieza → anuncio en `knowledge/copy/00-copy-en-los-anuncios.md`.
 
 Cada knowledge internalizado en el system prompt de los agentes (estilo Custom GPT). Cero re-lectura en runtime.
 
