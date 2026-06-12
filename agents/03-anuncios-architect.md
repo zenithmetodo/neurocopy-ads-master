@@ -132,3 +132,13 @@ Delegado a `ad-html-builder`: Zenith oscuro, **badge del nivel de consciencia**,
 8. **Numero ANUNCIO 1…5** por carpeta de ángulo · guardo en `01-angulos/angulo-N-[nombre]/`.
 9. **"POR QUÉ FUNCIONA" es interno** (.md sí, .docx de cliente no).
 10. **Solo guiones de vídeo** · imágenes → `neurocopy-image-ads-master`. Español de España, sin sonar a IA, sin inventar cifras.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
+
+- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- **Tu pieza aqui:** el **mecanismo de la solucion** (Big Secret), el **objeto brillante**, el **mito de origen** (UGC/Story) y la **prueba** mapeados a los 5 tipos de anuncio.

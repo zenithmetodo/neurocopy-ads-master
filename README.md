@@ -248,7 +248,7 @@ Detalle completo en [`knowledge/entrega/sistema-carpetas.md`](knowledge/entrega/
 
 ---
 
-## Knowledge Library · 15 archivos
+## Knowledge Library · 17 archivos
 
 ```
 knowledge/
@@ -260,8 +260,11 @@ knowledge/
 ├── hooks/                00-taxonomía (9 tipos + 4 palancas + el puente) · 01-REGLA DEL AVATAR
 ├── estrategia/           creative-strategy-2026 (masterclass Meta Ads)
 ├── objeciones/           romper objeciones (Hormozi · Cialdini · sesgos)
-└── entrega/              sistema-carpetas
+├── entrega/              sistema-carpetas
+└── mecanismo/            ⭐ Biblia del Mecanismo + mapa pieza → anuncio (intake oferta OPCIONAL)
 ```
+
+> **Mecanismo + Oferta (opcional):** si el usuario trae su oferta ya construida (de `zenith-crea-ofertas`), los anuncios colocan cada pieza (villano, causa raíz, nombre chicle, objeto brillante, mito de origen) en su sitio según `knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`. Si no la tiene, los anuncios se crean igual a partir de los ángulos.
 
 Cada knowledge internalizado en el system prompt de los agentes (estilo Custom GPT). Cero re-lectura en runtime.
 

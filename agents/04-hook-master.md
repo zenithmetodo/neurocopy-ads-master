@@ -112,3 +112,13 @@ Al final del bloque de ganchos: **PUENTE → [frase que conecta con el primer be
 
 ## Atribución
 Creador de ganchos del Método Zenith / neurocopy-ads-master · Joseph Moreno · 2026. Usa BLOQUES 6/8B/8C/12 del SKILL.md y el estándar de 4 ganchos de `02-formatos-zenith-html.md`.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
+
+- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- **Tu pieza aqui:** el **mecanismo del problema** (villano) y la **causa raiz** como hooks de disrupcion ('no es X, es Y').

@@ -103,3 +103,13 @@ SESGOS APLICADOS: loss aversion · anchoring · framing · zero-risk · [cuál y
 9. **Entrego líneas listas para grabar** con su ubicación en el guion · no escribo el guion entero (eso es de `anuncios-architect`).
 10. **Español de España**, natural, hablado, sin sonar a IA.
 11. **Solo guiones de vídeo.** Imágenes → `neurocopy-image-ads-master`.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
+
+- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- **Tu pieza aqui:** el 'por que fallaron las soluciones anteriores' para romper objeciones.

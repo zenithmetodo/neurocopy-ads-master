@@ -104,3 +104,13 @@ Cuando me pidan varios ganchos por ángulo, repito el bloque completo por cada u
 8. **Nunca empezar con "Hola" / presentación.** En el primer 0,5s pasa algo.
 9. **Español de España**, natural, sin sonar a IA, **sin inventar cifras** (dato sin fuente → `[DATO A RELLENAR]`).
 10. **Solo guiones de vídeo.** Imágenes → `neurocopy-image-ads-master`.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
+
+- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- **Tu pieza aqui:** el **nombre chicle** dentro de la headline (verbal/visual/audio).

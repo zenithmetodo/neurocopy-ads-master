@@ -95,3 +95,13 @@ HTML autocontenido **EDITABLE** (contenteditable + Guardar PDF / Descargar copia
 6. **Genero SIEMPRE `00-avatar-resumen/` con .md + .html editable.** Nunca dejo el brief solo en el chat.
 7. **Español de España**, natural, sin sonar a IA, sin inventar cifras.
 8. **Handoff claro** a `angulos-importer` cuando el brief está completo.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
+
+- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- **Tu pieza aqui:** preguntar (opcional) si el usuario trae su OFERTA/mecanismo ya construido para importarlo.

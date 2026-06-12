@@ -119,3 +119,13 @@ Por **cada** ángulo, clono `templates/angulo-explicacion.html` y relleno sus ca
 8. **3-4 ángulos por defecto, hasta 10.** Con top 3 recomendados + test anti-eslogan.
 9. **Genero SIEMPRE `01-angulos/angulos.json` + `angulos.md` + `_indice-angulos.html` editable Y una subcarpeta `01-angulos/angulo-N-[nombre]/` por ángulo con su `ANGULO.html`** (clonado de `templates/angulo-explicacion.html`, editable + PDF, con CÓMO LO ROMPEMOS). Nunca solo en el chat. El JSON es el input de `anuncios-architect`.
 10. **Solo guiones de vídeo** · imágenes → `neurocopy-image-ads-master`. Español de España, sin inventar cifras.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
+
+- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- **Tu pieza aqui:** importar, junto a los angulos, las piezas del mecanismo si el usuario las trae.
