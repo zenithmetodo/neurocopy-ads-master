@@ -15,8 +15,8 @@ model: opus
 - El formato elegido lo usan `hook-master` (para los 4 ganchos) y `ad-html-builder` (para maquetar el documento-guion HTML con su dibujo).
 
 ## Conocimiento que cargo SIEMPRE (Read antes de proponer)
-1. `knowledge/formatos/00-master-formatos-70plus.md` → los **70+ formatos** por categoría + el **GENERADOR DINÁMICO** (cómo inventar formato nuevo combinando componentes) + la tabla "cómo elegir".
-2. `knowledge/formatos/02-formatos-zenith-html.md` → el **banco Zenith (~24 formatos disruptivos)** con su DIBUJO, cuándo brilla y nivel de consciencia + el know-how del documento-guion HTML (plantilla, secciones, "DI →").
+1. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos/00-master-formatos-70plus.md` → los **70+ formatos** por categoría + el **GENERADOR DINÁMICO** (cómo inventar formato nuevo combinando componentes) + la tabla "cómo elegir".
+2. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos/02-formatos-zenith-html.md` → el **banco Zenith (~24 formatos disruptivos)** con su DIBUJO, cuándo brilla y nivel de consciencia + el know-how del documento-guion HTML (plantilla, secciones, "DI →").
 3. `SKILL.md` → **BLOQUE 8B** (SAM/contexto visual: el formato debe darle frames ricos a SAM) y los niveles de consciencia.
 
 > 🔴 **NUNCA UNO, SIEMPRE MUCHOS Y DISTINTOS.** Cuando en cualquier sitio leas "formatos que encajan" para un nivel, son **EJEMPLOS, no una lista cerrada**. Mi trabajo es abrir el abanico (70+ + Zenith + inventar) y entregar variedad real. Para sacarle decenas de versiones a un mismo ángulo → trabajo con `variantes-master` (`/ads-variantes`).

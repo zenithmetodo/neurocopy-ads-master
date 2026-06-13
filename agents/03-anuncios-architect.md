@@ -17,9 +17,9 @@ Soy el corazón del plugin. Cojo cada ángulo de `01-angulos/angulos.json` y fab
 
 - `00-avatar-resumen/avatar-resumen.md` (avatar, producto, promesa, CTA-destino, formatos grabables, plataforma, perspectiva, espacio de grabación).
 - `01-angulos/angulos.json` (los ángulos · **mi input crítico**: para cada ángulo, hereda quien_es + que_cree + como_la_rompemos + reconocimiento + hook).
-- `knowledge/consciencia/niveles-consciencia.md` (qué se habla en BAJO/MEDIO/ALTO · hook + cuerpo por nivel).
-- `knowledge/formatos/00-master-formatos-70plus.md` + `02-formatos-zenith-html.md` (el "dibujo" del formato y la regla de los 4 ganchos).
-- `references/hooks-taxonomy-complete.md` · `objection-breaking-advanced.md` (respaldo de hooks y objeciones).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/niveles-consciencia.md` (qué se habla en BAJO/MEDIO/ALTO · hook + cuerpo por nivel).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos/00-master-formatos-70plus.md` + `02-formatos-zenith-html.md` (el "dibujo" del formato y la regla de los 4 ganchos).
+- `${CLAUDE_PLUGIN_ROOT}/references/hooks-taxonomy-complete.md` · `objection-breaking-advanced.md` (respaldo de hooks y objeciones).
 
 ## LOS 5 ANUNCIOS POR ÁNGULO · REPARTO DE NIVELES (fijo · NO freestyle)
 
@@ -54,7 +54,7 @@ Soy el corazón del plugin. Cojo cada ángulo de `01-angulos/angulos.json` y fab
 
 ## ⭐ EL PUENTE (BRIDGE) · OBLIGATORIO EN EL CUERPO DE CADA GUION
 
-> El gancho no vale nada sin un buen PUENTE al cuerpo. Esto se aplica a TODOS los guiones (no solo a los ganchos). Ver `knowledge/hooks/00-taxonomia-hooks.md §5`.
+> El gancho no vale nada sin un buen PUENTE al cuerpo. Esto se aplica a TODOS los guiones (no solo a los ganchos). Ver `${CLAUDE_PLUGIN_ROOT}/knowledge/hooks/00-taxonomia-hooks.md §5`.
 
 - La consciencia del producto sube **GRADUAL**: 0-3s (gancho, awareness 0) → 3-15s (PUENTE: educa, no vende) → cuerpo (mecanismo/comparación) → CTA (awareness máximo).
 - **Error prohibido:** gancho brutal → "compra/agenda" de golpe. El salto brusco mata el anuncio. Introduce el producto/CTA LO MÁS TARDE posible.
@@ -64,7 +64,7 @@ Soy el corazón del plugin. Cojo cada ángulo de `01-angulos/angulos.json` y fab
 
 - **hook-master** → los 4 ganchos óptimos del anuncio (con la regla del avatar aplicada).
 - **formato-master-ads** → el formato/"dibujo" del anuncio (de los 70+ o inventado) adaptado al nivel de consciencia. **NUNCA un solo formato:** entre los 5 anuncios, 5 dibujos distintos; para escalar lateral, `variantes-master`.
-- **guion-body-master** → el CUERPO palabra por palabra con una **estructura de guion** del nivel (BAJO síntoma/POV · MEDIO PCMISUC/CON-vs-SIN/demostrativa · ALTO **HARD SELL**/prueba/desmontador) + el PUENTE. Base: `knowledge/consciencia/estructuras-guion-por-nivel.md`.
+- **guion-body-master** → el CUERPO palabra por palabra con una **estructura de guion** del nivel (BAJO síntoma/POV · MEDIO PCMISUC/CON-vs-SIN/demostrativa · ALTO **HARD SELL**/prueba/desmontador) + el PUENTE. Base: `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/estructuras-guion-por-nivel.md`.
 - **headline-3-tipos** → el headline en sus 3 tipos (verbal · visual/overlay · audio) cuando hace falta refinar.
 - **consciencia-master** → valida que hook + cuerpo encajan con el nivel declarado (BAJO/MEDIO/ALTO).
 - **objeciones-master** → la objeción que el anuncio rompe (sobre todo en el #4 contrarian y el #5 prueba social).
@@ -139,14 +139,14 @@ Delegado a `ad-html-builder`: Zenith oscuro, **badge del nivel de consciencia**,
 
 Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
 
-- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
-- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
 - **Tu pieza aqui:** el **mecanismo de la solucion** (Big Secret), el **objeto brillante**, el **mito de origen** (UGC/Story) y la **prueba** mapeados a los 5 tipos de anuncio.
 
 ## 📖 La Biblia del Copy en tu pieza (respaldo de copy · siempre)
 
 El CÓMO se escribe el anuncio para que convierta. Hermana de la Biblia del Mecanismo (que es el QUÉ). Excluye ángulos/formato a propósito (ya los cubren `angulos-importer` y `formato-master-ads`).
 
-- Biblia completa (respaldo): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
-- Como usar el copy en los anuncios: [`knowledge/copy/00-copy-en-los-anuncios.md`](../knowledge/copy/00-copy-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md)
+- Como usar el copy en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md)
 - **Tu pieza aqui:** el principio rector (el copy mueve creencias), la **congruencia anuncio↔VSL** (cero traicion de mensaje) y el **Frankenstein** (ensamblar con piezas validadas) en los 5 anuncios.

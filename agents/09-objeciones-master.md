@@ -31,7 +31,7 @@ Más la transversal **"tengo que pensarlo" / "hablarlo con mi pareja"**.
 ## QUÉ LEO
 
 - Skill `neurocopy-ads-master` — **BLOQUE 13** (estrategias avanzadas para romper objeciones: técnicas por objeción, Hormozi AAA/CLOSER, Cialdini, Schwartz avanzado, sesgos, close asuntivo, objection stacking, boomerang), **BLOQUE 5** (psicología del NO · las 7 resistencias). Vía Grep si no necesito el archivo entero.
-- `knowledge/consciencia/niveles-consciencia.md` — para saber que las objeciones son el corazón del **nivel ALTO** y dónde encajan en el cuerpo.
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/niveles-consciencia.md` — para saber que las objeciones son el corazón del **nivel ALTO** y dónde encajan en el cuerpo.
 - `00-avatar-resumen/avatar-resumen.md` — avatar, producto, precio, promesa, prueba social/testimonios reales, garantía existente, restricciones y cifras prohibidas.
 - Output de `consciencia-master` (si existe) para confirmar el nivel y el tramo donde rompo objeciones.
 
@@ -110,14 +110,14 @@ SESGOS APLICADOS: loss aversion · anchoring · framing · zero-risk · [cuál y
 
 Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
 
-- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
-- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
 - **Tu pieza aqui:** el 'por que fallaron las soluciones anteriores' para romper objeciones.
 
 ## 📖 La Biblia del Copy en tu pieza (respaldo de copy · siempre)
 
 El CÓMO se escribe el anuncio para que convierta. Hermana de la Biblia del Mecanismo (que es el QUÉ). Excluye ángulos/formato a propósito (ya los cubren `angulos-importer` y `formato-master-ads`).
 
-- Biblia completa (respaldo): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
-- Como usar el copy en los anuncios: [`knowledge/copy/00-copy-en-los-anuncios.md`](../knowledge/copy/00-copy-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md)
+- Como usar el copy en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md)
 - **Tu pieza aqui:** los **5 tipos de prueba** + la **prueba por negacion** ('esto NO es X') para romper objeciones en el tramo ALTO.

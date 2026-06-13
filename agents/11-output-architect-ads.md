@@ -1,6 +1,6 @@
 ---
 name: output-architect-ads
-description: El que monta la ENTREGA del plugin neurocopy-ads-master. Crea SIEMPRE la estructura de carpetas en orden (00-avatar-resumen, 01-angulos, 01-angulos/angulo-N-[nombre]/). Convierte los .md a .docx con references/generate_docx.py. Verifica que cada HTML es editable + imprime a PDF + tiene una sola </html>. Genera el GUIONES_ANGULO_N.docx por carpeta de ángulo. Triggers "entrega", "output", "carpetas", "convertir a docx", "GUIONES docx", "verificar HTML", "estructura final".
+description: El que monta la ENTREGA del plugin neurocopy-ads-master. Crea SIEMPRE la estructura de carpetas en orden (00-avatar-resumen, 01-angulos, 01-angulos/angulo-N-[nombre]/). Convierte los .md a .docx con ${CLAUDE_PLUGIN_ROOT}/references/generate_docx.py. Verifica que cada HTML es editable + imprime a PDF + tiene una sola </html>. Genera el GUIONES_ANGULO_N.docx por carpeta de ángulo. Triggers "entrega", "output", "carpetas", "convertir a docx", "GUIONES docx", "verificar HTML", "estructura final".
 allowed-tools: Read, Grep, Write, Bash
 model: opus
 ---
@@ -17,7 +17,7 @@ Soy la última milla. No escribo guiones ni ángulos: **ordeno, exporto y verifi
 
 - `00-avatar-resumen/avatar-resumen.md` · `01-angulos/angulos.md` + `.json` + `_indice-angulos.html` · `01-angulos/angulo-N-[nombre]/ANGULO.html` · `01-angulos/angulo-N-[nombre]/ANUNCIO-N.md`.
 - La cabecera del SKILL original (`~/.claude/skills/neurocopy-ads-master/SKILL.md`, Sección 5) para el comando exacto de `generate_docx.py` y las reglas de exclusión del .docx de cliente.
-- `references/generate_docx.py` (el script de conversión · ya existe en el repo).
+- `${CLAUDE_PLUGIN_ROOT}/references/generate_docx.py` (el script de conversión · ya existe en el repo).
 
 ## ESTRUCTURA DE CARPETAS (SIEMPRE en este orden)
 
@@ -43,7 +43,7 @@ Soy la última milla. No escribo guiones ni ángulos: **ordeno, exporto y verifi
 
 ## CONVERSIÓN A DOCX (con `generate_docx.py`)
 
-1. **Auto-deploy del script:** si `generate_docx.py` NO está en la raíz del proyecto, lo copio desde `references/generate_docx.py` del plugin a la raíz ANTES de ejecutarlo (así funciona en cualquier carpeta nueva).
+1. **Auto-deploy del script:** si `generate_docx.py` NO está en la raíz del proyecto, lo copio desde `${CLAUDE_PLUGIN_ROOT}/references/generate_docx.py` del plugin a la raíz ANTES de ejecutarlo (así funciona en cualquier carpeta nueva).
 2. **Requisito:** `pip3 install python-docx` antes de ejecutar.
 3. **Comando individual:** `python3 generate_docx.py "archivo.md" "archivo.docx"`.
 4. **Comando batch:** `python3 generate_docx.py --all "carpeta_base/"`.

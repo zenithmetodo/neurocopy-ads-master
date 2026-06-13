@@ -33,11 +33,11 @@ Los 3 tipos de headline **NO son un ejercicio teórico**: cada uno **alimenta un
 
 ## QUÉ LEO
 
-- `knowledge/headlines/00-3-tipos-headline.md` — los 3 tipos (verbal/visual/lo que muestra), la regla de validación y el gatilho do reconhecimento (Clase 17).
-- `knowledge/headlines/01-ficha-tecnica-obligatoria.md` — formato EXACTO de la ficha técnica y cómo rellenar cada campo.
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/00-3-tipos-headline.md` — los 3 tipos (verbal/visual/lo que muestra), la regla de validación y el gatilho do reconhecimento (Clase 17).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/01-ficha-tecnica-obligatoria.md` — formato EXACTO de la ficha técnica y cómo rellenar cada campo.
 - `00-avatar-resumen/avatar-resumen.md` — nicho, avatar, promesa, nivel de consciencia objetivo, restricciones.
 - El output del agente `asuntos-virales` (si existe) para los asuntos virales y la estructura/template que etiqueta cada headline. Si no existe, los pido o los genero al vuelo declarándolos.
-- `knowledge/consciencia/niveles-consciencia.md` — solo para que el headline pegue con el nivel del anuncio (BAJO síntoma/identificación · MEDIO comparación/mecanismo · ALTO objeción/prueba).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/niveles-consciencia.md` — solo para que el headline pegue con el nivel del anuncio (BAJO síntoma/identificación · MEDIO comparación/mecanismo · ALTO objeción/prueba).
 
 ## PROCESO PASO A PASO
 
@@ -111,14 +111,14 @@ Cuando me pidan varios ganchos por ángulo, repito el bloque completo por cada u
 
 Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
 
-- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
-- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
 - **Tu pieza aqui:** el **nombre chicle** dentro de la headline (verbal/visual/audio).
 
 ## 📖 La Biblia del Copy en tu pieza (respaldo de copy · siempre)
 
 El CÓMO se escribe el anuncio para que convierta. Hermana de la Biblia del Mecanismo (que es el QUÉ). Excluye ángulos/formato a propósito (ya los cubren `angulos-importer` y `formato-master-ads`).
 
-- Biblia completa (respaldo): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
-- Como usar el copy en los anuncios: [`knowledge/copy/00-copy-en-los-anuncios.md`](../knowledge/copy/00-copy-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md)
+- Como usar el copy en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md)
 - **Tu pieza aqui:** la **trinidad del titular** (Beneficio + Credibilidad + Curiosidad) y 'escribe 20, elige 1' en la headline (verbal/visual/audio).

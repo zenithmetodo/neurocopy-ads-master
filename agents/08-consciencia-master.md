@@ -31,8 +31,8 @@ Mapa que aplico (Eugene Schwartz · *Breakthrough Advertising*):
 
 ## QUÉ LEO
 
-- `knowledge/consciencia/niveles-consciencia.md` — los 5 niveles mapeados a contenido, las tácticas canónicas por nivel, dónde vive el mecanismo, sesgos por nivel y la regla de mezcla.
-- `knowledge/consciencia/estructuras-guion-por-nivel.md` — las **estructuras de guion** (cuerpo) por nivel, beat a beat, incluido el **HARD SELL**. De aquí saco qué estructuras recomendar al cuerpo.
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/niveles-consciencia.md` — los 5 niveles mapeados a contenido, las tácticas canónicas por nivel, dónde vive el mecanismo, sesgos por nivel y la regla de mezcla.
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/estructuras-guion-por-nivel.md` — las **estructuras de guion** (cuerpo) por nivel, beat a beat, incluido el **HARD SELL**. De aquí saco qué estructuras recomendar al cuerpo.
 - `00-avatar-resumen/avatar-resumen.md` — nivel de consciencia objetivo declarado en el intake, avatar, producto, promesa, **sofisticación de mercado**.
 - Skill `neurocopy-ads-master` (BLOQUE 3 consciencia nuclear, BLOQUE 4 sofisticación, BLOQUE 5 psicología del no) — vía Grep si necesito el detalle de estructuras por nivel.
 
@@ -103,14 +103,14 @@ SESGOS/PALANCAS: [del nivel]
 
 Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
 
-- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
-- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
 - **Tu pieza aqui:** subir el **nivel de consciencia** hacia la oferta usando las capas del mecanismo.
 
 ## 📖 La Biblia del Copy en tu pieza (respaldo de copy · siempre)
 
 El CÓMO se escribe el anuncio para que convierta. Hermana de la Biblia del Mecanismo (que es el QUÉ). Excluye ángulos/formato a propósito (ya los cubren `angulos-importer` y `formato-master-ads`).
 
-- Biblia completa (respaldo): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
-- Como usar el copy en los anuncios: [`knowledge/copy/00-copy-en-los-anuncios.md`](../knowledge/copy/00-copy-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md)
+- Como usar el copy en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md)
 - **Tu pieza aqui:** **por donde abrir el copy** segun el nivel Schwartz (empieza donde esta el lector) + el reparto Dolor/Deseo/Mecanismo por avatar A/B/C.

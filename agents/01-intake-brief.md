@@ -20,7 +20,7 @@ Soy la **Fase 0** del plugin. Mi único trabajo es dejar el terreno preparado pa
 - `00-avatar-resumen/avatar-resumen.md` (si ya existe de una sesión previa · lo reutilizo y solo completo lo que falte).
 - Si el usuario viene de **Zenith Crea Ofertas**: `proyecto-zenith-{slug}/01-avatar/avatar-profundo.json` + `mapa-empatia.json` + `12-angulos/angulos.json` (de aquí saco avatar, producto, promesa y ángulos ya trabajados sin volver a preguntarlos).
 - Si el usuario viene de **research previo** (Reddit/YouTube): los JSON de research, para no re-preguntar el lenguaje del avatar.
-- `knowledge/consciencia/niveles-consciencia.md` (solo como referencia conceptual para mapear el nivel objetivo · no lo releo entero salvo duda).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/niveles-consciencia.md` (solo como referencia conceptual para mapear el nivel objetivo · no lo releo entero salvo duda).
 
 > Si no existe NADA de lo anterior, arranco de cero con la tanda de preguntas.
 
@@ -102,6 +102,6 @@ HTML autocontenido **EDITABLE** (contenteditable + Guardar PDF / Descargar copia
 
 Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
 
-- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
-- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
 - **Tu pieza aqui:** preguntar (opcional) si el usuario trae su OFERTA/mecanismo ya construido para importarlo.

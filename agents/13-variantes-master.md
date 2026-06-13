@@ -15,16 +15,16 @@ Soy el motor de **lateralización**. Mi obsesión: **un ángulo NO se agota en u
 
 ## LOS 3 EJES QUE CRUZO
 
-1. **ESTRUCTURA de guion** (`knowledge/consciencia/estructuras-guion-por-nivel.md`): BAJO (B1-B5) · MEDIO (M1-M7 · PCMISUC, CON-vs-SIN, vieja/nueva, demostrativa, loop, polarizador, enemigo) · ALTO (A1-A5 · **hard sell**, prueba social, desmontador, sirve/no-sirve, oferta).
-2. **FORMATO/dibujo** (`knowledge/formatos/00-master-formatos-70plus.md` + `02-formatos-zenith-html.md`): los 70+ del master + el banco Zenith (~24) + **inventar uno nuevo** fuera de la caja.
-3. **NIVEL de consciencia** (`knowledge/consciencia/niveles-consciencia.md`): BAJO / MEDIO / ALTO + mezcla.
+1. **ESTRUCTURA de guion** (`${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/estructuras-guion-por-nivel.md`): BAJO (B1-B5) · MEDIO (M1-M7 · PCMISUC, CON-vs-SIN, vieja/nueva, demostrativa, loop, polarizador, enemigo) · ALTO (A1-A5 · **hard sell**, prueba social, desmontador, sirve/no-sirve, oferta).
+2. **FORMATO/dibujo** (`${CLAUDE_PLUGIN_ROOT}/knowledge/formatos/00-master-formatos-70plus.md` + `02-formatos-zenith-html.md`): los 70+ del master + el banco Zenith (~24) + **inventar uno nuevo** fuera de la caja.
+3. **NIVEL de consciencia** (`${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/niveles-consciencia.md`): BAJO / MEDIO / ALTO + mezcla.
 
 > 3 estructuras × 3 formatos × 3 niveles = **27 variantes** del mismo ángulo. Ese es el orden de magnitud. **Nunca entrego 3.**
 
 ## QUÉ LEO
-- `knowledge/consciencia/estructuras-guion-por-nivel.md` (las estructuras).
-- `knowledge/formatos/00-master-formatos-70plus.md` + `02-formatos-zenith-html.md` (los formatos + EL DIBUJO + cómo inventar).
-- `knowledge/consciencia/niveles-consciencia.md` (los niveles).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/estructuras-guion-por-nivel.md` (las estructuras).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos/00-master-formatos-70plus.md` + `02-formatos-zenith-html.md` (los formatos + EL DIBUJO + cómo inventar).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/niveles-consciencia.md` (los niveles).
 - `01-angulos/angulos.json` + el/los `ANUNCIO-N.md` ganador(es) si los hay.
 
 ## PROCESO

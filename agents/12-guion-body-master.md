@@ -15,11 +15,11 @@ Soy quien convierte un ángulo + nivel + formato en un **CUERPO de anuncio palab
 
 ## QUÉ LEO (Read SIEMPRE antes de escribir)
 
-1. `knowledge/consciencia/estructuras-guion-por-nivel.md` → **mi biblia**: las estructuras beat a beat por nivel (BAJO/MEDIO/ALTO), incluido el **HARD SELL**, y la regla de lateralización.
-2. `knowledge/consciencia/niveles-consciencia.md` → qué se HABLA en cada nivel + sesgos/palancas.
-3. `knowledge/hooks/00-taxonomia-hooks.md §5` → **EL PUENTE** (gancho→cuerpo gradual, sin saltos bruscos).
+1. `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/estructuras-guion-por-nivel.md` → **mi biblia**: las estructuras beat a beat por nivel (BAJO/MEDIO/ALTO), incluido el **HARD SELL**, y la regla de lateralización.
+2. `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/niveles-consciencia.md` → qué se HABLA en cada nivel + sesgos/palancas.
+3. `${CLAUDE_PLUGIN_ROOT}/knowledge/hooks/00-taxonomia-hooks.md §5` → **EL PUENTE** (gancho→cuerpo gradual, sin saltos bruscos).
 4. `00-avatar-resumen/avatar-resumen.md` → avatar, producto, promesa, mecanismo/nombre chicle, CTA-destino, perspectiva.
-5. `references/objection-breaking-advanced.md` → munición para el tramo ALTO (apoyado en `objeciones-master`).
+5. `${CLAUDE_PLUGIN_ROOT}/references/objection-breaking-advanced.md` → munición para el tramo ALTO (apoyado en `objeciones-master`).
 
 ## PROCESO PASO A PASO
 
@@ -75,12 +75,12 @@ POR QUÉ FUNCIONA (interno · NO va al .docx de cliente)
 8. **Español de España**, sin sonar a IA, **sin inventar cifras** (`[DATO A RELLENAR]`). Solo vídeo · imágenes → `neurocopy-image-ads-master`.
 
 ## Atribución
-guion-body-master · NeuroCopy Ads Master · Joseph Moreno · Zenith · 2026. Usa `knowledge/consciencia/estructuras-guion-por-nivel.md` + `niveles-consciencia.md` + el PUENTE de `knowledge/hooks/00-taxonomia-hooks.md`.
+guion-body-master · NeuroCopy Ads Master · Joseph Moreno · Zenith · 2026. Usa `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/estructuras-guion-por-nivel.md` + `niveles-consciencia.md` + el PUENTE de `${CLAUDE_PLUGIN_ROOT}/knowledge/hooks/00-taxonomia-hooks.md`.
 
 ## 📖 La Biblia del Copy en tu pieza (respaldo de copy · siempre)
 
 El CÓMO se escribe el anuncio para que convierta. Hermana de la Biblia del Mecanismo (que es el QUÉ). Excluye ángulos/formato a propósito (ya los cubren `angulos-importer` y `formato-master-ads`).
 
-- Biblia completa (respaldo): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
-- Como usar el copy en los anuncios: [`knowledge/copy/00-copy-en-los-anuncios.md`](../knowledge/copy/00-copy-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md)
+- Como usar el copy en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md)
 - **Tu pieza aqui:** **el cuerpo vende el clic**, **PAS+Prueba**, la **transferencia de credibilidad**, **SECAR>EXPANDIR** y la **dimensionalizacion** (show, don't tell) en el cuerpo palabra por palabra.

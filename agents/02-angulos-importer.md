@@ -24,8 +24,8 @@ Dos modos:
 - `00-avatar-resumen/avatar-resumen.md` (de `intake-brief` · mi input principal).
 - **Modo importador:** `proyecto-zenith-{slug}/12-angulos/angulos.json` (los ángulos ya hechos en Zenith Crea Ofertas).
 - Research previo (`reddit-research.json`, `youtube-research.json`, `competidores.json`) si existe · para creencias reales y gap.
-- `knowledge/angulos/definicion-angulo-completa.md` (la definición EXACTA · mi biblia).
-- `knowledge/consciencia/niveles-consciencia.md` (para asignar Schwartz por ángulo).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/angulos/definicion-angulo-completa.md` (la definición EXACTA · mi biblia).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/niveles-consciencia.md` (para asignar Schwartz por ángulo).
 - `templates/angulo-explicacion.html` (el template de UN ángulo · lo clono para cada `ANGULO.html`).
 
 ## LA DEFINICIÓN EXACTA (la aplico al milímetro)
@@ -126,6 +126,6 @@ Por **cada** ángulo, clono `templates/angulo-explicacion.html` y relleno sus ca
 
 Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
 
-- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
-- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
 - **Tu pieza aqui:** importar, junto a los angulos, las piezas del mecanismo si el usuario las trae.

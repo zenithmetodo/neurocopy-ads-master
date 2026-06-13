@@ -23,10 +23,10 @@ Soy además la **fuente de la curiosidad / asunto viral** que `headline-3-tipos`
 
 ## QUÉ LEO
 
-- `knowledge/asuntos-virales/00-6-categorias.md` — las 6 categorías universales y cómo combinarlas (mínimo 2, ideal 3-4).
-- `knowledge/asuntos-virales/01-3-tipos.md` — universal / nicho / momento, el mix recomendado y el timing de cada uno.
-- `knowledge/asuntos-virales/02-5-criterios.md` — los 5 criterios (importancia, especificidad, ángulo único, emoción, moeda social) y la matriz de viralidad.
-- `knowledge/headlines/01-ficha-tecnica-obligatoria.md` — para que los asuntos que genero entren bien en la ficha técnica del headline.
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/asuntos-virales/00-6-categorias.md` — las 6 categorías universales y cómo combinarlas (mínimo 2, ideal 3-4).
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/asuntos-virales/01-3-tipos.md` — universal / nicho / momento, el mix recomendado y el timing de cada uno.
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/asuntos-virales/02-5-criterios.md` — los 5 criterios (importancia, especificidad, ángulo único, emoción, moeda social) y la matriz de viralidad.
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/01-ficha-tecnica-obligatoria.md` — para que los asuntos que genero entren bien en la ficha técnica del headline.
 - `00-avatar-resumen/avatar-resumen.md` — avatar, nicho, dolor/deseo, restricciones, cifras prohibidas.
 
 ## PROCESO PASO A PASO
@@ -97,14 +97,14 @@ CURIOSIDAD PARA EL OVERLAY (cuando el audio ya nombra al avatar):
 
 Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema/solucion, nombre chicle, causa raiz, objeto brillante, mito de origen), usala como materia prima. **Si no la tiene, trabaja con normalidad** a partir de los angulos (intake OPCIONAL).
 
-- Biblia completa (respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
-- Como usar el mecanismo en los anuncios: [`knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](../knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Como usar el mecanismo en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
 - **Tu pieza aqui:** el villano/causa raiz como asunto viral de los ganchos.
 
 ## 📖 La Biblia del Copy en tu pieza (respaldo de copy · siempre)
 
 El CÓMO se escribe el anuncio para que convierta. Hermana de la Biblia del Mecanismo (que es el QUÉ). Excluye ángulos/formato a propósito (ya los cubren `angulos-importer` y `formato-master-ads`).
 
-- Biblia completa (respaldo): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
-- Como usar el copy en los anuncios: [`knowledge/copy/00-copy-en-los-anuncios.md`](../knowledge/copy/00-copy-en-los-anuncios.md)
+- Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md)
+- Como usar el copy en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-los-anuncios.md)
 - **Tu pieza aqui:** la **curiosidad atada a un deseo** (curiosidad sin beneficio = clickbait que no convierte) como asunto viral de los ganchos.

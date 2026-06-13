@@ -16,4 +16,4 @@ Lanza `guion-body-master`: coge un ángulo + nivel + formato y escribe el **cuer
 
 ## Qué entrega
 - Estructura usada (B/M/A-x) + por qué encaja + el **PUENTE** + el **cuerpo palabra por palabra** (timestamps) + mejoras aplicadas + por qué funciona (interno).
-- Base: `knowledge/consciencia/estructuras-guion-por-nivel.md`. Solo vídeo · imágenes → `neurocopy-image-ads-master`.
+- Base: `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/estructuras-guion-por-nivel.md`. Solo vídeo · imágenes → `neurocopy-image-ads-master`.
