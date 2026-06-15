@@ -21,7 +21,7 @@
 
   <rect width="1280" height="860" fill="url(#bg)"/>
 
-  <text x="640" y="56" class="h" font-size="34" fill="url(#brand)" text-anchor="middle">Arquitectura · 11 agentes en 5 fases</text>
+  <text x="640" y="56" class="h" font-size="34" fill="url(#brand)" text-anchor="middle">Arquitectura · 13 agentes en 5 fases</text>
   <text x="640" y="84" class="t" font-size="14" fill="#8089a0" text-anchor="middle">Cada agente es crack de UNA cosa · todos orquestados por el anuncios-architect</text>
 
   <!-- FASE 0 -->
