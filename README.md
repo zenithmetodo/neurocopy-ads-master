@@ -6,7 +6,7 @@
 
 ### Sistema TOP 1% para crear ANUNCIOS de vídeo (guiones) POR ÁNGULO · Meta · TikTok · YouTube
 
-**13 sub-agentes orquestados · 8 commands · 22 knowledge files · 70+ formatos + banco Zenith (~24) · 5 anuncios por ángulo (2-2-1) · 4 ganchos por anuncio · doc-guion HTML editable + PDF + .md + .docx**
+**13 sub-agentes orquestados · 7 commands · 20 knowledge files · 70+ formatos + banco Zenith (~24) · 5 anuncios por ángulo (2-2-1) · 4 ganchos por anuncio · doc-guion HTML editable + PDF + .md + .docx**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-00E5D0.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-f5c451.svg)](https://claude.com/claude-code)
@@ -248,7 +248,7 @@ Detalle completo en [`knowledge/entrega/sistema-carpetas.md`](knowledge/entrega/
 
 ---
 
-## Knowledge Library · 19 archivos
+## Knowledge Library · 20 archivos
 
 ```
 knowledge/
