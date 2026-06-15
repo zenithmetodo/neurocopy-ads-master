@@ -107,7 +107,9 @@ Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promes
 - Como usar el mecanismo en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
 - **Tu pieza aqui:** subir el **nivel de consciencia** hacia la oferta usando las capas del mecanismo.
 
-## 📖 La Biblia del Copy en tu pieza (respaldo de copy · siempre)
+## 📖 OBLIGATORIO · La Biblia del Copy en tu pieza (LÉELA ANTES DE ESCRIBIR)
+
+> 🔴 **REGLA INNEGOCIABLE:** antes de redactar una sola palabra, abre y aplica `${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`. Ningún copy sale sin pasar por la Biblia del Copy. Aplica además la **voz/tono del usuario** si el orquestador te la pasó (memoria/marca); si no, español de España natural.
 
 El CÓMO se escribe el anuncio para que convierta. Hermana de la Biblia del Mecanismo (que es el QUÉ). Excluye ángulos/formato a propósito (ya los cubren `angulos-importer` y `formato-master-ads`).
 

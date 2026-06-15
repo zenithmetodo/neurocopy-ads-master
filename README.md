@@ -6,14 +6,14 @@
 
 ### Sistema TOP 1% para crear ANUNCIOS de vídeo (guiones) POR ÁNGULO · Meta · TikTok · YouTube
 
-**11 agentes · 6 commands · 15 knowledge files · 70+ formatos + banco Zenith (~24) · 5 anuncios por ángulo (2-2-1) · 4 ganchos por anuncio · doc-guion HTML editable + PDF + .md + .docx**
+**13 sub-agentes orquestados · 8 commands · 22 knowledge files · 70+ formatos + banco Zenith (~24) · 5 anuncios por ángulo (2-2-1) · 4 ganchos por anuncio · doc-guion HTML editable + PDF + .md + .docx**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-00E5D0.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-f5c451.svg)](https://claude.com/claude-code)
-[![Status](https://img.shields.io/badge/Status-v1.0.0-00E5D0.svg)](https://github.com/zenithmetodo/neurocopy-ads-master)
+[![Status](https://img.shields.io/badge/Status-v2.1.0-00E5D0.svg)](https://github.com/zenithmetodo/neurocopy-ads-master)
 [![Solo Vídeo](https://img.shields.io/badge/Imágenes-→%20neurocopy--image--ads--master-f5c451.svg)](#fuera-de-alcance)
 
-**[INSTALAR](#instalación) · [EMPEZAR PASO A PASO](GETTING_STARTED.md) · [PIPELINE](#pipeline-de-uso) · [LA REGLA ESTRELLA](#-la-regla-estrella-el-avatar-en-el-gancho) · [LOS 11 AGENTES](#los-11-agentes) · [ENTREGA POR CARPETAS](#entrega-por-carpetas)**
+**[INSTALAR](#instalación) · [EMPEZAR PASO A PASO](GETTING_STARTED.md) · [PIPELINE](#pipeline-de-uso) · [LA REGLA ESTRELLA](#-la-regla-estrella-el-avatar-en-el-gancho) · [LOS 13 SUB-AGENTES](#los-13-sub-agentes) · [ENTREGA POR CARPETAS](#entrega-por-carpetas)**
 
 </div>
 
@@ -50,7 +50,7 @@ Por cada **ÁNGULO** → **5 anuncios** con reparto fijo **2 BAJO + 2 MEDIO fuer
 <img src="assets/arquitectura.svg" alt="Arquitectura NeuroCopy Ads Master" width="900"/>
 </div>
 
-**11 agentes en 5 fases.** El `anuncios-architect` orquesta a 6 especialistas y el `ad-html-builder` maqueta cada anuncio en un doc-guion HTML editable.
+**13 sub-agentes en 5 fases.** El `anuncios-architect` orquesta a 6 especialistas y el `ad-html-builder` maqueta cada anuncio en un doc-guion HTML editable.
 
 ---
 
@@ -173,7 +173,7 @@ Cada headline lleva su **ficha técnica obligatoria**: asuntos virales + estruct
 
 ---
 
-## Los 11 agentes
+## Los 13 sub-agentes
 
 | # | Agente | Crack en… | Modelo |
 |---|---|---|---|
@@ -275,14 +275,25 @@ Cada knowledge internalizado en el system prompt de los agentes (estilo Custom G
 
 ## Instalación
 
-```bash
-git clone https://github.com/zenithmetodo/neurocopy-ads-master.git ~/.claude/skills/neurocopy-ads-master
-bash ~/.claude/skills/neurocopy-ads-master/install.sh
+NeuroCopy Ads Master es un **plugin de marketplace** de Claude Code: sus 13 sub-agentes se **orquestan** de verdad (la skill `ads-master` los lanza con la tool Agent). Cualquiera puede instalarlo así:
+
+**Opción A · dentro de Claude Code** (recomendada · pégale esto a Claude):
+```
+/plugin marketplace add zenithmetodo/neurocopy-ads-master
+/plugin install neurocopy-ads-master@neurocopy-ads-mp
 ```
 
-Luego en Claude Code: `/neurocopy-ads-master:ads-master`
+**Opción B · terminal (CLI):**
+```bash
+claude plugin marketplace add zenithmetodo/neurocopy-ads-master
+claude plugin install neurocopy-ads-master@neurocopy-ads-mp
+```
 
-> Tras instalar comandos nuevos, **reinicia Claude Code** para que aparezcan en la lista de slash commands.
+Luego **reinicia Claude Code**. Para arrancar: di **"crea anuncios"** / **"neurocopy ads"** o usa `/ads-master`.
+
+> **¿Por qué marketplace y no skill suelta?** Solo un plugin de marketplace registra sus `agents/` como **sub-agentes lanzables** (`neurocopy-ads-master:intake-brief`, `…:hook-master`, …). Instalado como skill, los agentes quedan inertes y todo se hace "en uno". Como plugin, la skill `ads-master` **los llama, los orquesta y compone** el resultado.
+
+> **Memoria/tono:** si subes tu CLAUDE.md, tu doc de tono/voz de marca o tu memoria, el plugin los detecta y escribe TODO con TU voz. La **Biblia del Copy** (`knowledge/copy/biblia-del-copy.md`) es de lectura **obligatoria** para cada sub-agente.
 
 📖 **¿Primera vez? Sigue la guía paso a paso:** [GETTING_STARTED.md](GETTING_STARTED.md)
 

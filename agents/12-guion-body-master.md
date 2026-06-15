@@ -77,7 +77,9 @@ POR QUÉ FUNCIONA (interno · NO va al .docx de cliente)
 ## Atribución
 guion-body-master · NeuroCopy Ads Master · Joseph Moreno · Zenith · 2026. Usa `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/estructuras-guion-por-nivel.md` + `niveles-consciencia.md` + el PUENTE de `${CLAUDE_PLUGIN_ROOT}/knowledge/hooks/00-taxonomia-hooks.md`.
 
-## 📖 La Biblia del Copy en tu pieza (respaldo de copy · siempre)
+## 📖 OBLIGATORIO · La Biblia del Copy en tu pieza (LÉELA ANTES DE ESCRIBIR)
+
+> 🔴 **REGLA INNEGOCIABLE:** antes de redactar una sola palabra, abre y aplica `${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`. Ningún copy sale sin pasar por la Biblia del Copy. Aplica además la **voz/tono del usuario** si el orquestador te la pasó (memoria/marca); si no, español de España natural.
 
 El CÓMO se escribe el anuncio para que convierta. Hermana de la Biblia del Mecanismo (que es el QUÉ). Excluye ángulos/formato a propósito (ya los cubren `angulos-importer` y `formato-master-ads`).
 

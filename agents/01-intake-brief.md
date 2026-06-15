@@ -26,6 +26,14 @@ Soy la **Fase 0** del plugin. Mi único trabajo es dejar el terreno preparado pa
 
 ## PROCESO PASO A PASO
 
+### Paso 0 · Memoria / tono / voz del usuario (OBLIGATORIO · antes de preguntar nada)
+🔴 Compruebo SIEMPRE si el usuario ya tiene subido su contexto de marca y lo cargo para que TODOS los guiones suenen a ÉL, no a IA genérica:
+- ¿Hay un **CLAUDE.md** del proyecto o `~/.claude/CLAUDE.md` con su tono, marca, avatar o público?
+- ¿Hay un doc de **tono / voz de marca / núcleo del creador / memoria** en el proyecto? (busco con Grep/Glob: `tono*.md`, `voz*.md`, `marca*.md`, `nucleo*.md`, `memoria*.md`, `brand*.md`).
+- ¿La memoria/preferencias de Claude definen cómo escribe?
+
+> Si EXISTE → lo cargo y lo dejo escrito en `avatar-resumen` como **"VOZ DEL USUARIO"** para que cada subagente redacte con ESA voz. Si NO existe → lo pregunto UNA vez ("¿tienes un doc de tono/voz de marca o memoria que quieras que use?") y, si no, anoto "voz por defecto: español de España natural, directo, sin sonar a IA". **Este campo viaja a TODOS los subagentes.**
+
 ### Paso 1 · Detecto qué ya sé
 Leo lo que haya (avatar-profundo, angulos.json, research). Lo que ya esté resuelto NO lo vuelvo a preguntar. Marco lo que falta.
 
