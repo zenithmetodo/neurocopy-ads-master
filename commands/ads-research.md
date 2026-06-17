@@ -1,0 +1,24 @@
+---
+name: ads-research
+description: Investiga ANTES de escribir: busca anuncios validados en la Meta Ad Library (API oficial, Apify o biblioteca publica) y mina la voz del cliente (Reddit, Amazon, YouTube). Devuelve angulos validados, ganchos, duraciones, ofertas y las frases textuales del avatar, con fuente y confianza. No inventa.
+---
+
+# /ads-research · Pesquisa real (Ads Library + voz del cliente)
+
+Lanza `ads-research`: trae datos reales antes de escribir anuncios. Busca anuncios que llevan meses corriendo (= funcionan) en la **Meta Ad Library** y extrae las **palabras exactas del avatar** de Reddit/Amazon/YouTube.
+
+## Cómo usarlo
+```
+/ads-research
+/ads-research nicho: entrenadores online en España; competidores: [paginas]
+/ads-research busca winners de video en ES de los ultimos 90 dias para [nicho]
+```
+
+## Método (no falla)
+1. **Meta Ad Library API** si hay `META_ADS_TOKEN` (datos estructurados: texto, fecha, gasto, impresiones).
+2. **Apify** si hay `APIFY_TOKEN` (actor de scraping de la Ad Library).
+3. **Biblioteca pública + web** si no hay tokens (lectura pública, declara confianza).
+4. **Voz del cliente** siempre (Reddit/Amazon/YouTube · frases textuales · 9 categorías).
+
+## Qué entrega
+Escribe `00-avatar-resumen/research.md`: anuncios validados (con `ad_snapshot_url`, antigüedad, duración, oferta), patrones (ángulos/ganchos/duraciones), voz del cliente textual, el GAP competitivo, y fuente + confianza. No inventa: lo que no verifica lo marca `[DATO A RELLENAR]` o lo pregunta.

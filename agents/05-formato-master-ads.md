@@ -94,6 +94,7 @@ FORMATO 1 · [nombre] · (del master #X / banco Zenith / INVENTADO)
 - **Nivel de consciencia etiquetado en cada formato** (BAJO/MEDIO/ALTO) con táctica coherente.
 - **EL DIBUJO siempre presente** (HTML/SVG, sin emojis, SVG limpio). "DI →" embebido en listas/escaleras/rankings.
 - **No repetir el mismo dibujo** entre anuncios. Pensar en objetos/metáforas cotidianas.
+- **Único por cliente/nicho (no plantilla):** la metáfora del formato sale del MUNDO de ESE cliente (su profesión, su producto, su avatar, su jerga). Dos clientes distintos = dibujos distintos. Piensa qué objeto/escena reconoce al instante ESTE avatar y constrúyelo en HTML/SVG; el `ad-html-builder` lo maqueta tal cual. Prohibido reciclar el mismo dibujo entre clientes.
 - El formato debe dar **frames ricos a SAM** (BLOQUE 8B): que el algoritmo y el subconsciente del avatar sepan de qué va el anuncio por lo que se ve.
 - **Voz Zenith** y español de España. **NUNCA** "quiz" ni "captions". **NUNCA** inventar cifras sin verificar.
 

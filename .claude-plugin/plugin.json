@@ -1,6 +1,6 @@
 {
   "name": "neurocopy-ads-master",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Sistema TOP 1% para crear ANUNCIOS de vídeo (guiones) por ÁNGULO · Meta/TikTok/YouTube. Orquesta 13 sub-agentes: intake/avatar, ángulos (definición exacta Zenith Crea Ofertas), anuncios-architect (5 anuncios por ángulo), hooks (9 tipos + 4 palancas + REGLA OBLIGATORIA del avatar audio↔overlay), formato-master (70+ formatos + banco Zenith + EL DIBUJO del formato en HTML/SVG + inventar · NUNCA un solo formato), headline 3 tipos (verbal/visual/audio + ficha técnica), asuntos virales + estructuras, niveles de consciencia (Schwartz), objeciones, guion-body-master (EL CUERPO palabra por palabra con estructura de guion por nivel · incl. HARD SELL · + PUENTE) y variantes-master (lateralización masiva estructura × formato × nivel). Entrega por carpetas (00-avatar-resumen · 01-angulos con subcarpeta angulo-N-[nombre] que contiene ANGULO.html + ANUNCIO-1..5 + GUIONES_ANGULO_N.docx) en HTML doc-guion editable + PDF + .md + .docx. 4 ganchos por anuncio · cuerpo palabra por palabra. Imágenes delegadas a neurocopy-image-ads-master. Joseph Moreno · Zenith.",
   "author": {
     "name": "Joseph Moreno",
