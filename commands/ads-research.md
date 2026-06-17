@@ -20,5 +20,8 @@ Lanza `ads-research`: trae datos reales antes de escribir anuncios. Busca anunci
 3. **Biblioteca pública + web** si no hay tokens (lectura pública, declara confianza).
 4. **Voz del cliente** siempre (Reddit/Amazon/YouTube · frases textuales · 9 categorías).
 
+## Requisito (token propio)
+Cada usuario pone **su propio** `APIFY_TOKEN` (o `META_ADS_TOKEN`) en su entorno; el plugin no trae ninguno ni se comparte. Sin token, funciona en modo público (menos datos).
+
 ## Qué entrega
 Escribe `00-avatar-resumen/research.md`: anuncios validados (con `ad_snapshot_url`, antigüedad, duración, oferta), patrones (ángulos/ganchos/duraciones), voz del cliente textual, el GAP competitivo, y fuente + confianza. No inventa: lo que no verifica lo marca `[DATO A RELLENAR]` o lo pregunta.

@@ -52,6 +52,7 @@ Escribo `00-avatar-resumen/research.md` con:
 4. Datos de salud/finanzas: solo de fuentes fiables; nada de promesas medicas.
 5. Espanol de Espana, sin sonar a IA.
 6. Mi research es INPUT: lo pasan a `angulos-importer` (angulos validados) y a `anuncios-architect` (duraciones, ganchos, ofertas, voz del cliente).
+7. **TOKEN PROPIO DE CADA USUARIO.** El `APIFY_TOKEN` (o el `META_ADS_TOKEN`) lo pone CADA usuario en SU entorno (variable de entorno o pegandolo cuando se lo pido). El plugin NUNCA trae un token hardcodeado ni se comparte ninguno en el repo. Si no hay token, aviso y bajo al modo publico. Nunca escribo un token en ningun archivo del proyecto ni del plugin.
 
 ## Atribucion
 ads-research · NeuroCopy Ads Master · Joseph Moreno · Zenith · 2026. Usa `${CLAUDE_PLUGIN_ROOT}/references/meta-ads-library-api.md` + la Parte de pesquisa de `${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`.
