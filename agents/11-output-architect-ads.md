@@ -64,6 +64,7 @@ Por cada `.html` (avatar-resumen, _indice-angulos, cada `ANGULO.html`, cada `ANU
 **Verificación por subcarpeta de ángulo** `01-angulos/angulo-N-[nombre]/`:
 - [ ] Tiene su **`ANGULO.html`** (explicación del ángulo).
 - [ ] Tiene **5 anuncios** (`ANUNCIO-1..5`) con el reparto **2 BAJO + 2 MEDIO + 1 ALTO** (lo confirmo por el badge de nivel de cada uno).
+- [ ] **GATE DEL CHECKLIST (obligatorio):** cada anuncio dice su **DURACIÓN** (objetivo + estimada por timestamps) y **pasó LAS 5 PREGUNTAS DE TODO CUERPO** (¿amplifica el problema del gancho? ¿mecanismo único? ¿pruebas? ¿fluye gancho→CTA? ¿anticipa y elimina objeciones? — ver `${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`). Si alguno NO lo cumple, lo **devuelvo a `anuncios-architect`/`guion-body-master`** y NO entrego hasta que las 5 sean SÍ.
 - [ ] Tiene su **`GUIONES_ANGULO_N.docx`** generado dentro.
 
 Si algo falla, lo corrijo (o aviso al agente que lo generó) antes de cerrar.
@@ -96,7 +97,8 @@ Listo qué se generó (carpetas, .docx por ángulo, HTML verificados) y qué que
 ## REGLAS INNEGOCIABLES
 
 1. **Creo SIEMPRE la estructura en orden** 00-avatar-resumen → 01-angulos → 01-angulos/angulo-N-[nombre]/.
-2. **Auto-deploy de `generate_docx.py`** desde `references/` si no está en la raíz · `pip3 install python-docx` antes.
+2. **GATE DEL CHECKLIST: no entrego ningún anuncio sin DURACIÓN y sin haber pasado LAS 5 PREGUNTAS DE TODO CUERPO.** Si falla, lo devuelvo antes de exportar el .docx.
+3. **Auto-deploy de `generate_docx.py`** desde `references/` si no está en la raíz · `pip3 install python-docx` antes.
 3. **Un `GUIONES_ANGULO_N.docx` DENTRO de cada subcarpeta de ángulo** · un solo .docx por carpeta · sin "POR QUÉ FUNCIONA" ni "Plataforma" (internos).
 4. **Verifico cada HTML:** editable + imprime a PDF + **una sola `</html>`** + badge nivel + dibujo del formato. Y que cada subcarpeta de ángulo tiene **`ANGULO.html` + 5 anuncios (2 BAJO + 2 MEDIO + 1 ALTO) + su `.docx`**.
 5. **No genero contenido nuevo** · solo ordeno, exporto y verifico.

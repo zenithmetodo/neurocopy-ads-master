@@ -15,8 +15,8 @@ Lanza `ads-research`: trae datos reales antes de escribir anuncios. Busca anunci
 ```
 
 ## Método (no falla)
-1. **Meta Ad Library API** si hay `META_ADS_TOKEN` (datos estructurados: texto, fecha, gasto, impresiones).
-2. **Apify** si hay `APIFY_TOKEN` (actor de scraping de la Ad Library).
+1. **Apify (vía principal)** con `APIFY_TOKEN`: lanza un actor de scraping de la Ad Library, espera el run y lee el dataset (texto, fecha de inicio = winner, plataforma, media).
+2. **Meta Ad Library API** si hay `META_ADS_TOKEN` (respaldo · da gasto e impresiones reales).
 3. **Biblioteca pública + web** si no hay tokens (lectura pública, declara confianza).
 4. **Voz del cliente** siempre (Reddit/Amazon/YouTube · frases textuales · 9 categorías).
 
