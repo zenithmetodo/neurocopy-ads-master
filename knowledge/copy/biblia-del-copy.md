@@ -489,6 +489,32 @@ Dimensionalizar = convertir un concepto abstracto en algo que el lector pueda **
 
 > Regla: **show, don't tell.** No digas "es increíble"; describe la escena para que el lector concluya "es increíble" por sí mismo (efecto Inception, Parte 5).
 
+### Las 4 preguntas que CREAN LA ESCENA en la cabeza (Deep Core)
+Para dimensionalizar, piensa una situación concreta y cotidiana e imagina escenarios donde la persona tiene problemas REALES. Hazte estas 4 preguntas y construye la escena con sus respuestas:
+1. **¿DÓNDE está?** (cuando siente eso) — el escenario físico concreto.
+2. **¿QUIÉN está cerca?** (testigos del momento) — quién lo ve.
+3. **¿QUÉ intenta hacer?** (en ese instante) — la acción que falla.
+4. **¿QUÉ notan los demás?** (lo que ven en ella) — la señal externa.
+Siente lo que el prospect siente: qué escenario oye, qué color le viene (dieta → verde, comida rápida → McDonald's). Ata una cosa a otra. El copy gana cuando el lector se VE en una escena suya, no cuando lee un concepto.
+
+### Regla de las ANALOGÍAS (por nicho, entendibles al 100%)
+- Las analogías son **por nicho, no predeterminadas**: salen del MUNDO del avatar (su profesión, su día a día, su jerga) y van del tema del nicho, NO de otro tema.
+- Tienen que entenderse **al 100% al instante**. Una analogía que el avatar no pilla a la primera NO sirve (mejor literal claro que metáfora oscura).
+- **Si una analogía específica del nicho cuesta** o no queda nítida, usa una **general que entienda cualquiera** (objetos cotidianos universales). Una idea por analogía, visual, sin deformar lo que es verdad.
+
+### Pinta el momento, no lo expliques (lee cuentos y fábulas)
+La diferencia entre un cuento y una explicación es la MANERA de ver: el cuento te hace VER. Leyendo cuentos/fábulas (y Reddit) entrenas el ojo para crear escenarios y dimensionalizar dolores. No leas solo teoría de copy: lee narrativa, te enseña a **pintar momentos, no a explicarlos**. Apunta las imágenes que te paran al leer: esa es tu materia prima.
+- El cuento describe el **detalle físico** (el frío, la mano, el olor) y te obliga a imaginar la escena. Eso es buena dimensionalización.
+- **Pinta, no expliques.** Ejemplo: *"se subió la cremallera del abrigo en septiembre para que en la cena de la empresa no se le notara la barriga"* (pinta el momento) en vez de *"no se sentía a gusto"* (lo explica, abstracto).
+- Antes de escribir un anuncio, lee un cuento donde alguien pase por esa emoción (frío, vergüenza, alivio): te entrena para escribir la escena, no el resumen.
+> Regla dura: si una frase EXPLICA un sentimiento abstracto ("no se sentía a gusto", "estaba estresada"), reescríbela como una ESCENA con detalle físico que el lector vea.
+
+### Sexy Canvas · véndelo apetecible aunque sea simple
+Enganchar la atención sobre algo presentándolo en su mejor versión. La hamburguesería saca la foto TOP con la salsa cayendo; si sacara la hamburguesa cruda en la plancha, no la vendería. **El producto es el mismo; lo que cambia es CÓMO lo presentas.**
+- Tu copy y tu página tienen que dar GANAS ("esto me lo compraría yo"), aunque el producto sea de lo más simple.
+- No es mentir ni inflar: es mostrar el resultado/la experiencia en su mejor luz real (la salsa cayendo, no la plancha).
+- Aplica sobre todo a low ticket y a la presentación de la oferta: la página tiene que **apetecer**.
+
 ---
 
 <a name="parte-20"></a>
