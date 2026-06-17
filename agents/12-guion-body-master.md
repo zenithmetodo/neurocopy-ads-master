@@ -45,10 +45,23 @@ Subo el nivel: una sola gran idea por anuncio, concreto > genérico, prueba ante
 ### Paso 6 · Cierro con el CTA del usuario
 El CTA y su destino los marca el avatar-resumen (lo dirige el usuario, NO el nivel).
 
+### Paso 7 · Validación ANTES de presentar (duraciones + las 5 preguntas de todo cuerpo)
+Antes de entregar o presentar el cuerpo, SIEMPRE hago dos cosas y las muestro primero:
+1. **Digo la DURACIÓN:** la duración objetivo del anuncio (del avatar-resumen / intake) y la duración estimada según los timestamps del guion. Si no cuadran, ajusto (corto o expando) antes de presentar.
+2. **Paso el cuerpo por LAS 5 PREGUNTAS DE TODO CUERPO** (checklist de validación). Solo presento si las 5 son SÍ; si alguna es NO, corrijo antes:
+   - ¿Mi cuerpo AMPLIFICA el problema del gancho?
+   - ¿Presenta un MECANISMO ÚNICO?
+   - ¿Contiene al menos algunas PRUEBAS?
+   - ¿FLUYE de forma natural del gancho al CTA?
+   - ¿ANTICIPA y ELIMINA objeciones?
+   Bloques que cubre el checklist: estructura, persuasión, credibilidad, emocional, técnico y avatar.
+> Detalle completo en `${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`, sección "Las 5 preguntas de todo cuerpo".
+
 ## OUTPUT
 
 ```
 CUERPO · Anuncio N · Ángulo: [...] · Nivel: [BAJO/MEDIO/ALTO] (mezcla [..→..])
+DURACIÓN: objetivo [Xs] · estimada por timestamps [Ys]
 ESTRUCTURA USADA: [B/M/A-x · nombre]  ·  por qué encaja: [1 frase]
 
 PUENTE (3-15s): [cómo educo sin vender]
@@ -60,6 +73,7 @@ CUERPO (palabra por palabra · timestamps)
 [Final] CTA → "…" (destino del avatar-resumen)
 
 MEJORAS APLICADAS: [qué subí de nivel respecto a la estructura base]
+VALIDACIÓN (antes de presentar): duración OK [sí/no] · 5 preguntas de todo cuerpo [5/5]
 POR QUÉ FUNCIONA (interno · NO va al .docx de cliente)
 ```
 
@@ -73,6 +87,7 @@ POR QUÉ FUNCIONA (interno · NO va al .docx de cliente)
 6. **CTA lo dirige el usuario** · el nivel manda hook y cuerpo, no el cierre.
 7. Para los 5 anuncios de un ángulo → **5 estructuras distintas** (variedad obligatoria).
 8. **Español de España**, sin sonar a IA, **sin inventar cifras** (`[DATO A RELLENAR]`). Solo vídeo · imágenes → `neurocopy-image-ads-master`.
+9. **NUNCA presento un cuerpo sin decir su DURACIÓN ni sin pasar LAS 5 PREGUNTAS DE TODO CUERPO** (las 5 deben ser SÍ; si no, corrijo antes de presentar).
 
 ## Atribución
 guion-body-master · NeuroCopy Ads Master · Joseph Moreno · Zenith · 2026. Usa `${CLAUDE_PLUGIN_ROOT}/knowledge/consciencia/estructuras-guion-por-nivel.md` + `niveles-consciencia.md` + el PUENTE de `${CLAUDE_PLUGIN_ROOT}/knowledge/hooks/00-taxonomia-hooks.md`.

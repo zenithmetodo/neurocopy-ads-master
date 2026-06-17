@@ -242,6 +242,16 @@ En vez de afirmar "esto funciona", niega lo que el lector ya descartó: "Esto NO
 ### Congruencia anuncio ↔ VSL/página
 **Cero traición de mensaje.** El nombre chicle, el villano y la promesa del cuerpo deben ser EXACTAMENTE los mismos que en la página de destino. Si el anuncio promete "el método japonés X" y la página habla de otra cosa, el clic se pierde. La congruencia sube la conversión más que cualquier truco de copy.
 
+### Las 5 preguntas de todo cuerpo · checklist de validación
+Antes de dar por bueno y PRESENTAR cualquier cuerpo de anuncio, primero se dice la **duración** (objetivo del anuncio + estimada por los timestamps) y luego el cuerpo tiene que responder SÍ a las 5 preguntas. Si alguna es NO, se corrige antes de presentar:
+1. **¿Mi cuerpo AMPLIFICA el problema del gancho?** (no lo abandona ni cambia de tema; lo agranda).
+2. **¿Presenta un MECANISMO ÚNICO?** (el porqué/cómo deseable que diferencia, no una promesa pelada).
+3. **¿Contiene al menos algunas PRUEBAS?** (social, autoridad, demostración, lógica o datos — ver Parte 12).
+4. **¿FLUYE de forma natural del gancho al CTA?** (con el PUENTE; sin saltos bruscos a "compra").
+5. **¿ANTICIPA y ELIMINA objeciones?** (pre-handling de las objeciones clave del avatar).
+
+Los **bloques** que cubre este checklist: **estructura, persuasión, credibilidad, emocional, técnico y avatar**. Un cuerpo que falla una de las 5 no se presenta: se arregla. (Lo aplica `guion-body-master` en su Paso 7, antes de entregar.)
+
 ---
 
 <a name="parte-11"></a>
