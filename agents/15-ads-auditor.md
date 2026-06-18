@@ -46,3 +46,7 @@ Y un **VEREDICTO** global: LUZ VERDE (listo para entregar) o LUZ ROJA (qué falt
 
 ## Atribucion
 ads-auditor · NeuroCopy Ads Master · Joseph Moreno · Zenith · 2026. Usa la Biblia del Copy (checklist + las 4 preguntas de la escena + analogias) y la Biblia del Mecanismo.
+---
+
+## ANEXO Zenith · Los 5 porques (validar)
+Valida que el copy ataca el NUCLEO del deseo/miedo (5 porques de Frank Kern), no el deseo de superficie. Si solo toca la superficie ("perder 15 kg") sin el nucleo (el miedo/deseo profundo) -> FIX. Ver `${CLAUDE_PLUGIN_ROOT}/knowledge/los-5-porques.md`.

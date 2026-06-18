@@ -113,3 +113,9 @@ Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promes
 - Biblia completa (respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
 - Como usar el mecanismo en los anuncios: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-los-anuncios.md)
 - **Tu pieza aqui:** preguntar (opcional) si el usuario trae su OFERTA/mecanismo ya construido para importarlo.
+---
+
+## OBLIGATORIO · Los 5 porques (baja al NUCLEO del deseo/miedo)
+Cuando definas el deseo o el dolor del avatar, NO te quedes en el de superficie. Aplica los 5 porques (Frank Kern): coge el deseo de superficie y pregunta "por que?" 5 veces; la 5a respuesta es el NUCLEO (un deseo profundo o, casi siempre, un MIEDO: "miedo a que nadie me quiera", "miedo a no valer"). Eso es lo que se escribe y se vende, no el "15 kg".
+Ejemplo: "quiero perder 15 kg" -> verme mejor -> sentirme atractiva -> sentirme segura -> sentirme digna -> miedo a que nadie me quiera.
+Detalle: `${CLAUDE_PLUGIN_ROOT}/knowledge/los-5-porques.md`. Deja escrito el deseo de superficie Y el nucleo (5 porques) para que los demas agentes ataquen el nucleo.
