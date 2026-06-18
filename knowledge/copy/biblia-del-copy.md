@@ -600,3 +600,6 @@ Esta Biblia del Copy es el **CÓMO**; la [Biblia del Mecanismo](biblia-del-mecan
 | Las 4 capas / niveles de consciencia | Por dónde abrir el copy según Schwartz |
 
 > **Cero traición de mensaje:** nombre chicle, villano y mecanismo deben ser idénticos en el anuncio, la página, el VSL, el webinar y el calentamiento. La coherencia es la palanca de conversión más infravalorada.
+
+## Biblioteca profunda · COPY DR (maestros)
+Para la PROFUNDIDAD (metodo de cada maestro, ejemplos y numeros), ver `${CLAUDE_PLUGIN_ROOT}/knowledge/copy-dr/` (Ogilvy, Frank Kern/Core Influence, metodo Schwartz, Makepeace, Halbert, instintos de persuasion, Covolan, toma de decisiones, Cloud Atlas, Deep Core, copy-raiz, swipe file). Esta biblia es la sintesis; copy-dr es el detalle.
