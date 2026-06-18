@@ -188,6 +188,10 @@ Cada headline lleva su **ficha técnica obligatoria**: asuntos virales + estruct
 | 09 | **objeciones-master** | romper objeciones (nivel alto) | Sonnet |
 | 10 | **ad-html-builder** ⭐ | maqueta cada anuncio (HTML doc-guion editable + PDF) | Opus |
 | 11 | **output-architect-ads** | carpetas + .docx + verificación | Sonnet |
+| 12 | **guion-body-master** | cuerpo palabra por palabra · estructura de guion por nivel + puente | Opus |
+| 13 | **variantes-master** | lateraliza 1 ángulo en 15-30+ variantes (estructura × formato × nivel) | Opus |
+| 14 | **ads-research** | pesquisa real · Meta Ad Library + voz del cliente (con fuente y confianza) | Opus |
+| 15 | **ads-auditor** | revisor final · audita todos los anuncios vs checklist + KEEP/FIX | Opus |
 
 ---
 
@@ -201,6 +205,16 @@ Cada headline lleva su **ficha técnica obligatoria**: asuntos virales + estruct
 | `/ads-hooks` | Solo los 4 ganchos (regla del avatar) |
 | `/ads-formato` | Recomienda formato + EL DIBUJO |
 | `/ads-headline` | Headline 3 tipos + ficha técnica |
+| `/ads-intake` | Fase 0 · intake/avatar-resumen |
+| `/ads-consciencia` | Diagnostica el nivel de consciencia (Schwartz) |
+| `/ads-asuntos` | Asuntos virales (6 cat · 3 tipos · 5 criterios) |
+| `/ads-guion` | Cuerpo palabra por palabra · estructura por nivel + puente |
+| `/ads-objeciones` | Rompe objeciones dentro del creativo |
+| `/ads-html` | Maqueta el anuncio en doc-guion HTML editable + PDF |
+| `/ads-variantes` | Lateraliza un ángulo en 15-30+ variantes |
+| `/ads-research` | Investiga (Meta Ad Library + voz del cliente) |
+| `/ads-output` | Monta la entrega · carpetas + .docx + verificación |
+| `/ads-auditor` | Audita todos los anuncios vs checklist (KEEP/FIX) |
 
 ---
 
