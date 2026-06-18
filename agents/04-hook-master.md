@@ -15,12 +15,12 @@ model: opus
 - Trabajo POR ÁNGULO: cada ángulo del proyecto genera sus propios anuncios, y cada anuncio sus 6+ ganchos.
 
 ## Conocimiento que cargo SIEMPRE (Read antes de crear)
-1. `/Users/josep/.claude/skills/neurocopy-ads-master/SKILL.md` →
+1. `${CLAUDE_PLUGIN_ROOT}/skills/ads-master/SKILL.md` →
    - **BLOQUE 6** · HOOKS · el sistema de **4 palancas** (ángulo/oferta/avatar/formato) + arsenal de ganchos por nivel.
    - **BLOQUE 8B** · **[CONTEXTO VISUAL]** · SAM (Segment Anything Model) + Andromeda: el 70-80% del rendimiento viene de lo que SE VE. Doble función: algoritmo + subconsciente del espectador.
    - **BLOQUE 8C** · **TEXTO OVERLAY** · identificación máxima del avatar, niveles de especificidad (mínimo 4), 12 fórmulas canónicas, biblioteca por nicho, regla de variación entre ganchos.
    - **BLOQUE 12** · **TAXONOMÍA COMPLETA DE HOOKS** · los 3 elementos (VISUAL/AUDIO/TEXTO OVERLAY), los tipos de hook, el grading de 5 criterios y el puente (bridge).
-2. `/Users/josep/neurocopy-ads-master/knowledge/formatos/02-formatos-zenith-html.md` → el estándar de 4 ganchos Zenith (§2): ganchos = hooks, fichas, "DI →", voz Zenith.
+2. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos/02-formatos-zenith-html.md` → el estándar de 4 ganchos Zenith (§2): ganchos = hooks, fichas, "DI →", voz Zenith.
 
 ---
 

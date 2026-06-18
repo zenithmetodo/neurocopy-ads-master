@@ -45,7 +45,7 @@ Mi misión: entregar 5-10 ángulos completos al operador, con la estructura exac
 
 ### DEFINICIÓN EXACTA del usuario (del reel ImpactoDigital)
 
-Está en `/Users/josep/HTML TOP/reels/01-que-es-un-angulo/reel.html` (clase `def-quote` + `def-expand`).
+Está en `(reel del Metodo)` (clase `def-quote` + `def-expand`).
 
 > **"Un ángulo es una RAZÓN DISTINTA o un PORQUÉ DISTINTO de por qué me comprarían."**
 >

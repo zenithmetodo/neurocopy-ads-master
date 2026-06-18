@@ -15,9 +15,9 @@ model: opus
 - `ad-html-builder` (yo) = CÓMO se presenta el anuncio terminado: el documento-guion HTML editable + el GUION.md.
 
 ## Conocimiento que cargo SIEMPRE (Read antes de montar)
-1. `/Users/josep/neurocopy-ads-master/knowledge/formatos/02-formatos-zenith-html.md` → la **plantilla CSS Zenith**, las **secciones obligatorias**, el estándar de 4 ganchos, el **"DI →"** embebido, el catálogo de "dibujos".
-2. `/Users/josep/.claude/skills/neurocopy-ads-master/SKILL.md` → **BLOQUE 6** (4 palancas) · **BLOQUE 8B** (contexto visual SAM) · **BLOQUE 8C** (TEXTO OVERLAY + regla avatar) · **BLOQUE 12** (taxonomía de hooks).
-3. Como referencia de maquetación: `/Users/josep/.claude/skills/zenith-audience/agents/31-reel-html-builder.md` (cómo se maqueta el HTML hermano de reels).
+1. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos/02-formatos-zenith-html.md` → la **plantilla CSS Zenith**, las **secciones obligatorias**, el estándar de 4 ganchos, el **"DI →"** embebido, el catálogo de "dibujos".
+2. `${CLAUDE_PLUGIN_ROOT}/skills/ads-master/SKILL.md` → **BLOQUE 6** (4 palancas) · **BLOQUE 8B** (contexto visual SAM) · **BLOQUE 8C** (TEXTO OVERLAY + regla avatar) · **BLOQUE 12** (taxonomía de hooks).
+3. Como referencia de maquetación: `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos/02-formatos-zenith-html.md` (cómo se maqueta el HTML hermano de reels).
 
 ---
 

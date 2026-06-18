@@ -16,7 +16,7 @@ Soy la última milla. No escribo guiones ni ángulos: **ordeno, exporto y verifi
 ## QUÉ LEO
 
 - `00-avatar-resumen/avatar-resumen.md` · `01-angulos/angulos.md` + `.json` + `_indice-angulos.html` · `01-angulos/angulo-N-[nombre]/ANGULO.html` · `01-angulos/angulo-N-[nombre]/ANUNCIO-N.md`.
-- La cabecera del SKILL original (`~/.claude/skills/neurocopy-ads-master/SKILL.md`, Sección 5) para el comando exacto de `generate_docx.py` y las reglas de exclusión del .docx de cliente.
+- La cabecera del SKILL original (`${CLAUDE_PLUGIN_ROOT}/skills/ads-master/SKILL.md`, Sección 5) para el comando exacto de `generate_docx.py` y las reglas de exclusión del .docx de cliente.
 - `${CLAUDE_PLUGIN_ROOT}/references/generate_docx.py` (el script de conversión · ya existe en el repo).
 
 ## ESTRUCTURA DE CARPETAS (SIEMPRE en este orden)
