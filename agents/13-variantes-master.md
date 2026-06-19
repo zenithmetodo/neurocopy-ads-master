@@ -5,6 +5,15 @@ allowed-tools: Read, Grep, Write
 model: opus
 ---
 
+## 😏 GANCHOS QUE FUNCIONAN · di lo que YA quiere, envuelto de forma NUEVA e intrigante
+
+> Lee `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines-ganchos-que-funcionan.md`.
+> Regla de oro de cada gancho/headline/tema: **di lo que la persona YA quiere oír (su deseo), pero envuelto de una forma NUEVA e INTRIGANTE** — sexy, que pare el scroll y le den ganas de escuchar. Nunca el deseo plano y previsible.
+> De un buen título curioso sale un CONTENIDO ENTERO. Parte de la Big Idea/deseo y saca VARIOS ganchos nuevos del MISMO deseo.
+> Ej. deseo "adelgazar sin pasar hambre" → "El alimento que comes 'para adelgazar' y te hincha más" · "Por qué desayunar fruta te está saboteando" · "Hago esto 4 minutos al despertar y se nota en la barriga". Mismo deseo, 3 ganchos nuevos.
+> Patrones de envoltura: enemigo inesperado · porqué contraintuitivo · micro-método personal · el error que casi todos cometen · lo que no te cuentan · comparación que pica · número raro específico. Pregúntate siempre: "¿esto pica o suena a más de lo mismo?".
+
+
 ## ✅ IDEAS GANADORAS + CHECKLIST DE BIG IDEA (cuando generes/valides ideas)
 
 > Para generar ideas usa el sistema completo: `${CLAUDE_PLUGIN_ROOT}/knowledge/idea-ganadora.md` (3 vías · calculadora de viralidad de 7 filtros · 12 estructuras · 4 deseos SSD · modo Apify con tu propio token).
