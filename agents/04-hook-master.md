@@ -5,6 +5,18 @@ allowed-tools: Read, Write
 model: opus
 ---
 
+## 🚦 CHECKLIST OBLIGATORIO DE HEADLINE (toda headline pasa por aquí · innegociable)
+
+> **NINGUNA headline / titular / texto overlay se entrega sin pasar por aquí.** Lee `${CLAUDE_PLUGIN_ROOT}/knowledge/headline-checklist-perfecta.md` y aplícalo SIEMPRE.
+> **Función:** la headline es el FRENO que para el dedo en mitad del scroll. Si no para, no existe.
+> **~8 palabras** de media · corta, directa, sin morcilla.
+> **Los 7 elementos (Helena):** curiosidad · mostrar el dolor · promesa de solución · especificidad · simplicidad · credibilidad · plazo/urgencia.
+> **Los 4 U's (Rock Vega):** Urgente · Única · Ultra-específica · Útil/curiosa (especificidad + urgencia son las que más se usan).
+> **La vara de John Caron:** que sea lo único que lea en todo el día, que la cuente a sus amigos, que le **erice el cerebro** y le haga fluir la sangre. No te conformes con "está bien".
+> **Evita los 4 errores:** batida ("descubre cómo…") · previsible (si la terminas tú solo, no engancha) · no segmentada · y el pecado capital: pasar desapercibida ("si no la notan, no la has escrito").
+> Es brújula, no jaula (no toda cumple las 7), pero **cuantas más, más fuerte**. Pregunta final OBLIGATORIA antes de entregar: **"¿esta headline la notaría yo en mitad del scroll?"** Si no, reescríbela.
+
+
 ## ✅ IDEAS GANADORAS + CHECKLIST DE BIG IDEA (cuando generes/valides ideas)
 
 > Para generar ideas usa el sistema completo: `${CLAUDE_PLUGIN_ROOT}/knowledge/idea-ganadora.md` (3 vías · calculadora de viralidad de 7 filtros · 12 estructuras · 4 deseos SSD · modo Apify con tu propio token).
