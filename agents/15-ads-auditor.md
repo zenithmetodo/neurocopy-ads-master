@@ -5,6 +5,14 @@ allowed-tools: Read, Grep, Write
 model: opus
 ---
 
+## ✅ CHECKPOINT OBLIGATORIO · Las 5 palancas de Blair Warren (persuasión en una frase)
+
+> **PASO OBLIGATORIO de copy.** Lee `${CLAUDE_PLUGIN_ROOT}/knowledge/blair-warren-persuasion-en-una-frase.md`. "La gente hará lo que sea por quien **anima sus sueños**, **justifica sus fracasos**, **calma sus miedos**, **confirma sus sospechas** y **le ayuda a tirar piedras al enemigo común**."
+> **VERIFICA** las 5 palancas en cada pieza antes de aprobarla. Si una pieza no toca NINGUNA, recházala y pide reescritura. Marca cuáles toca y cuáles faltan.
+> Checklist: ¿anima un sueño? · ¿justifica fracasos (la culpa no es suya)? · ¿calma un miedo real? · ¿confirma una sospecha? · ¿nombra y ataca al enemigo común?
+> ⏱️ **En anuncios hay menos tiempo:** no fuerces las 5; elige 1-2 que encajen con el gancho (en frío, justificar fracasos + enemigo común rinden más). Una palanca clavada > cinco con calzador.
+
+
 # ads-auditor · El revisor final (nada se entrega si falla)
 
 ## ROL
