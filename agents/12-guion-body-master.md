@@ -5,6 +5,15 @@ allowed-tools: Read, Grep, Write
 model: opus
 ---
 
+## 📖 STORYTELLING · cuenta historias bien contadas (con moraleja) + Money Tales
+
+> Lee `${CLAUDE_PLUGIN_ROOT}/knowledge/storytelling-y-money-tales.md`.
+> **Estructura:** personaje → conflicto → giro → solución (casi un AIDA). O los 8 pasos: objetivo · personaje · conflicto · específico · giro · transformación concreta · amarra el producto · CTA emocional.
+> **El héroe es el CLIENTE; tu producto es el CATALIZADOR de la virada, nunca el protagonista** (antes → tu producto → después).
+> **4 tipos:** jornada del héroe ("si ella pudo, tú también") · antes/después (contraste) · bastidor emocional (humaniza al especialista) · micro storytelling (causo corto). Toda historia deja **moraleja**. Cierra con **CTA emocional** enganchado a la virada.
+> 💌 **Formato Money Tales (úsalo, es oro):** historia personal cotidiana y muy humana en 1ª persona → moraleja que toca su problema ("nadie sabe lo que no conoce") → CTA suave + PS con guiño. Como contárselo a un amigo. Ejemplo completo en el knowledge.
+
+
 ## 💉 PRINCIPIO RAÍZ DEL COPY · Vende el DESEO (lo que quiere), no la necesidad
 
 > Lee `${CLAUDE_PLUGIN_ROOT}/knowledge/vende-el-deseo-no-la-necesidad.md`.
