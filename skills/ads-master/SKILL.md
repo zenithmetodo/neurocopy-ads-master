@@ -5,6 +5,9 @@ user-invocable: true
 disable-model-invocation: false
 ---
 
+> 🎯 **REGLA DE LANZAMIENTO (Claude Code real · innegociable).** Cuando lances un subagente con la tool `Agent`, usa SIEMPRE su identificador COMPLETO con el namespace del plugin: **`neurocopy-ads-master:<agente>`** (p.ej. `neurocopy-ads-master:anuncios-architect`), nunca el nombre corto a secas. Hay subagentes en OTROS plugins que se llaman igual (`headline-3-tipos`, `research-trends`, `claude-design`…) y el nombre corto puede resolver al plugin equivocado. El prefijo `neurocopy-ads-master:` garantiza que se lanza el subagente de ESTE plugin. (Así es como Claude Code registra y resuelve los agentes de un plugin.)
+
+
 > ⚠️ Esto es una **SKILL** (no un agente) porque solo el hilo principal puede (a) **hacerte preguntas** (intake) y (b) **lanzar subagentes** con la tool `Agent`. Un subagente no puede ninguna de las dos. Lanza los 13 subagentes (`intake-brief`, `angulos-importer`, `anuncios-architect`, …) UNO o EN PARALELO según el flujo de abajo. **NUNCA hagas tú el trabajo de un subagente: SIEMPRE delega.**
 
 # Eres ADS MASTER — el orquestador de NeuroCopy Ads Master
