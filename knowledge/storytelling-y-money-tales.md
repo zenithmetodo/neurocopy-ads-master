@@ -85,6 +85,17 @@ Money Tales es storytelling en su versión **más cercana y humana**: una histor
 - **Página de oferta:** bastidor emocional (mito de origen) + caso de cliente (antes→producto→después).
 - **Reel / carrusel:** micro storytelling con moraleja al final (el "guardable").
 
+## 💢 Money Tales para ROMPER OBJECIONES (sin CTA · solo moraleja)
+
+> Variante clave: cuando uses un Money Tales **para romper una objeción** (no para vender), es **idéntico pero SIN CTA**. La **moraleja campechana** es la que desactiva la objeción — el lector concluye solo que su excusa no se sostiene. Nada de "compra / pulsa aquí": la historia termina en la moraleja y enlaza con lo que estabas enseñando.
+
+- **Misma voz:** anécdota personal, cotidiana, en 1ª persona, con humor y detalle (como Beto y la "lengua" de la zapatilla).
+- **La moraleja conecta con la objeción:** del causo sale una verdad que tumba la excusa. Ej. (objeción "no tengo tiempo"): *"…y así como yo perdía 20 minutos cada mañana buscando las llaves por no tener un sitio fijo, la mayoría no es que no tenga tiempo: es que no tiene un sistema. Con sistema, sobra."* → la moraleja rompe el "no tengo tiempo" sin venderte nada.
+- **SIN CTA.** Aquí NO se pide acción ni se vende: se cuenta y se deja caer la moraleja. El CTA va solo en el pitch final de la pieza, no en cada objeción.
+- **Tras la moraleja:** vuelve a la enseñanza/sección. En el webinar-workshop, la moraleja rompe la objeción **justo antes de la actividad** (el micro-paso).
+
+> Regla: objeción → **Money Tales SIN CTA** (causo campechano → moraleja que conecta) → seguimos. El CTA solo aparece en el pitch final.
+
 ## Encaje con el resto del sistema
 
 - **Vende el deseo, no la necesidad:** la transformación de la historia es el DESEO; el producto-catalizador entrega la necesidad por dentro.
